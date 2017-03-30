@@ -1,0 +1,30 @@
+CREATE VIEW temporadas_permitidas AS
+  SELECT id
+  FROM temporada
+  WHERE nombre = 1 OR nombre = 2;
+
+CREATE VIEW empates AS
+(SELECT IDTEMP,EQUIPO_LOCAL AS EQUI
+FROM PARTIDO
+WHERE GOLES_LOCAL = GOLES_VISITANTE AND  EXISTS(SELECT *
+                 FROM temporadas_permitidas
+                 WHERE idTEMP = id)
+)
+
+UNION
+
+(SELECT IDTEMP,EQUIPO_VISITANTE AS EQUI
+FROM PARTIDO
+WHERE GOLES_LOCAL = GOLES_VISITANTE AND  EXISTS(SELECT *
+                 FROM temporadas_permitidas
+                 WHERE idTEMP = id)
+);
+
+CREATE VIEW TOTAL_EMPATES AS
+  SELECT count(*) AS EMP ,IDTEMP,EQUI
+  FROM empates
+  GROUP BY IDTEMP,EQUI;
+
+SELECT max(EMP),IDTEMP,EQUI
+FROM TOTAL_EMPATES
+GROUP BY IDTEMP
