@@ -17,7 +17,7 @@ CREATE TABLE estadio (
 );
 CREATE TABLE temporada (
     id INT PRIMARY KEY,
-    nombre VARCHAR(9),
+    anyo VARCHAR(9),
     division VARCHAR(20),
     finalizada INT,
     denominacion VARCHAR(30)

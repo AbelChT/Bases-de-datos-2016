@@ -1,7 +1,6 @@
 CREATE VIEW temporadas_permitidas AS
   SELECT id
-  FROM temporada
-  WHERE nombre = 1 OR nombre = 2;
+  FROM temporada;
 
 CREATE VIEW equipos_goles_temporada AS
   (SELECT goles_local AS goles, idTemp AS temporada_,equipo_local AS equipo_
@@ -28,3 +27,4 @@ CREATE VIEW equipos_mediaGoles_temporada AS
 SELECT temporada_,equipo_
 FROM equipos_mediaGoles_temporada
 WHERE media_goles > 3 ;
+
