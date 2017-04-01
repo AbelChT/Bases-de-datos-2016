@@ -1,0 +1,40 @@
+CREATE VIEW tempValidas AS
+  SELECT id
+  FROM TEMPORADA
+  WHERE DIVISION=1 OR DIVISION=2;
+
+CREATE VIEW partidos_jugados AS
+  (SELECT COUNT(*) AS total_, IDTEMP as temp_, EQUIPO_LOCAL AS equip_
+  FROM PARTIDO
+  WHERE GOLES_LOCAL>=0
+
+  UNION ALL
+
+   SELECT COUNT(*) AS total_, IDTEMP as temp_, EQUIPO_VISITANTE AS equip_
+  FROM PARTIDO
+  WHERE GOLES_VISITANTE>=0);
+
+CREATE VIEW partidos_ganados AS
+  (SELECT COUNT(*) AS victorias, idTemp AS temporada_,equipo_local AS equipo_
+    FROM partido
+    WHERE EXISTS(SELECT *
+                 FROM temporadas_permitidas
+                 WHERE idTEMP = id
+    ) AND goles_local>GOLES_VISITANTE)
+
+  UNION ALL
+
+  (SELECT COUNT(*) AS victorias, idTemp AS temporada_,equipo_visitante AS equipo_
+    FROM partido
+    WHERE EXISTS(SELECT *
+                 FROM temporadas_permitidas
+                 WHERE idTEMP = id
+    ) AND goles_local<GOLES_VISITANTE);
+
+CREATE VIEW porcentaje AS
+  SELECT 100*(COUNT(partidos_ganados.victorias)/COUNT(partidos_jugados.total_)),temporada_,equipo_
+  FROM partidos_ganados, partidos_jugados
+  GROUP BY (temporada_,equipo_);
+
+SELECT *
+FROM porcentaje;
