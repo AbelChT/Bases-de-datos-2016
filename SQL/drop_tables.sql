@@ -1,3 +1,5 @@
+DROP TABLE goles;
+DROP TABLE empates;
 DROP TABLE otros_nombres;
 DROP TABLE partido;
 DROP TABLE residir;

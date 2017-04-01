@@ -13,7 +13,7 @@ CREATE TABLE otros_nombres (
 CREATE TABLE estadio (
     nombre VARCHAR(50) PRIMARY KEY,
     capacidad INTEGER,
-    inauguracion DATE
+    inauguracion INTEGER
 );
 CREATE TABLE temporada (
     id INT PRIMARY KEY,
@@ -45,3 +45,19 @@ CREATE TABLE jugar (
 	temporada INTEGER REFERENCES temporada(id),
 	PRIMARY KEY(equipo, temporada)
 );
+
+--TRIGGER TABLES
+CREATE TABLE goles (
+	temporada INTEGER REFERENCES temporada(id),
+	equipo VARCHAR(100) REFERENCES equipo(nombre_oficial),
+	goles INTEGER,
+	PRIMARY KEY(temporada)
+);
+CREATE TABLE empates (
+  temporada INTEGER REFERENCES temporada(id),
+	equipo VARCHAR(100) REFERENCES equipo(nombre_oficial),
+	num INTEGER,
+	PRIMARY KEY(temporada)
+);
+
+--Indices
