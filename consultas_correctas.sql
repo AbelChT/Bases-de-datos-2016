@@ -8,7 +8,7 @@
 CREATE VIEW TEMP_1_2_DIV AS
   SELECT id
   FROM temporada
-  WHERE division = '1' OR division = '2';
+  WHERE (division = '1' OR division = '2') AND finalizada = '1';
 
 --
 -- Primera consulta
@@ -134,7 +134,7 @@ FROM mas_de_3_goles_temporada
 CREATE VIEW TEMP_1_DIV AS
   SELECT id
   FROM temporada
-  WHERE division = '1';
+  WHERE division = '1' AND finalizada = '1';
 
 -- En esta view se almacenan todos los partidos ganados en primera división, su ganador y la temporada
 CREATE VIEW PARTIDOS_GANADOS_1_DIV AS
