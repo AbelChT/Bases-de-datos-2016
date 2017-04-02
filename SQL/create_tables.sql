@@ -50,14 +50,12 @@ CREATE TABLE jugar (
 CREATE TABLE goles (
 	temporada INTEGER REFERENCES temporada(id),
 	equipo VARCHAR(100) REFERENCES equipo(nombre_oficial),
-	goles INTEGER,
-	PRIMARY KEY(temporada)
+	goles INTEGER
 );
 CREATE TABLE empates (
   temporada INTEGER REFERENCES temporada(id),
 	equipo VARCHAR(100) REFERENCES equipo(nombre_oficial),
-	num INTEGER,
-	PRIMARY KEY(temporada)
+	num INTEGER
 );
 
 --Indices
