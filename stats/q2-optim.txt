@@ -1,0 +1,26 @@
+Elapsed: 00:00:00.62
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=CHOOSE
+   1    0   NESTED LOOPS
+   2    1     TABLE ACCESS (FULL) OF 'MEDIA_GOLES'
+   3    1     TABLE ACCESS (BY INDEX ROWID) OF 'TEMPORADA'
+   4    3       INDEX (UNIQUE SCAN) OF 'SYS_C001535905' (UNIQUE)
+
+
+
+
+Statistics
+----------------------------------------------------------
+          7  recursive calls
+          0  db block gets
+         21  consistent gets
+          0  physical reads
+          0  redo size
+       1020  bytes sent via SQL*Net to client
+        655  bytes received via SQL*Net from client
+          2  SQL*Net roundtrips to/from client
+          0  sorts (memory)
+          0  sorts (disk)
+          4  rows processed

@@ -1,0 +1,72 @@
+Q1 (index)
+
+Time: 00:00:01.15
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=CHOOSE
+   1    0   NESTED LOOPS
+   2    1     MERGE JOIN
+   3    2       SORT (JOIN)
+   4    3         VIEW OF 'MAX_EMPATES_TEMPORADA'
+   5    4           SORT (GROUP BY)
+   6    5             VIEW OF 'TOTAL_EMPATES'
+   7    6               SORT (GROUP BY)
+   8    7                 VIEW OF 'EMPATES_V'
+   9    8                   UNION-ALL
+  10    9                     FILTER
+  11   10                       TABLE ACCESS (FULL) OF 'PARTIDO'
+  12   10                       TABLE ACCESS (BY INDEX ROWID) OF 'TEMP
+          ORADA'
+
+  13   12                         INDEX (UNIQUE SCAN) OF 'SYS_C0015359
+          05' (UNIQUE)
+
+  14    9                     FILTER
+  15   14                       TABLE ACCESS (FULL) OF 'PARTIDO'
+  16   14                       TABLE ACCESS (BY INDEX ROWID) OF 'TEMP
+          ORADA'
+
+  17   16                         INDEX (UNIQUE SCAN) OF 'SYS_C0015359
+          05' (UNIQUE)
+
+  18    2       SORT (JOIN)
+  19   18         VIEW OF 'TOTAL_EMPATES'
+  20   19           SORT (GROUP BY)
+  21   20             VIEW OF 'EMPATES_V'
+  22   21               UNION-ALL
+  23   22                 FILTER
+  24   23                   TABLE ACCESS (FULL) OF 'PARTIDO'
+  25   23                   TABLE ACCESS (BY INDEX ROWID) OF 'TEMPORAD
+          A'
+
+  26   25                     INDEX (UNIQUE SCAN) OF 'SYS_C001535905'
+          (UNIQUE)
+
+  27   22                 FILTER
+  28   27                   TABLE ACCESS (FULL) OF 'PARTIDO'
+  29   27                   TABLE ACCESS (BY INDEX ROWID) OF 'TEMPORAD
+          A'
+
+  30   29                     INDEX (UNIQUE SCAN) OF 'SYS_C001535905'
+          (UNIQUE)
+
+  31    1     TABLE ACCESS (BY INDEX ROWID) OF 'TEMPORADA'
+  32   31       INDEX (UNIQUE SCAN) OF 'SYS_C001535905' (UNIQUE)
+
+
+
+
+Statistics
+----------------------------------------------------------
+         70  recursive calls
+          0  db block gets
+       1856  consistent gets
+          0  physical reads
+          0  redo size
+      11317  bytes sent via SQL*Net to client
+       2020  bytes received via SQL*Net from client
+          9  SQL*Net roundtrips to/from client
+          5  sorts (memory)
+          0  sorts (disk)
+        119  rows processed

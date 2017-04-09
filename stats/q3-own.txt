@@ -1,0 +1,180 @@
+Elapsed: 00:00:01.64
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=CHOOSE
+   1    0   NESTED LOOPS
+   2    1     MERGE JOIN
+   3    2       SORT (JOIN)
+   4    3         MERGE JOIN
+   5    4           VIEW OF 'NUM_MAX_EQUIPOS_EMPATADOS'
+   6    5             SORT (AGGREGATE)
+   7    6               VIEW OF 'MISMA_PUNT_FINAL'
+   8    7                 SORT (GROUP BY)
+   9    8                   VIEW OF 'PUNTOS_TEMPORADA'
+  10    9                     SORT (GROUP BY)
+  11   10                       VIEW OF 'PUNTOS_EMPATES_VICT_1_DIV'
+  12   11                         UNION-ALL
+  13   12                           SORT (GROUP BY)
+  14   13                             VIEW OF 'PARTIDOS_EMPATADOS_1_DI
+          V'
+
+  15   14                               UNION-ALL
+  16   15                                 FILTER
+  17   16                                   TABLE ACCESS (FULL) OF 'PA
+          RTIDO'
+
+  18   16                                   TABLE ACCESS (BY INDEX ROW
+          ID) OF 'TEMPORADA'
+
+  19   18                                     INDEX (UNIQUE SCAN) OF '
+          SYS_C001535905' (UNIQUE)
+
+  20   15                                 FILTER
+  21   20                                   TABLE ACCESS (FULL) OF 'PA
+          RTIDO'
+
+  22   20                                   TABLE ACCESS (BY INDEX ROW
+          ID) OF 'TEMPORADA'
+
+  23   22                                     INDEX (UNIQUE SCAN) OF '
+          SYS_C001535905' (UNIQUE)
+
+  24   12                           SORT (GROUP BY)
+  25   24                             VIEW OF 'PARTIDOS_GANADOS_1_DIV'
+  26   25                               UNION-ALL
+  27   26                                 FILTER
+  28   27                                   TABLE ACCESS (FULL) OF 'PA
+          RTIDO'
+
+  29   27                                   TABLE ACCESS (BY INDEX ROW
+          ID) OF 'TEMPORADA'
+
+  30   29                                     INDEX (UNIQUE SCAN) OF '
+          SYS_C001535905' (UNIQUE)
+
+  31   26                                 FILTER
+  32   31                                   TABLE ACCESS (FULL) OF 'PA
+          RTIDO'
+
+  33   31                                   TABLE ACCESS (BY INDEX ROW
+          ID) OF 'TEMPORADA'
+
+  34   33                                     INDEX (UNIQUE SCAN) OF '
+          SYS_C001535905' (UNIQUE)
+
+  35    4           FILTER
+  36   35             VIEW OF 'MISMA_PUNT_FINAL'
+  37   36               SORT (GROUP BY)
+  38   37                 VIEW OF 'PUNTOS_TEMPORADA'
+  39   38                   SORT (GROUP BY)
+  40   39                     VIEW OF 'PUNTOS_EMPATES_VICT_1_DIV'
+  41   40                       UNION-ALL
+  42   41                         SORT (GROUP BY)
+  43   42                           VIEW OF 'PARTIDOS_EMPATADOS_1_DIV'
+  44   43                             UNION-ALL
+  45   44                               FILTER
+  46   45                                 TABLE ACCESS (FULL) OF 'PART
+          IDO'
+
+  47   45                                 TABLE ACCESS (BY INDEX ROWID
+          ) OF 'TEMPORADA'
+
+  48   47                                   INDEX (UNIQUE SCAN) OF 'SY
+          S_C001535905' (UNIQUE)
+
+  49   44                               FILTER
+  50   49                                 TABLE ACCESS (FULL) OF 'PART
+          IDO'
+
+  51   49                                 TABLE ACCESS (BY INDEX ROWID
+          ) OF 'TEMPORADA'
+
+  52   51                                   INDEX (UNIQUE SCAN) OF 'SY
+          S_C001535905' (UNIQUE)
+
+  53   41                         SORT (GROUP BY)
+  54   53                           VIEW OF 'PARTIDOS_GANADOS_1_DIV'
+  55   54                             UNION-ALL
+  56   55                               FILTER
+  57   56                                 TABLE ACCESS (FULL) OF 'PART
+          IDO'
+
+  58   56                                 TABLE ACCESS (BY INDEX ROWID
+          ) OF 'TEMPORADA'
+
+  59   58                                   INDEX (UNIQUE SCAN) OF 'SY
+          S_C001535905' (UNIQUE)
+
+  60   55                               FILTER
+  61   60                                 TABLE ACCESS (FULL) OF 'PART
+          IDO'
+
+  62   60                                 TABLE ACCESS (BY INDEX ROWID
+          ) OF 'TEMPORADA'
+
+  63   62                                   INDEX (UNIQUE SCAN) OF 'SY
+          S_C001535905' (UNIQUE)
+
+  64    2       SORT (JOIN)
+  65   64         VIEW OF 'PUNTOS_TEMPORADA'
+  66   65           SORT (GROUP BY)
+  67   66             VIEW OF 'PUNTOS_EMPATES_VICT_1_DIV'
+  68   67               UNION-ALL
+  69   68                 SORT (GROUP BY)
+  70   69                   VIEW OF 'PARTIDOS_EMPATADOS_1_DIV'
+  71   70                     UNION-ALL
+  72   71                       FILTER
+  73   72                         TABLE ACCESS (FULL) OF 'PARTIDO'
+  74   72                         TABLE ACCESS (BY INDEX ROWID) OF 'TE
+          MPORADA'
+
+  75   74                           INDEX (UNIQUE SCAN) OF 'SYS_C00153
+          5905' (UNIQUE)
+
+  76   71                       FILTER
+  77   76                         TABLE ACCESS (FULL) OF 'PARTIDO'
+  78   76                         TABLE ACCESS (BY INDEX ROWID) OF 'TE
+          MPORADA'
+
+  79   78                           INDEX (UNIQUE SCAN) OF 'SYS_C00153
+          5905' (UNIQUE)
+
+  80   68                 SORT (GROUP BY)
+  81   80                   VIEW OF 'PARTIDOS_GANADOS_1_DIV'
+  82   81                     UNION-ALL
+  83   82                       FILTER
+  84   83                         TABLE ACCESS (FULL) OF 'PARTIDO'
+  85   83                         TABLE ACCESS (BY INDEX ROWID) OF 'TE
+          MPORADA'
+
+  86   85                           INDEX (UNIQUE SCAN) OF 'SYS_C00153
+          5905' (UNIQUE)
+
+  87   82                       FILTER
+  88   87                         TABLE ACCESS (FULL) OF 'PARTIDO'
+  89   87                         TABLE ACCESS (BY INDEX ROWID) OF 'TE
+          MPORADA'
+
+  90   89                           INDEX (UNIQUE SCAN) OF 'SYS_C00153
+          5905' (UNIQUE)
+
+  91    1     TABLE ACCESS (BY INDEX ROWID) OF 'TEMPORADA'
+  92   91       INDEX (UNIQUE SCAN) OF 'SYS_C001535905' (UNIQUE)
+
+
+
+
+Statistics
+----------------------------------------------------------
+        225  recursive calls
+          0  db block gets
+       5191  consistent gets
+          0  physical reads
+          0  redo size
+        835  bytes sent via SQL*Net to client
+        655  bytes received via SQL*Net from client
+          2  SQL*Net roundtrips to/from client
+         13  sorts (memory)
+          0  sorts (disk)
+          4  rows processed
