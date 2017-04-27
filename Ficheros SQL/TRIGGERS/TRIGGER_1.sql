@@ -1,58 +1,91 @@
+-- Con este trigger se pretende mantener la cuenta del número de actores de cada película
+-- para de esta forma aumentar la eficiencia en la primera consulta
 CREATE TABLE num_actores_pelicula (
     pelicula INTEGER PRIMARY KEY REFERENCES PELICULA(ID),
     num_actores INTEGER
 );
 
--- Trigger que precalcula los actores de cada película al realizar el insert
-CREATE OR REPLACE TRIGGER num_actores_pelicula_insert
+-- Cuando se añade una película esta se añade al registro con 0 actores
+CREATE OR REPLACE TRIGGER nu_act_pel_insert_pel
+AFTER INSERT
+  ON PELICULA
+  FOR EACH ROW
+    DECLARE
+    PRAGMA AUTONOMOUS_TRANSACTION;
+BEGIN
+      INSERT INTO num_actores_pelicula (num_actores_pelicula.pelicula,num_actores_pelicula.num_actores) VALUES (:NEW.ID,0);
+      COMMIT;
+END;
+/
+
+-- Cuando se añade un actor a una película se suma al 1 al número de actores
+CREATE OR REPLACE TRIGGER nu_act_pel_insert_act_pel
 AFTER INSERT
   ON ACTOR_PELICULA
   FOR EACH ROW
+    DECLARE
+    PRAGMA AUTONOMOUS_TRANSACTION;
 BEGIN
-    IF EXISTS(SELECT *
-              FROM  num_actores_pelicula
-              WHERE pelicula = :NEW.PELICULA)
-      THEN
-        UPDATE num_actores_pelicula
-        SET num_actores_pelicula.num_actores=num_actores_pelicula.num_actores+1
-        WHERE num_actores_pelicula.pelicula= :NEW.PELICULA;
-      ELSE
-        INSERT INTO num_actores_pelicula (num_actores_pelicula.pelicula,num_actores_pelicula.num_actores) VALUES (:NEW.PELICULA,1);
-      END IF;
+      UPDATE num_actores_pelicula
+      SET num_actores_pelicula.num_actores=num_actores_pelicula.num_actores+1
+      WHERE num_actores_pelicula.pelicula= :NEW.PELICULA;
+      COMMIT;
 END;
 /
 
 -- Trigger que precalcula los actores de cada película al realizar el update
-CREATE OR REPLACE TRIGGER num_actores_pelicula_update
+CREATE OR REPLACE TRIGGER nu_act_pel_update_act_pel
 AFTER UPDATE
   ON ACTOR_PELICULA
     FOR EACH ROW
 BEGIN
-  UPDATE num_actores_pelicula
-  SET num_actores_pelicula.num_actores=num_actores_pelicula.num_actores-1
-  WHERE num_actores_pelicula.pelicula= :OLD.PELICULA;
 
-  IF EXISTS(SELECT *
-              FROM  num_actores_pelicula
-              WHERE pelicula = :NEW.PELICULA)
-      THEN
-        UPDATE num_actores_pelicula
-        SET num_actores_pelicula.num_actores=num_actores_pelicula.num_actores+1
-        WHERE num_actores_pelicula.pelicula= :NEW.PELICULA;
-      ELSE
-        INSERT INTO num_actores_pelicula (num_actores_pelicula.pelicula,num_actores_pelicula.num_actores) VALUES (:NEW.PELICULA,1);
-      END IF;
+  IF :OLD.PELICULA != :NEW.PELICULA
+  THEN
+    UPDATE num_actores_pelicula
+    SET num_actores_pelicula.num_actores=num_actores_pelicula.num_actores-1
+    WHERE num_actores_pelicula.pelicula= :OLD.PELICULA;
+
+    UPDATE num_actores_pelicula
+    SET num_actores_pelicula.num_actores=num_actores_pelicula.num_actores+1
+    WHERE num_actores_pelicula.pelicula= :NEW.PELICULA;
+  END IF;
+END;
+/
+
+-- No hay trigger para update de película debido a que lo único que podria hacer
+-- que hubiera que modificar algo sería cambiar el id, el cual no tiene sentido modificarlo
+
+
+-- Trigger que elimina todas las relaciones que tiene una película al eliminarla
+CREATE OR REPLACE TRIGGER nu_act_pel_delete_pel
+AFTER DELETE
+  ON PELICULA
+    FOR EACH ROW
+    DECLARE
+    PRAGMA AUTONOMOUS_TRANSACTION;
+BEGIN
+  DELETE FROM ACTOR_PELICULA WHERE PELICULA=:OLD.ID;
+  DELETE FROM DIRECTOR_PELICULA WHERE PELICULA=:OLD.ID;
+  DELETE FROM ES_SECUELA WHERE ORIGINAL=:OLD.ID OR SECUELA=:OLD.ID;
+  DELETE FROM ES_PRECUELA WHERE ORIGINAL=:OLD.ID OR PRECUELA=:OLD.ID;
+  DELETE FROM ES_REMAKE WHERE ORIGINAL=:OLD.ID OR REMAKE=:OLD.ID;
+  DELETE FROM GENERO_PELICULA WHERE PELICULA=:OLD.ID;
+  DELETE FROM TRABAJADOR_PELICULA WHERE PELICULA=:OLD.ID;
+  COMMIT;
 END;
 /
 
 -- Trigger que precalcula los actores de cada película al realizar el delete
-CREATE OR REPLACE TRIGGER num_actores_pelicula_delete
+CREATE OR REPLACE TRIGGER nu_ac_pel_delete_act_pel
 AFTER DELETE
   ON ACTOR_PELICULA
     FOR EACH ROW
+    DECLARE
+    PRAGMA AUTONOMOUS_TRANSACTION;
 BEGIN
-  UPDATE num_actores_pelicula
-  SET num_actores_pelicula.num_actores=num_actores_pelicula.num_actores-1
+  DELETE FROM num_actores_pelicula
   WHERE num_actores_pelicula.pelicula= :OLD.PELICULA;
+  COMMIT;
 END;
 /
