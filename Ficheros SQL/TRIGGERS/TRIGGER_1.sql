@@ -55,26 +55,7 @@ END;
 
 -- No hay trigger para update de película debido a que lo único que podria hacer
 -- que hubiera que modificar algo sería cambiar el id, el cual no tiene sentido modificarlo
-
-
--- Trigger que elimina todas las relaciones que tiene una película al eliminarla
-CREATE OR REPLACE TRIGGER nu_act_pel_delete_pel
-AFTER DELETE
-  ON PELICULA
-    FOR EACH ROW
-    DECLARE
-    PRAGMA AUTONOMOUS_TRANSACTION;
-BEGIN
-  DELETE FROM ACTOR_PELICULA WHERE PELICULA=:OLD.ID;
-  DELETE FROM DIRECTOR_PELICULA WHERE PELICULA=:OLD.ID;
-  DELETE FROM ES_SECUELA WHERE ORIGINAL=:OLD.ID OR SECUELA=:OLD.ID;
-  DELETE FROM ES_PRECUELA WHERE ORIGINAL=:OLD.ID OR PRECUELA=:OLD.ID;
-  DELETE FROM ES_REMAKE WHERE ORIGINAL=:OLD.ID OR REMAKE=:OLD.ID;
-  DELETE FROM GENERO_PELICULA WHERE PELICULA=:OLD.ID;
-  DELETE FROM TRABAJADOR_PELICULA WHERE PELICULA=:OLD.ID;
-  COMMIT;
-END;
-/
+--El ON DELETE SE HACE EN EL on delete cascade
 
 -- Trigger que precalcula los actores de cada película al realizar el delete
 CREATE OR REPLACE TRIGGER nu_ac_pel_delete_act_pel
