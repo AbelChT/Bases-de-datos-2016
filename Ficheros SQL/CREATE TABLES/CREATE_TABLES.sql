@@ -1,14 +1,14 @@
 CREATE TABLE pelicula (
     id INTEGER PRIMARY KEY,
     titulo VARCHAR(100),
-    fecha_de_estreno DATE
+    fecha_de_estreno INTEGER
 );
 
 CREATE TABLE serie (
     id INTEGER PRIMARY KEY,
     titulo VARCHAR(100),
-    fecha_de_estreno DATE,
-    fin_de_emision DATE
+    fecha_de_estreno INTEGER,
+    fin_de_emision INTEGER
 );
 
 CREATE TABLE  genero_pelicula (
