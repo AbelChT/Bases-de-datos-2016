@@ -17,5 +17,5 @@ FROM PELICULAS_5_10_ACTORES;
 
 -- Se realiza la operación
 -- ((películas con entre 5 y 10 actores)/ (total de películas)) * 100
-SELECT (peliculas_5_10_actores/total_peliculas)*100 AS porcent_pel_5_10_actores
+SELECT (peliculas_5_10_actores/total_peliculas)*100 AS porcentaje
 FROM count_total_peliculas,count_peliculas_5_10_actores;
