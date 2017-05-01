@@ -16,7 +16,7 @@ CREATE TRIGGER act_actores_directores
 	director INTEGER;
 	peli INTEGER;
 BEGIN
-	IF EXIST(SELECT persona INTO director FROM director_pelicula WHERE director_pelicula.persona  = :NEW.persona AND director_pelicula.pelicula=:NEW.pelicula;)
+	IF EXIST(SELECT * FROM director_pelicula WHERE director_pelicula.persona  = :NEW.persona AND director_pelicula.pelicula=:NEW.pelicula;)
 	THEN
 	INSERT INTO act_directores (actor_director, pelicula) VALUES (:NEW.persona, :NEW.PELICULA);
 	END IF;
