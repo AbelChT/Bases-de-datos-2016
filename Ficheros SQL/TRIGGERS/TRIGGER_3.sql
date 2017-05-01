@@ -4,7 +4,7 @@ DROP TRIGGER dir_actores_directores;
 
 CREATE TABLE act_directores (
 		actor_director INTEGER REFERENCES Persona(ID) ON DELETE CASCADE ,
-		pelicula INTEGER REFERENCES PELICULA(ID),
+		pelicula INTEGER REFERENCES PELICULA(ID) ON DELETE CASCADE,
     PRIMARY KEY (actor_director,pelicula)
 );
 
