@@ -13,9 +13,11 @@ CREATE TRIGGER act_actores_directores
 	ON actor_pelicula
 	FOR EACH ROW
 	DECLARE
+	numero INTEGER
 	PRAGMA AUTONOMOUS_TRANSACTION;
 BEGIN
-	IF EXISTS(SELECT * FROM director_pelicula WHERE director_pelicula.persona  = :NEW.persona AND director_pelicula.pelicula= :NEW.pelicula;)
+	SELECT count(*) INTO numero FROM director_pelicula WHERE director_pelicula.persona  = :NEW.persona AND director_pelicula.pelicula= :NEW.pelicula;
+	IF numero>0
 	THEN
 	INSERT INTO act_directores (actor_director, pelicula) VALUES (:NEW.persona, :NEW.PELICULA);
 	END IF;
