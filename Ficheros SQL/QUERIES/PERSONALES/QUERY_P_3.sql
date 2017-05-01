@@ -1,9 +1,9 @@
--- Tercera consulta personal: 	Obtiene la pelÌcula con la saga mas larga (tanto anterior como posterior cuentan) 
---									y el n˙mero de pelÌculas que la sigen / preceden
+-- Tercera consulta personal: 	Obtiene la pel√≠cula con la saga mas larga , el nombre de las pel√≠culas de la saga
+--									y el n√∫mero de pel√≠culas que la componen
 
--- Esta view obtiene todas las precuelas y secuelas de cada pelÌcula original
+-- Esta view obtiene todas las precuelas y secuelas de cada pel√≠cula original
 
-CREATE VIEW peliculas_saga AS
+CREATE VIEW PELICULAS_SAGA AS
 (
   SELECT PRECUELA AS PELICULAS_SAGA,ORIGINAL
   FROM ES_PRECUELA
@@ -13,24 +13,34 @@ UNION (
   FROM ES_SECUELA
 );
 
--- Esta view obtiene la cuenta de precuelas y secuelas
+-- Esta view obtiene la cuenta de precuelas y secuelas de cada pel√≠cula
 
 CREATE VIEW NUM_PELIS_SAGA AS
 	SELECT ORIGINAL, COUNT(PELICULAS_SAGA) AS NPELIS
-	  FROM peliculas_saga
-	  GROUP BY ORIGINAL;
+	FROM peliculas_saga
+	GROUP BY ORIGINAL;
 
--- Como resultado obtenemos la pelicula que mas precuelas/secuelas tiene asÌ como su n˙mero
+-- Esta view obtiene la pelicula que mas precuelas/secuelas tiene as√≠ como su n√∫mero
 
-CREATE VIEW PRE_SEG_CONSULTA AS
-  SELECT ORIGINAL, MAX(NPELIS) AS NUMERO_PELICULAS
-	  FROM NUM_PELIS_SAGA;
-	  
--- Asociamos al id de la consulta anterior el nombre de la pelÌcula y lo proyectamos
--- junto al n˙mero de pelÌculas que componen la saga (sum·ndole uno por la original)
-	  
-CREATE VIEW SEGUNDA_CONSULTA AS
-	SELECT TITULO, PRE_SEG_CONSULTA.NUMERO_PELICULAS+1
-	FROM pelicula
-	INNER JOIN PRE_SEG_CONSULTA ON PRE_SEG_CONSULTA.ORIGINAL = pelicula.id;
+CREATE VIEW MAX_PELIS_SAGA AS
+  SELECT MAX(NPELIS) AS NUMERO_PELICULAS
+	FROM NUM_PELIS_SAGA;
+
+CREATE VIEW PELI_MAX_SAGA AS
+  SELECT original, NUMERO_PELICULAS
+  FROM NUM_PELIS_SAGA
+  INNER JOIN MAX_PELIS_SAGA ON NUM_PELIS_SAGA.NPELIS = MAX_PELIS_SAGA.NUMERO_PELICULAS;
 	
+-- Esta view a√±ade a la pel√≠cula sus secuelas
+
+CREATE VIEW SAGA_TOTAL AS
+	SELECT PELI_MAX_SAGA.original, NUMERO_PELICULAS, PELICULAS_SAGA
+	FROM PELI_MAX_SAGA
+	INNER JOIN peliculas_saga ON PELI_MAX_SAGA.original = peliculas_saga.ORIGINAL;
+	
+-- Proyectamos el nombre de cada pel√≠cula y dejamos el n√∫mero de pel√≠culas de la saga
+	
+CREATE VIEW SAGA AS
+	SELECT original, titulo, NUMERO_PELICULAS
+	FROM SAGA_TOTAL
+	INNER JOIN pelicula ON pelicula.id = PELICULAS_SAGA
