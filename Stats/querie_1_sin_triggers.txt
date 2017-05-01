@@ -1,0 +1,30 @@
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=CHOOSE
+   1    0   NESTED LOOPS
+   2    1     VIEW OF 'COUNT_PELICULAS_5_10_ACTORES'
+   3    2       SORT (AGGREGATE)
+   4    3         VIEW OF 'PELICULAS_5_10_ACTORES'
+   5    4           FILTER
+   6    5             SORT (GROUP BY)
+   7    6               TABLE ACCESS (FULL) OF 'ACTOR_PELICULA'
+   8    1     VIEW OF 'COUNT_TOTAL_PELICULAS'
+   9    8       SORT (AGGREGATE)
+  10    9         TABLE ACCESS (FULL) OF 'PELICULA'
+
+
+
+
+Statistics
+----------------------------------------------------------
+         21  recursive calls
+          0  db block gets
+        155  consistent gets
+          0  physical reads
+          0  redo size
+        516  bytes sent via SQL*Net to client
+        655  bytes received via SQL*Net from client
+          2  SQL*Net roundtrips to/from client
+          1  sorts (memory)
+          0  sorts (disk)
+          1  rows processed
