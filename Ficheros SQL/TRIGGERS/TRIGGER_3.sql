@@ -4,7 +4,7 @@ DROP TRIGGER dir_actores_directores;
 
 CREATE TABLE act_directores (
 		actor_director INTEGER,
-		pelicula INTEGER REFERENCES,
+		pelicula INTEGER,
     PRIMARY KEY (actor_director,pelicula)
 );
 
@@ -13,13 +13,13 @@ CREATE TRIGGER act_actores_directores
 	ON actor_pelicula
 	FOR EACH ROW
 	DECLARE
-	numero INTEGER
 	PRAGMA AUTONOMOUS_TRANSACTION;
+	numero INTEGER;
 BEGIN
-	SELECT count(*) INTO numero FROM director_pelicula WHERE director_pelicula.persona  = :NEW.persona AND director_pelicula.pelicula= :NEW.pelicula;
-	IF numero>0
+	SELECT COUNT(*) INTO numero FROM director_pelicula WHERE director_pelicula.persona  = :NEW.persona AND director_pelicula.pelicula= :NEW.pelicula;
+	IF numero > 0
 	THEN
-	INSERT INTO act_directores (actor_director, pelicula) VALUES (:NEW.persona, :NEW.PELICULA);
+		INSERT INTO act_directores (actor_director, pelicula) VALUES (:NEW.persona, :NEW.PELICULA);
 	END IF;
 END;
 /
@@ -30,8 +30,11 @@ CREATE TRIGGER dir_actores_directores
 	FOR EACH ROW
 	DECLARE
 	PRAGMA AUTONOMOUS_TRANSACTION;
+	numero INTEGER;
 BEGIN
-	IF EXISTS (SELECT * FROM ACTOR_PELICULA WHERE ACTOR_PELICULA.persona  = :NEW.persona AND director_pelicula.pelicula = :NEW.pelicula;)
+	SELECT COUNT(*) INTO numero FROM ACTOR_PELICULA WHERE ACTOR_PELICULA.persona  = :NEW.persona AND ACTOR_PELICULA.pelicula = :NEW.pelicula;
+	IF numero > 0
+	THEN
       		INSERT INTO act_directores (actor_director, pelicula) VALUES (:NEW.persona, :NEW.PELICULA);
     	END IF;
 END;
