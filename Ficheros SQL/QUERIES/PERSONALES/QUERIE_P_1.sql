@@ -1,3 +1,7 @@
+-- Nombre: Consulta personal nº1
+-- Descripción: Obtiene los actores y actrices que han participado en al menos la mitad de las películas
+-- de la saga a la que pertenece la película "La maldición de la bestia"
+
 CREATE VIEW peliculas_saga AS -- El union garantiza resultados no repetidos
 ( -- Obtengo las precuelas de la pelicula
   SELECT PRECUELA AS PELICULAS_SAGA

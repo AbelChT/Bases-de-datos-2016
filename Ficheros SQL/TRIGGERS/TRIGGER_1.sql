@@ -1,7 +1,7 @@
 -- Con este trigger se pretende mantener la cuenta del número de actores de cada película
 -- para de esta forma aumentar la eficiencia en la primera consulta
 CREATE TABLE num_actores_pelicula (
-    pelicula INTEGER PRIMARY KEY REFERENCES PELICULA(ID),
+    pelicula INTEGER PRIMARY KEY,-- REFERENCES PELICULA(ID),
     num_actores INTEGER
 );
 

@@ -1,7 +1,7 @@
 CREATE TABLE pelicula (
     id INTEGER PRIMARY KEY,
     titulo VARCHAR(100),
-    fecha_de_estreno INTEGER
+    fecha_de_estreno INTEGER NOT NULL
 );
 
 CREATE TABLE serie (
