@@ -13,6 +13,8 @@ CREATE TABLE peliculas_director_num (
   PRIMARY KEY (anyo, director)
 );
 
+CREATE INDEX peliculasNum ON peliculas_director_num(peliculas DESC);
+
 --
 -- Actualiza la tabla anterior con el número de películas que ha estrenado un director en un año concreto.
 --

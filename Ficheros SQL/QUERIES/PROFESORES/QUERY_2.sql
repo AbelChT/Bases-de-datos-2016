@@ -13,3 +13,8 @@ ON d.pelicula = p.id GROUP BY p.fecha_de_estreno, d.persona HAVING COUNT(*) >= 3
 -- Muestra el nombre del director, qué año y el número de películas que ha estrenado ese año, si ese número es mayor a 3.
 --
 SELECT director.nombre, estreno, peliculas FROM peliculasPorAnyo pelic INNER JOIN persona director ON director.id = pelic.dirID;
+
+--
+-- Optimizada (trigger, index)
+--
+SELECT director.nombre, anyo, peliculas FROM peliculas_director_num pelic INNER JOIN persona director ON director.id = pelic.director WHERE peliculas >= 3 ORDER BY peliculas;
