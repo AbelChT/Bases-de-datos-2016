@@ -55,8 +55,9 @@ BEGIN
     INSERT INTO peliculas_director_num (director, anyo, peliculas) VALUES (:NEW.persona, estreno, 1);
   ELSE
     UPDATE peliculas_director_num SET peliculas = peliculas + 1 WHERE director = :NEW.persona AND anyo = estreno;
-    UPDATE peliculas_director_num SET peliculas = peliculas - 1 WHERE director = :OLD.persona AND anyo = estrenoAnterior;
   END IF;
+   
+   UPDATE peliculas_director_num SET peliculas = peliculas - 1 WHERE director = :OLD.persona AND anyo = estrenoAnterior;
 END;
 /
 
