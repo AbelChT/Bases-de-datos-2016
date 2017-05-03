@@ -1,0 +1,446 @@
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Franco, Jeszs
+      1983         13
+
+Franco, Jeszs
+      1986         12
+
+Franco, Jeszs
+      1985         10
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Carretero, Amaro
+      1980          9
+
+Rodrmguez, Vicente
+      1980          9
+
+Franco, Jeszs
+      1984          9
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Chica, Juan Manuel de la
+      1975          8
+
+Lspez Clemente, Josi
+      1976          8
+
+Aguirre, Javier
+      1975          7
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Fernandez Ardavmn, Cisar
+      1978          7
+
+Ozores, Mariano
+      1981          7
+
+Pinzas, Juan
+      1983          7
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Lspez Clemente, Josi
+      1975          7
+
+Franco, Jeszs
+      1981          6
+
+Ozores, Mariano
+      1982          6
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Pinzas, Juan
+      1981          6
+
+Lazaga, Pedro
+      1975          5
+
+Garcma de la Vega, Manuela
+      1980          5
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Peqa, Razl
+      1975          5
+
+Aguirre, Javier
+      1982          5
+
+Balcazar, Alfonso
+      1983          5
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+del Portillo, Aurelio
+      1993          5
+
+Franco, Jeszs
+      1987          5
+
+Pinzas, Juan
+      1982          5
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Iquino, Ignacio F.
+      1982          5
+
+Pons, Jordi
+      1981          5
+
+Romero Marchent, Rafael
+      1976          5
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Franco, Jeszs
+      1980          5
+
+de la Cueva, Guillermo
+      1976          5
+
+Almodsvar, Pedro
+      1975          4
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Vela, Arantxa
+      1994          4
+
+Atanes, Carlos
+      1991          4
+
+Ozores, Mariano
+      1987          4
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Romay, Lina
+      1986          4
+
+Ozores, Mariano
+      1985          4
+
+Ozores, Mariano
+      1984          4
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Solana, Cisar
+      1982          4
+
+Pastor, Justo
+      1982          4
+
+Gonzalez, Ismael
+      1982          4
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Ortiz, Maximo Martmn
+      1980          4
+
+Ozores, Mariano
+      1980          4
+
+Aguirre, Javier
+      1980          4
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Real, Antonio del
+      1979          4
+
+Lara Polop, Francisco
+      1977          4
+
+Garcma de Dueqas, Jeszs
+      1975          4
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Gonzalez, Ismael
+      1976          4
+
+Fernandez Ardavmn, Cisar
+      1977          4
+
+Ozores, Mariano
+      1977          4
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Lazaga, Pedro
+      1977          4
+
+Lazaga, Pedro
+      1976          4
+
+Fernandez, Ramsn
+      1975          3
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Quevedo, Nino
+      1975          3
+
+Martmnez, Juan Carlos
+      1999          3
+
+Farriol, Daniel
+      1998          3
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Ozores, Mariano
+      1990          3
+
+Merinero, Fernando
+      1990          3
+
+Romay, Lina
+      1987          3
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Codesal Pirez, Javier
+      1986          3
+
+Gonzalez, Ismael
+      1985          3
+
+Ozores, Mariano
+      1983          3
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Lara Polop, Francisco
+      1982          3
+
+Guevara, Enrique
+      1982          3
+
+Franco, Jeszs
+      1982          3
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Delgado, Luis Marma
+      1982          3
+
+Cadena, Jordi
+      1982          3
+
+Bosch, Juan
+      1982          3
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Cohen, Emma
+      1980          3
+
+Martmnez Torres, Augusto
+      1980          3
+
+Klimovsky, Lesn
+      1978          3
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Iquino, Ignacio F.
+      1978          3
+
+Guevara, Enrique
+      1978          3
+
+Garcma Atienza, Juan
+      1978          3
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Bellmunt, Francesc
+      1978          3
+
+Pons, Jordi
+      1977          3
+
+Canals, Josi Joaqumn
+      1976          3
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Iquino, Ignacio F.
+      1981          3
+
+Fernandez, Ramsn
+      1981          3
+
+Porto, Juan Josi
+      1980          3
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Graqena, Josi
+      1976          3
+
+Ozores, Mariano
+      1976          3
+
+Klimovsky, Lesn
+      1976          3
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Forqui, Josi Marma
+      1976          3
+
+Fernandez Ardavmn, Cisar
+      1976          3
+
+Delgado, Luis Marma
+      1976          3
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Almodsvar, Pedro
+      1976          3
+
+Alcobendas, Miguel
+      1976          3
+
+Larraz, Josi Ramsn
+      1977          3
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Iquino, Ignacio F.
+      1977          3
+
+Lara Polop, Francisco
+      1975          3
+
+Gil, Rafael
+      1975          3
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+Graqena, Josi
+      1975          3
+
+Hualde, Joaqumn
+      1975          3
+
+Demicheli, Tulio
+      1975          3
+
+
+NOMBRE
+--------------------------------------------------------------------------------
+   ESTRENO  PELICULAS
+---------- ----------
+de la Cueva, Guillermo
+      1975          3
+
+Galan, Diego
+      1975          3
+
+
+95 rows selected.
