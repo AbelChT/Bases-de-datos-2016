@@ -12,21 +12,6 @@ CREATE TABLE act_directores (
     PRIMARY KEY (actor_director,pelicula)
 );
 
-CREATE TRIGGER act_actores_directores
-	AFTER INSERT
-	ON actor_pelicula
-	FOR EACH ROW
-	DECLARE
-	PRAGMA AUTONOMOUS_TRANSACTION;DROP TABLE act_directores;
-DROP TRIGGER act_actores_directores;
-DROP TRIGGER dir_actores_directores;
-
-CREATE TABLE act_directores (
-		actor_director INTEGER,
-		pelicula INTEGER,
-    PRIMARY KEY (actor_director,pelicula)
-);
-
 CREATE TRIGGER act_actores_directores_ins
 	AFTER INSERT
 	ON actor_pelicula
@@ -63,7 +48,7 @@ CREATE TRIGGER act_actores_directores_del
 	FOR EACH ROW
 	DECLARE
 BEGIN
-	DELETE FROM act_directores WHERE actor_director = :OLD.persona AND pelicula = OLD.pelicula;
+	DELETE FROM act_directores WHERE actor_director = :OLD.persona AND pelicula = :OLD.pelicula;
 END;
 /
 
@@ -73,7 +58,7 @@ CREATE TRIGGER dir_actores_directores_del
 	FOR EACH ROW
 	DECLARE
 BEGIN
-	DELETE FROM act_directores WHERE actor_director = :OLD.persona AND pelicula = OLD.pelicula;
+	DELETE FROM act_directores WHERE actor_director = :OLD.persona AND pelicula = :OLD.pelicula;
 END;
 /
 
@@ -85,9 +70,9 @@ CREATE TRIGGER act_actores_directores_upd
 	numero INTEGER;
 BEGIN
 	SELECT COUNT(*) INTO numero FROM director_pelicula WHERE persona = :NEW.persona AND pelicula = :NEW.pelicula;
-	IF numero > 0
-		UPDATE act_directores SET actor_director = :NEW.persona, pelicula= :NEW.pelicula WHERE act_actores_directores.actor_director= :OLD.persona AND
-																								act_actores_directores.pelicula = :OLD.pelicula;
+	IF numero > 0 THEN
+		UPDATE act_directores SET actor_director = :NEW.persona, pelicula= :NEW.pelicula
+			WHERE actor_director= :OLD.persona AND pelicula = :OLD.pelicula;
 	ELSE
 		DELETE FROM act_directores WHERE actor_director= :OLD.persona AND pelicula = :OLD.pelicula;
 	END IF;
@@ -102,9 +87,9 @@ CREATE TRIGGER dir_actores_directores_upd
 	numero INTEGER;
 BEGIN
 	SELECT COUNT(*) INTO numero FROM actor_pelicula WHERE persona = :NEW.persona AND pelicula = :NEW.pelicula;
-	IF numero > 0
-		UPDATE act_directores SET actor_director = :NEW.persona, pelicula= :NEW.pelicula WHERE act_actores_directores.actor_director= :OLD.persona AND
-																								act_actores_directores.pelicula = :OLD.pelicula;
+	IF numero > 0 THEN
+		UPDATE act_directores SET actor_director = :NEW.persona, pelicula= :NEW.pelicula 
+			WHERE actor_director= :OLD.persona AND pelicula = :OLD.pelicula;
 	ELSE
 		DELETE FROM act_directores WHERE actor_director= :OLD.persona AND pelicula = :OLD.pelicula;
 	END IF;
