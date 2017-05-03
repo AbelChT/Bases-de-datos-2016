@@ -1,0 +1,7 @@
+Original	Titulo								Longitud_saga
+========	=======								=============
+1993001		El aullido del diablo						5
+1993001		El retorno del Hombre-Lobo					5
+1993001		La bestia y la espada mC!gica				5
+1993001		La maldiciC3n de la bestia					5
+1993001		LicC!ntropo: El asesino de la luna llena	5

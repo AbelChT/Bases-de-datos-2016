@@ -1,0 +1,23 @@
+Esta es la traza de ejecución del trigger número tres
+para la inserción de un director en la tabla director_pelicula.
+
+Execution Plan
+----------------------------------------------------------
+   0      INSERT STATEMENT Optimizer=CHOOSE
+
+
+
+
+Statistics
+----------------------------------------------------------
+          2  recursive calls
+          7  db block gets
+          3  consistent gets
+          0  physical reads
+        480  redo size
+       1213  bytes sent via SQL*Net to client
+        914  bytes received via SQL*Net from client
+          3  SQL*Net roundtrips to/from client
+          1  sorts (memory)
+          0  sorts (disk)
+          1  rows processed

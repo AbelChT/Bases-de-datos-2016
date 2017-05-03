@@ -40,7 +40,6 @@ CREATE VIEW SAGA_TOTAL AS
 	
 -- Proyectamos el nombre de cada película y dejamos el número de películas de la saga
 	
-CREATE VIEW SAGA AS
-	SELECT original, titulo, NUMERO_PELICULAS
+SELECT original, titulo, NUMERO_PELICULAS
 	FROM SAGA_TOTAL
 	INNER JOIN pelicula ON pelicula.id = PELICULAS_SAGA
