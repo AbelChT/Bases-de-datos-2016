@@ -1,11 +1,18 @@
 -- Con este trigger se pretende mantener la cuenta del número de actores de cada película
 -- para de esta forma aumentar la eficiencia en la primera consulta
+
+-- Se crea la tabla en la cual se almacenará el número de actores de cada película
 CREATE TABLE num_actores_pelicula (
-    pelicula INTEGER PRIMARY KEY REFERENCES PELICULA(ID),
+    pelicula INTEGER PRIMARY KEY,
     num_actores INTEGER
 );
 
--- Cuando se añade una película esta se añade al registro con 0 actores
+-- Crea un índice que hace que disminuya el tiempo de consulta cuando se hacen
+-- búsquedas según el número de actores
+CREATE INDEX num_act_pelicula_idx ON NUM_ACTORES_PELICULA(num_actores);
+
+-- Trigger que al realizar una inserción de una nueva película en la tabla
+-- película esta se añada a num_actores_pelicula con 0 actores
 CREATE OR REPLACE TRIGGER nu_act_pel_insert_pel
 AFTER INSERT
   ON PELICULA
@@ -18,7 +25,9 @@ BEGIN
 END;
 /
 
--- Cuando se añade un actor a una película se suma al 1 al número de actores
+-- Trigger que al realizar una inserción de una nueva tupla (película, actor) en la tabla actor_pelicula ,
+-- aumente en una unidad el número de actores de la película en cuestión en la tabla
+-- num_actores_pelicula
 CREATE OR REPLACE TRIGGER nu_act_pel_insert_act_pel
 AFTER INSERT
   ON ACTOR_PELICULA
@@ -33,7 +42,8 @@ BEGIN
 END;
 /
 
--- Trigger que precalcula los actores de cada película al realizar el update
+-- Trigger que al realizar una actualización de una tupla (película, actor) en la tabla actor_pelicula ,
+-- actualice los valores de la tabla num_actores_pelicula
 CREATE OR REPLACE TRIGGER nu_act_pel_update_act_pel
 AFTER UPDATE
   ON ACTOR_PELICULA
@@ -53,11 +63,9 @@ BEGIN
 END;
 /
 
--- No hay trigger para update de película debido a que lo único que podria hacer
--- que hubiera que modificar algo sería cambiar el id, el cual no tiene sentido modificarlo
---El ON DELETE SE HACE EN EL on delete cascade
 
--- Trigger que precalcula los actores de cada película al realizar el delete
+-- Trigger que al eliminar una tupla (película, actor) en la tabla actor_pelicula,
+-- actualiza los valores de la tabla num_actores_pelicula
 CREATE OR REPLACE TRIGGER nu_ac_pel_delete_act_pel
 AFTER DELETE
   ON ACTOR_PELICULA

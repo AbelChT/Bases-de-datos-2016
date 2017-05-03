@@ -1,4 +1,8 @@
-CREATE VIEW peliculas_saga AS -- El union garantiza resultados no repetidos
+-- Nombre: Consulta personal nº1
+-- Descripción: Obtiene los actores y actrices que han participado en al menos la mitad de las películas
+-- de la saga a la que pertenece la película "La maldición de la bestia"
+
+CREATE VIEW peliculas_saga_a AS -- El union garantiza resultados no repetidos
 ( -- Obtengo las precuelas de la pelicula
   SELECT PRECUELA AS PELICULAS_SAGA
   FROM ES_PRECUELA
@@ -20,14 +24,14 @@ CREATE VIEW actores_saga AS
 SELECT PERSONA
 FROM ACTOR_PELICULA
 WHERE PELICULA IN( SELECT *
-                   FROM peliculas_saga);
+                   FROM peliculas_saga_a);
 
 CREATE VIEW act_al_menos_mitad_pel AS
 SELECT PERSONA
 FROM actores_saga
 GROUP BY PERSONA
 HAVING count(*) >= ((SELECT count(*)
-                  FROM peliculas_saga) / 2);
+                  FROM peliculas_saga_a) / 2);
 
 SELECT NOMBRE
 FROM act_al_menos_mitad_pel
