@@ -1,0 +1,35 @@
+Elapsed: 00:00:00.97
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=CHOOSE
+   1    0   NESTED LOOPS
+   2    1     VIEW OF 'PELICULASPORANYO'
+   3    2       SORT (ORDER BY)
+   4    3         FILTER
+   5    4           SORT (GROUP BY)
+   6    5             NESTED LOOPS
+   7    6               TABLE ACCESS (FULL) OF 'DIRECTOR_PELICULA'
+   8    6               TABLE ACCESS (BY INDEX ROWID) OF 'PELICULA'
+   9    8                 INDEX (UNIQUE SCAN) OF 'SYS_C001550772' (UNI
+          QUE)
+
+  10    1     TABLE ACCESS (BY INDEX ROWID) OF 'PERSONA'
+  11   10       INDEX (UNIQUE SCAN) OF 'SYS_C001550780' (UNIQUE)
+
+
+
+
+Statistics
+----------------------------------------------------------
+        402  recursive calls
+          0  db block gets
+       8486  consistent gets
+        109  physical reads
+        360  redo size
+       8963  bytes sent via SQL*Net to client
+       1825  bytes received via SQL*Net from client
+          8  SQL*Net roundtrips to/from client
+         16  sorts (memory)
+          0  sorts (disk)
+         95  rows processed
