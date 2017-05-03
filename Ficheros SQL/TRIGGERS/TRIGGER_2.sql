@@ -47,7 +47,8 @@ CREATE TRIGGER peliculasPorDirectorUpdate
   estrenoAnterior INTEGER;
 BEGIN
   SELECT fecha_de_estreno INTO estreno FROM pelicula WHERE id = :NEW.pelicula;
-    SELECT fecha_de_estreno INTO estreno FROM pelicula WHERE id = :OLD.pelicula;
+  SELECT fecha_de_estreno INTO estrenoAnterior FROM pelicula WHERE id = :OLD.pelicula;
+  
   SELECT COUNT(*) INTO countPeliculas FROM peliculas_director_num WHERE director = :NEW.persona AND anyo = estreno;
 
   IF countPeliculas = 0 THEN
