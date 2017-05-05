@@ -1,0 +1,26 @@
+PARTE 1
+=======
+Día                     Horas Invertidas                Tarea
+===                     ================                =====
+28/03                   0,5                             Análisis del problema y organización del proyecto
+29/03                   2                               Desarrollo E/R
+24/04                   2                               Creación del modelo relacional y formalización de este
+24/04                   0,25                            Creación de las tablas en SQL
+
+PARTE 2
+=======
+Día                     Horas Invertidas                Tarea
+===                     ================                =====
+26/04                   0,45                            Realizacion y de las consultas necesarias para obtener los datos para poblar la base de datos,
+                                                        obtención de los resultados y transformación de estos a scripts SQL usados para insertar los datos
+27/04                   1,5                             Desarrollo consultas nº1 profesores y personal
+--/--                   3                               Desarrollo memoria y la presentación
+
+PARTE 3
+=======
+Día                     Horas Invertidas                Tarea
+===                     ================                =====
+27/04                   1                               Desarrollo trigger e índice que actua sobre la consulta nº1 (TRIGGER_1.sql)
+02/05                   0,5                             Obtención y análisis de los datos estadísticos sobre las consultas nº1 y la utilización 
+                                                        del trigger e índice sobre estas (TRIGGER_1.sql)
+--/--                   2                               Desarrollo memoria y la presentación
