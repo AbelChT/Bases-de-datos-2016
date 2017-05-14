@@ -87,8 +87,8 @@ CREATE TABLE vuelos_retrasados (
 -- Relaciona cada vuelo con las escalas de emergencia que ha tenido
 CREATE TABLE escalas_emergencias (
   vuelo                INTEGER REFERENCES vuelo (id) ON DELETE CASCADE,
-  avion                INTEGER REFERENCES avion (id) ON DELETE CASCADE,
-  aeropuerto_escala    VARCHAR(3) REFERENCES aeropuerto (iata) ON DELETE CASCADE,
+  avion                INTEGER REFERENCES avion (id) ON DELETE SET NULL,
+  aeropuerto_escala    VARCHAR(3) REFERENCES aeropuerto (iata) ON DELETE SET NULL,
   hora_despegue        INTEGER,
   hora_aterrizaje      INTEGER,
   distancia_adiccional FLOAT,
