@@ -1,0 +1,3194 @@
+1	Akron	OH	USA
+2	Albuquerque	NM	USA
+3	Alexandria	LA	USA
+4	Allentown	PA	USA
+5	Anchorage	AK	USA
+6	Ardmore	OK	USA
+7	Atlanta	GA	USA
+8	Atlantic City	NJ	USA
+9	Augusta	GA	USA
+10	Bakersfield	CA	USA
+11	Baltimore	MD	USA
+12	Brunswick	GA	USA
+13	Buffalo	NY	USA
+14	Charleston	SC	USA
+15	Charlotte Amalie	VI	USA
+16	Chicago	IL	USA
+17	Chicago/Schaumburg	IL	USA
+18	Christiansted	VI	USA
+19	Cincinnati	OH	USA
+20	Cleveland	OH	USA
+21	Clinton	OK	USA
+22	Colorado Springs	CO	USA
+23	Columbia	SC	USA
+24	Columbus	OH	USA
+25	Cordova	AK	USA
+26	Dallas	TX	USA
+27	Dayton	OH	USA
+28	Denver	CO	USA
+29	Detroit	MI	USA
+30	Dover	DE	USA
+31	Duluth	MN	USA
+32	Eufaula	OK	USA
+33	Eureka	CA	USA
+34	Fajardo	PR	USA
+35	Forks	WA	USA
+36	Fort Wayne	IN	USA
+37	Fort Worth	TX	USA
+38	Fresno	CA	USA
+39	Friday Harbor	WA	USA
+40	Ft. Lauderdale	FL	USA
+41	Ft. Myers	FL	USA
+42	Greenville	SC	USA
+43	Haines	AK	USA
+44	Harrisburg	PA	USA
+45	Hoonah	AK	USA
+46	Houston	TX	USA
+47	Huntsville	AL	USA
+48	Indianapolis	IN	USA
+49	Jackson	MS	USA
+50	Jacksonville	FL	USA
+51	Juneau	AK	USA
+52	Kake	AK	USA
+53	Kalispell	MT	USA
+54	Kansas City	MO	USA
+55	Ketchikan	AK	USA
+56	Killeen	TX	USA
+57	Klawock	AK	USA
+58	Knoxville	TN	USA
+59	Kodiak	AK	USA
+60	Lake Charles	LA	USA
+61	Las Vegas	NV	USA
+62	Los Angeles	CA	USA
+63	Louisville	KY	USA
+64	Macon	GA	USA
+65	Madison	WI	USA
+66	Marana	AZ	USA
+67	Memphis	TN	USA
+68	Miami	FL	USA
+69	Midland	TX	USA
+70	Millington	TN	USA
+71	Milwaukee	WI	USA
+72	Minneapolis	MN	USA
+73	Mobile	AL	USA
+74	Monticello	NY	USA
+75	Morrilton	AR	USA
+76	NA	NA	USA
+77	NA	NA	Palau
+78	NA	NA	Thailand
+79	NA	NA	Federated States of Micronesia
+80	NA	NA	N Mariana Islands
+82	Nashville	TN	USA
+83	New Orleans	LA	USA
+84	New York	NY	USA
+85	Norfolk	VA	USA
+86	Oklahoma City	OK	USA
+87	Olathe	KS	USA
+88	Omaha	NE	USA
+89	Orlando	FL	USA
+90	Overton	NV	USA
+91	Palm Springs	CA	USA
+92	Peoria	IL	USA
+93	Petersburg	AK	USA
+94	Philadelphia	PA	USA
+95	Phoenix	AZ	USA
+96	Pittsburgh	PA	USA
+97	Pittstown	NJ	USA
+98	Portland	OR	USA
+99	Pottstown	PA	USA
+100	Redding	CA	USA
+101	Reno	NV	USA
+102	Richmond	VA	USA
+103	Riverside	CA	USA
+104	Sacramento	CA	USA
+105	Salt Lake City	UT	USA
+106	San Antonio	TX	USA
+107	San Diego	CA	USA
+108	San Jose	CA	USA
+109	San Juan	PR	USA
+110	Seattle	WA	USA
+111	Shreveport	LA	USA
+112	Sitka	AK	USA
+113	Skagway	AK	USA
+114	Spokane	WA	USA
+115	St Charles	MO	USA
+116	St Louis	MO	USA
+117	St Paul	MN	USA
+118	St. Petersburg	FL	USA
+119	Tampa	FL	USA
+120	Titusville	FL	USA
+121	Toledo	OH	USA
+122	Topeka	KS	USA
+123	Tucson	AZ	USA
+124	Tulsa	OK	USA
+125	Visalia	CA	USA
+126	Waco	TX	USA
+127	West Palm Beach	FL	USA
+128	Wichita	KS	USA
+129	Wichita Falls	TX	USA
+130	Wrangell	AK	USA
+131	Yakutat	AK	USA
+132	Bay Springs	MS	USA
+133	Livingston	TX	USA
+134	Perry	NY	USA
+135	Hilliard	FL	USA
+136	Belmont	MS	USA
+137	Clanton	AL	USA
+138	Brookfield	WI	USA
+139	East Liverpool	OH	USA
+140	Memphis	MO	USA
+141	Pittsboro	MS	USA
+142	Hawley	MN	USA
+143	Griffith	IN	USA
+144	Gatesville	TX	USA
+145	Eureka	NV	USA
+146	Tuskegee	AL	USA
+147	Rolla	ND	USA
+148	Eupora	MS	USA
+149	Middletown	NY	USA
+150	Jackpot	NV	USA
+151	Auburn	IN	USA
+152	Gladewater	TX	USA
+153	Charlotte	MI	USA
+154	Central City	NE	USA
+155	Wetumpka	AL	USA
+156	Stanley	ND	USA
+157	Harvard	NE	USA
+158	Carthage	MS	USA
+159	Butler	AL	USA
+160	Jekyll Island	GA	USA
+161	Sargent	NE	USA
+162	Charleston	MS	USA
+163	Washington	DC	USA
+164	Smithville	TN	USA
+165	Centreville	AL	USA
+166	Elizabethton	TN	USA
+167	Pilot Station	AK	USA
+168	Bethel	ME	USA
+169	Hartington	NE	USA
+170	Montague	MA	USA
+171	Warren	VT	USA
+172	Fishers Island	NY	USA
+173	Chicago/Harvard	IL	USA
+174	Pender	NE	USA
+175	South Haven	MI	USA
+176	Gettysburg	SD	USA
+177	Moriarty	NM	USA
+178	Crownpoint	NM	USA
+179	Bowie	TX	USA
+180	Loup City	NE	USA
+181	Sand Springs	OK	USA
+182	Tishomingo	OK	USA
+183	Lockport	NY	USA
+184	Tecumseh	NE	USA
+185	Bryan	OH	USA
+186	Seneca Falls	NY	USA
+187	Wakeeney	KS	USA
+188	Cynthiana	KY	USA
+189	Abbeville	AL	USA
+190	Florala	AL	USA
+191	Headland	AL	USA
+192	Humboldt	IA	USA
+193	Goldfield	NV	USA
+194	Jean	NV	USA
+195	Dumas	AR	USA
+196	Parsons	TN	USA
+197	Camden	TN	USA
+198	Waverly	TN	USA
+199	Batesville	MS	USA
+200	Lake Providence	LA	USA
+201	San Andreas	CA	USA
+202	Corning	CA	USA
+203	Davis	CA	USA
+204	Shelter Cove	CA	USA
+205	Shingletown	CA	USA
+206	Columbia	MS	USA
+207	Atmore	AL	USA
+208	Abbeville	LA	USA
+209	Vidalia	LA	USA
+210	Winnfield	LA	USA
+211	Coushatta	LA	USA
+212	Oroville	WA	USA
+213	Port Townsend	WA	USA
+214	Salida	CO	USA
+215	Minden	NE	USA
+216	Brookneal	VA	USA
+217	Mission	SD	USA
+218	Kayenta	AZ	USA
+219	Chicago/Greenwood/Wonderlake	IL	USA
+220	Winsted	MN	USA
+221	Millersburg	OH	USA
+222	Wallkill	NY	USA
+223	Owyhee	NV	USA
+224	Clayton	AL	USA
+225	Clarion	PA	USA
+226	Blakely	GA	USA
+227	Brenham	TX	USA
+228	Rochelle	IL	USA
+229	Tower	MN	USA
+230	Brewton	AL	USA
+231	Superior	NE	USA
+232	Le Sueur	MN	USA
+233	Lakeview	MI	USA
+234	Eureka	KS	USA
+235	Andover	NJ	USA
+236	Elba	AL	USA
+237	Hollandale	MS	USA
+238	Long Prairie	MN	USA
+239	Haskell	TX	USA
+240	Adel	GA	USA
+241	Luka	MS	USA
+242	McCarthy	AK	USA
+243	Nunapitchuk	AK	USA
+244	Tiffin	OH	USA
+245	Dawson	GA	USA
+246	Myrtle Creek	OR	USA
+247	Bucyrus	OH	USA
+248	Donalsonville	GA	USA
+249	Boise City	OK	USA
+250	Magee	MS	USA
+251	Cross Keys	NJ	USA
+252	Manokotak	AK	USA
+253	Canon	GA	USA
+254	Pine Knot	KY	USA
+255	Jefferson	GA	USA
+256	Lexington	MS	USA
+257	Berlin	NJ	USA
+258	Port Protection	AK	USA
+259	Copperhill	TN	USA
+260	Franklin	NC	USA
+261	Middlesboro	KY	USA
+262	Gainesboro	TN	USA
+263	Prattville	AL	USA
+264	Dexter	ME	USA
+265	Hudson	NY	USA
+266	Fair Haven	VT	USA
+267	Mansfield	MA	USA
+268	Chicago/Plainfield	IL	USA
+269	Milbank	SD	USA
+270	Plymouth	MI	USA
+271	Platte	SD	USA
+272	Hector	MN	USA
+273	Webster	SD	USA
+274	Redfield	SD	USA
+275	Overbrook	OK	USA
+276	Madill	OK	USA
+277	Bridgeport	TX	USA
+278	Bowling Green	OH	USA
+279	Kent	OH	USA
+280	Peach Springs	AZ	USA
+281	Medina	OH	USA
+282	Cicero	NY	USA
+283	Effingham	IL	USA
+284	Linn	MO	USA
+285	Casey	IL	USA
+286	Freehold	NY	USA
+287	Delphi	IN	USA
+288	Bonifay	FL	USA
+289	Lindsay	OK	USA
+290	Goldsby	OK	USA
+291	Waynoka	OK	USA
+292	Satanta	KS	USA
+293	Reserve	LA	USA
+294	Panaca	NV	USA
+295	Escalante	UT	USA
+296	Parowan	UT	USA
+297	No Lit Rock	AR	USA
+298	Belzoni	MS	USA
+299	Haleyville	AL	USA
+300	Portland	TN	USA
+301	Fulton	KY	USA
+302	Mountain Grove	MO	USA
+303	East Moriches	NY	USA
+304	Woodbine	NJ	USA
+305	Blairstown	NJ	USA
+306	Kindred	ND	USA
+307	Grandfield	OK	USA
+308	Lakeport	CA	USA
+309	Lodi	CA	USA
+310	Thomas	OK	USA
+311	Dunsmuir	CA	USA
+312	Jena	LA	USA
+313	Brookhaven	MS	USA
+314	Bay Minette	AL	USA
+315	Puyallup	WA	USA
+316	Forsyth	MT	USA
+317	Sunnyside	WA	USA
+318	Priest River	ID	USA
+319	Paris	ID	USA
+320	Navajo Dam	NM	USA
+321	Hyannis	NE	USA
+322	Boulder	CO	USA
+323	Canon City	CO	USA
+324	Delta	CO	USA
+325	Oneonta	AL	USA
+326	Macon	MS	USA
+327	Kingston	NY	USA
+328	Beach	ND	USA
+329	Kremmling	CO	USA
+330	Jacksboro	TX	USA
+331	Burlington	CT	USA
+332	McArthur	OH	USA
+333	Pontotoc	MS	USA
+334	Lehighton	PA	USA
+335	Quitman	MS	USA
+336	Bayport	NY	USA
+337	Devine	TX	USA
+338	Sylva	NC	USA
+339	Live Oak	FL	USA
+340	Dulce	NM	USA
+341	Cuthbert	GA	USA
+342	Ripley	MS	USA
+343	Edinburg	TX	USA
+344	Ashland/Lineville	AL	USA
+345	Ocean City	NJ	USA
+346	Edna/Ganado	TX	USA
+347	McDermitt	OR	USA
+348	Elberton	GA	USA
+349	Canby	MN	USA
+350	Newberry	SC	USA
+351	Georgetown	KY	USA
+352	Palatka	FL	USA
+353	Grove City	PA	USA
+354	Ravenna	OH	USA
+355	Gardiner	MT	USA
+356	Dayton	TN	USA
+357	Jamestown	TN	USA
+358	Larsen Bay	AK	USA
+359	Kotlik	AK	USA
+360	Lime Village	AK	USA
+361	Newport	NH	USA
+362	Pittsfield	ME	USA
+363	Post Mills	VT	USA
+364	Alliance	OH	USA
+365	Oakes	ND	USA
+366	Lamesa	TX	USA
+367	Skiatook	OK	USA
+368	Commerce	TX	USA
+369	Bastrop	LA	USA
+370	Steubenville	OH	USA
+371	Connellsville	PA	USA
+372	Oakland	MD	USA
+373	Somerset	PA	USA
+374	Shelbyville	IL	USA
+375	Aurora	MO	USA
+376	Madisonville	KY	USA
+377	Rantoul	IL	USA
+378	Clewiston	FL	USA
+379	Hinesville	GA	USA
+380	Louisville	GA	USA
+381	Millen	GA	USA
+382	Quincy	FL	USA
+383	Johnson	KS	USA
+384	Mangum	OK	USA
+385	Telida	AK	USA
+386	Princeton	KY	USA
+387	Lawrenceburg	TN	USA
+388	Sallisaw	OK	USA
+389	Forest	MS	USA
+390	Quincy	CA	USA
+391	Angwin	CA	USA
+392	Chowchilla	CA	USA
+393	Independence	CA	USA
+394	Hinton	OK	USA
+395	Washington Island	WI	USA
+396	Davis/Woodland/Winters	CA	USA
+397	Waynesboro	MS	USA
+398	Milton	FL	USA
+399	St Elmo	AL	USA
+400	Kenedy	TX	USA
+401	Vashon	WA	USA
+402	Newberg	OR	USA
+403	Chiloquin	OR	USA
+404	Wilbur	WA	USA
+405	Muleshoe	TX	USA
+406	Pagosa Springs	CO	USA
+407	Longmont	CO	USA
+408	Wray	CO	USA
+409	Yuma	CO	USA
+410	Indian Head	MD	USA
+411	Leonardtown	MD	USA
+412	Rockwell City	IA	USA
+413	Seminole	TX	USA
+414	Norfolk	MA	USA
+415	Stevensville	MT	USA
+416	Geneva	AL	USA
+417	Water Valley	MS	USA
+418	Ritzville	WA	USA
+419	Laurens	SC	USA
+420	Union	SC	USA
+421	Allegan	MI	USA
+422	Wasco	OR	USA
+423	Lakin	KS	USA
+424	Happy Camp	CA	USA
+425	Heber	UT	USA
+426	Calico Rock	AR	USA
+427	Erwin	NC	USA
+428	Shaktoolik	AK	USA
+429	Deer Lodge	MT	USA
+430	Loa	UT	USA
+431	Princeton	NJ	USA
+432	Grove Hill	AL	USA
+433	Cullman	AL	USA
+434	Tazewell	TN	USA
+435	Wadesboro	NC	USA
+436	Augusta	KS	USA
+437	Southbridge	MA	USA
+438	Greenville	ME	USA
+439	Marshfield	MA	USA
+440	Chester	CT	USA
+441	Midland	MI	USA
+442	Lake In The Hills	IL	USA
+443	Bay City	MI	USA
+444	Cable	WI	USA
+445	Ephraim	WI	USA
+446	Frankfort	MI	USA
+447	Mansfield	LA	USA
+448	Vivian	LA	USA
+449	Bristow	OK	USA
+450	Fremont	MI	USA
+451	Faulkton	SD	USA
+452	Wadsworth	OH	USA
+453	Ashland	OH	USA
+454	Williamson	NY	USA
+455	Grand Haven	MI	USA
+456	Point Pleasant	WV	USA
+457	Phillipsburg	OH	USA
+458	Ridgeland	SC	USA
+459	Greensboro	GA	USA
+460	Junction City	KS	USA
+461	Syracuse	KS	USA
+462	Troy/Marine/St. Louis	IL	USA
+463	Leoti	KS	USA
+464	Lincoln	IL	USA
+465	Litchfield	IL	USA
+466	Lafayette	TN	USA
+467	Reform	AL	USA
+468	Warren	AR	USA
+469	Old Bridge	NJ	USA
+470	Mahnomen	MN	USA
+471	Northwood	ND	USA
+472	Gustine	CA	USA
+473	Purcell	OK	USA
+474	Sayre	OK	USA
+475	Walters	OK	USA
+476	Hollister	CA	USA
+477	Afton	OK	USA
+478	Beeville	TX	USA
+479	Bay City	TX	USA
+480	Crowley	LA	USA
+481	Many	LA	USA
+482	Jennings	LA	USA
+483	Illinois Valley (Cave Junction)	OR	USA
+484	Grants Pass	OR	USA
+485	Condon	OR	USA
+486	Saginaw - H.Browne	MI	USA
+487	Boyceville	WI	USA
+488	La Grange	TX	USA
+489	Niles	MI	USA
+490	Anaconda	MT	USA
+491	Benchmark	MT	USA
+492	Big Sandy	MT	USA
+493	Fort Morgan	CO	USA
+494	Shawano	WI	USA
+495	West Union	IA	USA
+496	Winterset	IA	USA
+497	Perry	FL	USA
+498	Coatesville	PA	USA
+499	Manila	UT	USA
+500	Manti	UT	USA
+501	Melbourne	AR	USA
+502	White Cloud	MI	USA
+503	Keystone Heights	FL	USA
+504	Poplar	MT	USA
+505	Star	NC	USA
+506	Dover-Foxcroft	ME	USA
+507	Millbrook	NY	USA
+508	Rockingham	NC	USA
+509	North Bass Island	OH	USA
+510	Kountze/Silsbee	TX	USA
+511	Blairsville	GA	USA
+512	Carrington	ND	USA
+513	Red Hook	NY	USA
+514	Canton	GA	USA
+515	Cheraw	SC	USA
+516	Manville	NJ	USA
+517	Curtis	NE	USA
+518	Cochran	GA	USA
+519	Clare	MI	USA
+520	Sutton	WV	USA
+521	Ness City	KS	USA
+522	Harlem	MT	USA
+523	Erie	CO	USA
+524	Ellijay	GA	USA
+525	Chemehuevi Valley	CA	USA
+526	Preston	MN	USA
+527	Atmautluak	AK	USA
+528	Cedartown	GA	USA
+529	Marshall	AR	USA
+530	Scottsboro	AL	USA
+531	Hampton	GA	USA
+532	Fort Payne	AL	USA
+533	South Bethlehem	NY	USA
+534	Duanesburg	NY	USA
+535	Ticonderoga	NY	USA
+536	Schroon Lake	NY	USA
+537	Plainville	CT	USA
+538	Simsbury	CT	USA
+539	Albia	IA	USA
+540	Grandledge	MI	USA
+541	Alma	NE	USA
+542	Carthage	TX	USA
+543	Gilmer	TX	USA
+544	Greenville	PA	USA
+545	Hamburg	NY	USA
+546	Woodsfield	OH	USA
+547	Hornell	NY	USA
+548	Fairmont	WV	USA
+549	Williamson	WV	USA
+550	Mount Vernon	OH	USA
+551	Greencastle	IN	USA
+552	Mt. Gilead	OH	USA
+553	Nahunta	GA	USA
+554	Nashville	GA	USA
+555	Quitman	GA	USA
+556	St Marys	GA	USA
+557	Pedro Bay	AK	USA
+558	Ouzinkie	AK	USA
+559	Bloomfield	IA	USA
+560	Tununak	AK	USA
+561	Berryville	AR	USA
+562	Carlisle	AR	USA
+563	Clinton	AR	USA
+564	Russellville	KY	USA
+565	Clarendon	AR	USA
+566	Corning	AR	USA
+567	West Milford	NJ	USA
+568	Blackwell-Tonkawa	OK	USA
+569	Idabel	OK	USA
+570	Cherokee	OK	USA
+571	Polacca	AZ	USA
+572	Lumberton	MS	USA
+573	Jackson	AL	USA
+574	Fairhope	AL	USA
+575	La Pointe	WI	USA
+576	Eunice	LA	USA
+577	Dauphin Island	AL	USA
+578	Gold Beach	OR	USA
+579	Hood River	OR	USA
+580	Joseph	OR	USA
+581	Mulino (Portland)	OR	USA
+582	Midlothian-Waxahachie	TX	USA
+583	Chester	MT	USA
+584	Circle	MT	USA
+585	Rangely	CO	USA
+586	Walsenburg	CO	USA
+587	Neligh	NE	USA
+588	Elizabethtown	NC	USA
+589	Holy Cross	AK	USA
+590	Hyder	AK	USA
+591	Kentland	IN	USA
+592	Moncks Corner	SC	USA
+593	Pawnee City	NE	USA
+594	Lockhart	TX	USA
+595	Edgeley	ND	USA
+596	Minto	AK	USA
+597	Madison	GA	USA
+598	Timberon	NM	USA
+599	Bishopville	SC	USA
+600	Montezuma	GA	USA
+601	Osage City	KS	USA
+602	Defuniak Springs	FL	USA
+603	Grayling	MI	USA
+604	Fernandina Beach	FL	USA
+605	Packwood	WA	USA
+606	Upper Sandusky	OH	USA
+607	Warsaw	MO	USA
+608	Seaside	OR	USA
+609	Islesboro	ME	USA
+610	East Troy	WI	USA
+611	Jackman	ME	USA
+612	Okolona	MS	USA
+613	Winona	MS	USA
+614	Aleknagik	AK	USA
+615	Warm Springs	GA	USA
+616	Saratoga Springs	NY	USA
+617	Danielson	CT	USA
+618	Troy	NY	USA
+619	Chandalar Camp	AK	USA
+620	Owosso	MI	USA
+621	Post	TX	USA
+622	Homer	LA	USA
+623	Le Roy	NY	USA
+624	Bluffton	OH	USA
+625	Jeanette	PA	USA
+626	Lambertville	MI	USA
+627	Hope	AK	USA
+628	Sheridan	IN	USA
+629	John Day	OR	USA
+630	Loris	SC	USA
+631	Tribune	KS	USA
+632	Hartselle	AL	USA
+633	De Witt	AR	USA
+634	Fordyce	AR	USA
+635	Marion	KY	USA
+636	Casselton	ND	USA
+637	Hillsboro	ND	USA
+638	Nikolai	AK	USA
+639	Naknek	AK	USA
+640	Nondalton	AK	USA
+641	Lago Vista	TX	USA
+642	Foley	AL	USA
+643	Wharton	TX	USA
+644	De Quincy	LA	USA
+645	St. Michael	AK	USA
+646	Hillsboro	TX	USA
+647	Santa Teresa	NM	USA
+648	Eagle Pass	TX	USA
+649	Tetlin	AK	USA
+650	Ennis	MT	USA
+651	Geraldine	MT	USA
+652	Shiprock	NM	USA
+653	Kadoka	SD	USA
+654	Siler City	NC	USA
+655	Kantishna	AK	USA
+656	Seymour	TX	USA
+657	Ocean Isle Beach	NC	USA
+658	Camden	AL	USA
+659	Boulder City	NV	USA
+660	Fort Atkinson	WI	USA
+661	Cottage Grove	OR	USA
+662	Warren	OH	USA
+663	Giddings	TX	USA
+664	Christmas Valley	OR	USA
+665	Adams/Friendship	WI	USA
+666	Colville	WA	USA
+667	Wrens	GA	USA
+668	Bonners Ferry	ID	USA
+669	Sturgis	SD	USA
+670	Mesquite	NV	USA
+671	Davenport	WA	USA
+672	Butler	GA	USA
+673	Griffin	GA	USA
+674	Andrews	NC	USA
+675	Mountain City	TN	USA
+676	Allakaket	AK	USA
+677	Middlebury	VT	USA
+678	Utica/Frankfort	NY	USA
+679	Stow	MA	USA
+680	Lyndonville	VT	USA
+681	Skaneateles	NY	USA
+682	Greenville	MI	USA
+683	Valley City	ND	USA
+684	Talihina	OK	USA
+685	Titusville	PA	USA
+686	Barnesville	OH	USA
+687	Springfield	KY	USA
+688	Pelion	SC	USA
+689	St George	SC	USA
+690	Saluda	SC	USA
+691	Creighton	NE	USA
+692	Fairview	OK	USA
+693	Tok	AK	USA
+694	Logan	WV	USA
+695	Horseshoe Bend	AR	USA
+696	Monticello	MO	USA
+697	Marianna	AR	USA
+698	Marked Tree	AR	USA
+699	Thedford	NE	USA
+700	Cleveland	TX	USA
+701	Old Harbor	AK	USA
+702	Llano	TX	USA
+703	Big Timber	MT	USA
+704	Florence	OR	USA
+705	Columbus	MT	USA
+706	Hamilton	MT	USA
+707	Laurel	MT	USA
+708	Edgemont	SD	USA
+709	Richlands	VA	USA
+710	Wall	SD	USA
+711	Nucla	CO	USA
+712	Cairo	GA	USA
+713	Ozark	AL	USA
+714	Rosalia	WA	USA
+715	Lancaster	WI	USA
+716	Beaufort	SC	USA
+717	Moundsville	WV	USA
+718	Anacortes	WA	USA
+719	Roosevelt	UT	USA
+720	Ashburn	GA	USA
+721	Marine City	MI	USA
+722	Marlette	MI	USA
+723	Creswell	OR	USA
+724	Caro	MI	USA
+725	Philippi	WV	USA
+726	Andalusia	AL	USA
+727	Fort Benton	MT	USA
+728	Greensboro	AL	USA
+729	Demopolis	AL	USA
+730	Lanett	AL	USA
+731	Roanoke	AL	USA
+732	Spruce Pine	NC	USA
+733	Northampton	MA	USA
+734	Troy	MI	USA
+735	Caddo Mills	TX	USA
+736	Clarksville	TX	USA
+737	Clifton	TX	USA
+738	Comanche	TX	USA
+739	Brockport	NY	USA
+740	Middlefield	OH	USA
+741	Bellefontaine	OH	USA
+742	Pikeville	KY	USA
+743	Hartford	KY	USA
+744	South Sioux City	NE	USA
+745	Tatitlek	AK	USA
+746	McGehee	AR	USA
+747	Mount Ida	AR	USA
+748	Osceola	AR	USA
+749	Ozark	AR	USA
+750	Piggott	AR	USA
+751	Corning	NY	USA
+752	Pedrictown	NJ	USA
+753	Ronan	MT	USA
+754	Twin Bridges	MT	USA
+755	Independence	OR	USA
+756	White Sulphur Springs	MT	USA
+757	Valier	MT	USA
+758	Buena Vista	CO	USA
+759	Red Cloud	NE	USA
+760	Englehard	NC	USA
+761	Antlers	OK	USA
+762	Norway	ME	USA
+763	New Lisbon	WI	USA
+764	Pine Bluffs	WY	USA
+765	St Ignace	MI	USA
+766	Eagle Butte	SD	USA
+767	Meyers Chuck	AK	USA
+768	Smithville	TX	USA
+769	Ganado	AZ	USA
+770	Carnegie	OK	USA
+771	Yazoo City	MS	USA
+772	Palmyra	WI	USA
+773	Allendale	SC	USA
+774	Eureka	MT	USA
+775	Kelleys Island	OH	USA
+776	Albertville	AL	USA
+777	Guntersville	AL	USA
+778	Livingston	TN	USA
+779	Rangeley	ME	USA
+780	New Holstein	WI	USA
+781	Sisseton	SD	USA
+782	Sparta	MI	USA
+783	Clark	SD	USA
+784	Howard	SD	USA
+785	Decatur	TX	USA
+786	Corry	PA	USA
+787	Cadiz	OH	USA
+788	Zelienople	PA	USA
+789	Cimarron	KS	USA
+790	Booneville	MS	USA
+791	Polson	MT	USA
+792	Cashmere	WA	USA
+793	Mt Pleasant	SC	USA
+794	Terry	MT	USA
+795	Townsend	MT	USA
+796	Atkinson	NE	USA
+797	Buffalo	MN	USA
+798	Prairie Du Sac	WI	USA
+799	Canadian	OK	USA
+800	Stonington	ME	USA
+801	Richland Center	WI	USA
+802	Cheyenne	OK	USA
+803	David City	NE	USA
+804	Cassville	MO	USA
+805	Cleveland	OK	USA
+806	Walhalla	ND	USA
+807	North Whale Pass	AK	USA
+808	Ekalaka	MT	USA
+809	Onida	SD	USA
+810	Bamburg	SC	USA
+811	Greeley	NE	USA
+812	Covington	GA	USA
+813	Chuathbaluk	AK	USA
+814	Courtland	AL	USA
+815	LaFayette	GA	USA
+816	Chester	SC	USA
+817	Ugashik	AK	USA
+818	Evart	MI	USA
+819	Highmore	SD	USA
+820	Gregory	SD	USA
+821	Buffalo	SD	USA
+822	Cando	ND	USA
+823	Hastings	MI	USA
+824	Tarentum	PA	USA
+825	Akron	NY	USA
+826	Gasport	NY	USA
+827	Ebensburg	PA	USA
+828	Havana	IL	USA
+829	West Liberty	KY	USA
+830	Kokhanok	AK	USA
+831	Warrensburg	MO	USA
+832	Ellsworth	KS	USA
+833	Kingman	KS	USA
+834	Ackerman	MS	USA
+835	Oak Grove	LA	USA
+836	Sheridan	AR	USA
+837	Scobey	MT	USA
+838	Superior	MT	USA
+839	Three Forks	MT	USA
+840	Winifred	MT	USA
+841	Lexington	OR	USA
+842	Turner	MT	USA
+843	Austin	NV	USA
+844	Dixon	WY	USA
+845	Rushville	NE	USA
+846	Martin	SD	USA
+847	Chamberlain	SD	USA
+848	Currituck	NC	USA
+849	Centre	AL	USA
+850	Portage Creek	AK	USA
+851	Fort Jones	CA	USA
+852	Dorris	CA	USA
+853	Tuntutuliak	AK	USA
+854	Twin Hills	AK	USA
+855	Chignik Lake	AK	USA
+856	Kwigillingok	AK	USA
+857	Apalachicola	FL	USA
+858	Cambellsville	KY	USA
+859	Alturas	CA	USA
+860	Abilene	TX	USA
+861	Arecibo	PR	USA
+862	Aberdeen	SD	USA
+863	Albany	GA	USA
+864	Bellaire	MI	USA
+865	Americus	GA	USA
+866	Nantucket	MA	USA
+867	Waseca	MN	USA
+868	Arcata/Eureka	CA	USA
+869	Wallace	NC	USA
+870	Wadena	MN	USA
+871	Adrian	MI	USA
+872	Ada	OK	USA
+873	Adak	AK	USA
+874	Dallas/Addison	TX	USA
+875	Atwood	KS	USA
+876	Audubon	IA	USA
+877	Albert Lea	MN	USA
+878	Washington	PA	USA
+879	Nebraska City	NE	USA
+880	Ambler	AK	USA
+881	Jaffrey	NH	USA
+882	Afton	WY	USA
+883	Angoon	AK	USA
+884	Magnolia	AR	USA
+885	Wagner	SD	USA
+886	Amery	WI	USA
+887	Athens	GA	USA
+888	Port Alexander	AK	USA
+889	Wahoo	NE	USA
+890	Alliance	NE	USA
+891	Anderson	IN	USA
+892	Antigo	WI	USA
+893	Aiken	SC	USA
+894	Atlantic	IA	USA
+895	Aitkin	MN	USA
+896	Aliceville	AL	USA
+897	Kaiser/Lake Ozark	MO	USA
+898	Chignik	AK	USA
+899	Mt Carmel	IL	USA
+900	Corona	CA	USA
+901	Cornelia	GA	USA
+902	Perryville	AK	USA
+903	Atka	AK	USA
+904	Gastonia	NC	USA
+905	Akiak	AK	USA
+906	Akhiok	AK	USA
+907	King Salmon	AK	USA
+908	Akron	CO	USA
+909	Anaktuvuk Pass	AK	USA
+910	Marion	AL	USA
+911	Albany	NY	USA
+912	Alice	TX	USA
+913	Alamogordo	NM	USA
+914	Alton/St. Louis	IL	USA
+915	Waterloo	IA	USA
+916	Alamosa	CO	USA
+917	Walla Walla	WA	USA
+918	Alexander City	AL	USA
+919	Amarillo	TX	USA
+920	Alma	GA	USA
+921	Alma	MI	USA
+922	West Union	OH	USA
+923	Ames	IA	USA
+924	Anniston	AL	USA
+925	Anderson	SC	USA
+926	Aniak	AK	USA
+927	Angola	IN	USA
+928	Anvik	AK	USA
+929	Ainsworth	NE	USA
+930	Anthony	KS	USA
+931	Arco	ID	USA
+932	Lima	OH	USA
+933	Altoona	PA	USA
+934	Napa	CA	USA
+935	Naples	FL	USA
+936	Alpena	MI	USA
+937	Jasper	TN	USA
+938	Apple Valley	CA	USA
+939	Quinhagak	AK	USA
+940	Nuiqsut	AK	USA
+941	North Adams	MA	USA
+942	Girdwood	AK	USA
+943	New Iberia	LA	USA
+944	Ann Arbor	MI	USA
+945	Arctic Village	AK	USA
+946	Walnut Ridge	AR	USA
+947	Chicago/Aurora	IL	USA
+948	Watertown	NY	USA
+949	Minocqua-Woodruff	WI	USA
+950	Slidell	LA	USA
+951	Aspen	CO	USA
+952	Springdale	AR	USA
+953	Nashua	NH	USA
+954	Ahoskie	NC	USA
+955	Marshall	TX	USA
+956	Talladega	AL	USA
+957	Astoria	OR	USA
+958	Warsaw	IN	USA
+959	Ashland	WI	USA
+960	Atlanta	TX	USA
+961	Atqasuk	AK	USA
+962	Artesia	NM	USA
+963	Appleton	WI	USA
+964	Watertown	SD	USA
+965	Augusta	ME	USA
+966	Aurora	NE	USA
+967	Alakanuk	AK	USA
+968	Austin	MN	USA
+969	Auburn	CA	USA
+970	Auburn	AL	USA
+971	Austin	TX	USA
+972	Wausau	WI	USA
+973	South Hill	VA	USA
+974	Alva	OK	USA
+975	Asheville	NC	USA
+976	Avon Park	FL	USA
+977	Wilkes-Barre/Scranton	PA	USA
+978	Avalon	CA	USA
+979	Washington	IA	USA
+980	Wainwright	AK	USA
+981	West Memphis	AR	USA
+982	Arlington	WA	USA
+983	Algona	IA	USA
+984	Alexandria	MN	USA
+985	Altus	OK	USA
+986	Wapakoneta	OH	USA
+987	Angel Fire	NM	USA
+988	Waycross	GA	USA
+989	Colorado City	AZ	USA
+990	Hazelhurst	GA	USA
+991	Kalamazoo	MI	USA
+992	Granville	NY	USA
+993	Silver Springs	NV	USA
+994	Weedsport	NY	USA
+995	Biddeford	ME	USA
+996	Carrabasset	ME	USA
+997	Westfield	MA	USA
+998	Columbus	IN	USA
+999	Battle Mountain	NV	USA
+1000	Bad Axe	MI	USA
+1001	New Braunfels	TX	USA
+1002	Benson	MN	USA
+1003	Brady	TX	USA
+1004	Bennettsville	SC	USA
+1005	Broken Bow	NE	USA
+1006	Blacksburg	VA	USA
+1007	Bryce Canyon	UT	USA
+1008	Black River Falls	WI	USA
+1009	Boca Raton	FL	USA
+1010	Birchwood	AK	USA
+1011	Baudette	MN	USA
+1012	Blanding	UT	USA
+1013	Windsor Locks	CT	USA
+1014	Bridgeport	CT	USA
+1015	Broadus	MT	USA
+1016	Bedford	MA	USA
+1017	Benton Harbor	MI	USA
+1018	Bethel	AK	USA
+1019	Bradford	PA	USA
+1020	Scottsbluff	NE	USA
+1021	Buffalo	OK	USA
+1022	Bedford	IN	USA
+1023	Silver Bay	MN	USA
+1024	Borger	TX	USA
+1025	Bainbridge	GA	USA
+1026	Winchester	TN	USA
+1027	Binghamton	NY	USA
+1028	Big Lake	AK	USA
+1029	Bangor	ME	USA
+1030	Bar Harbor	ME	USA
+1031	Baxley	GA	USA
+1032	Baker City	MT	USA
+1033	Birmingham	AL	USA
+1034	Block Island	RI	USA
+1035	Beatrice	NE	USA
+1036	Delta Junction	AK	USA
+1037	Bishop	CA	USA
+1038	Billings	MT	USA
+1039	Bismarck	ND	USA
+1040	Holland	MI	USA
+1041	Bemidji	MN	USA
+1042	Wooster	OH	USA
+1043	Breckenridge	TX	USA
+1044	Baker City	OR	USA
+1045	Brooksville	FL	USA
+1046	Beckley	WV	USA
+1047	Brookings	SD	USA
+1048	Bluefield	WV	USA
+1049	Blythe	CA	USA
+1050	Bellingham	WA	USA
+1051	Belmar/Farmingdale	NJ	USA
+1052	Belleville/St. Louis	IL	USA
+1053	Brigham City	UT	USA
+1054	Bloomington	IN	USA
+1055	Bloomington	IL	USA
+1056	Berlin	NH	USA
+1057	Burnet	TX	USA
+1058	Beaumont	TX	USA
+1059	Baranof Warm Springs	AK	USA
+1060	Banning	CA	USA
+1061	Barnwell	SC	USA
+1062	Burns	OR	USA
+1063	Boone	IA	USA
+1064	Boise	ID	USA
+1065	Brookings	OR	USA
+1066	Boston	MA	USA
+1067	Bartow	FL	USA
+1068	Big Piney	WY	USA
+1069	Mountain Home	AR	USA
+1070	Beaumont/Port Arthur	TX	USA
+1071	Aguadilla	PR	USA
+1072	Brainerd	MN	USA
+1073	Burlington	IA	USA
+1074	Brownsville	TX	USA
+1075	Barrow	AK	USA
+1076	Bardstown	KY	USA
+1077	Belfast	ME	USA
+1078	Kaktovik	AK	USA
+1079	Battle Creek	MI	USA
+1080	Butte	MT	USA
+1081	Britton	SD	USA
+1082	Butler	PA	USA
+1083	Baton Rouge	LA	USA
+1084	Bettles	AK	USA
+1085	Burlington	VT	USA
+1086	Beatty	NV	USA
+1087	Burwell	NE	USA
+1088	Butler	MO	USA
+1089	Burbank	CA	USA
+1090	Burlington	NC	USA
+1091	Beaver Falls	PA	USA
+1092	Buckland	AK	USA
+1093	Albion	NE	USA
+1094	Bartlesville	OK	USA
+1095	Burlington/Mount Vernon	WA	USA
+1096	Batesville	AR	USA
+1097	Beverly	MA	USA
+1098	Brawley	CA	USA
+1099	Brownwood	TX	USA
+1100	Bowling Green	KY	USA
+1101	Wahpeton	ND	USA
+1102	Bogalusa	LA	USA
+1103	Waynesboro	GA	USA
+1104	Buckeye	AZ	USA
+1105	Boundary	AK	USA
+1106	Buffalo	WY	USA
+1107	Burley	ID	USA
+1108	Bozeman	MT	USA
+1109	Aledo	IL	USA
+1110	Chenega	AK	USA
+1111	Morris	IL	USA
+1112	Pekin	IL	USA
+1113	Marion	IA	USA
+1114	Chicago/Frankfort	IL	USA
+1115	Waverly	IA	USA
+1116	Middleton	WI	USA
+1117	Gibson City	IL	USA
+1118	Reedsburg	WI	USA
+1119	Portage	WI	USA
+1120	Burlington	WI	USA
+1121	Chicago/Monee	IL	USA
+1122	Kendallville	IN	USA
+1123	Plymouth	IN	USA
+1124	Monmouth	IL	USA
+1125	Crosby	MS	USA
+1126	Dixon	IL	USA
+1127	Lacon	IL	USA
+1128	Poplar Grove	IL	USA
+1129	Coalinga	CA	USA
+1130	Chicago/Round Lake Park	IL	USA
+1131	Byron	CA	USA
+1132	Dowagiac	MI	USA
+1133	Cadillac	MI	USA
+1134	Craig	CO	USA
+1135	Clayton	NM	USA
+1136	Caribou	ME	USA
+1137	Clarion	IA	USA
+1138	Cumberland	MD	USA
+1139	Council Bluffs	IA	USA
+1140	Cambridge	MN	USA
+1141	Colby	KS	USA
+1142	Upland	CA	USA
+1143	Newnan	GA	USA
+1144	Concord	CA	USA
+1145	Charles City	IA	USA
+1146	Cold Bay	AK	USA
+1147	Cedar City	UT	USA
+1148	Camden	AR	USA
+1149	Cambridge	OH	USA
+1150	Cedar Key	FL	USA
+1151	Camden	SC	USA
+1152	Chadron	NE	USA
+1153	Caldwell	NJ	USA
+1154	Crescent City	CA	USA
+1155	Chicopee	MA	USA
+1156	Crete	NE	USA
+1157	Central	AK	USA
+1158	Clemson	SC	USA
+1159	Connersville	IN	USA
+1160	Crestview	FL	USA
+1161	Murray	KY	USA
+1162	Cortez	CO	USA
+1163	Bryan	TX	USA
+1164	Crawfordsville	IN	USA
+1165	Chefornak	AK	USA
+1166	Clifton-Morenci	AZ	USA
+1167	Coffeyville	KS	USA
+1168	Craig	AK	USA
+1169	Crystal River	FL	USA
+1170	Cambridge	MD	USA
+1171	Cape Girardeau	MO	USA
+1172	College Park	MD	USA
+1173	Casa Grande	AZ	USA
+1174	Chattanooga	TN	USA
+1175	Chandler	AZ	USA
+1176	Chickasha	OK	USA
+1177	Charlottesville	VA	USA
+1178	Circle Hot Springs	AK	USA
+1179	Chillicothe	MO	USA
+1180	Caledonia	MN	USA
+1181	Chico	CA	USA
+1182	Cedar Rapids	IA	USA
+1183	Choteau	MT	USA
+1184	Chalkyitsik	AK	USA
+1185	Carroll	IA	USA
+1186	Cairo	IL	USA
+1187	Sault Ste. Marie	MI	USA
+1188	Culpeper	VA	USA
+1189	Crooked Creek	AK	USA
+1190	Clarksburg	WV	USA
+1191	Grand Marais	MN	USA
+1192	Cordele	GA	USA
+1193	Kingstree	SC	USA
+1194	Clarksdale	MS	USA
+1195	Crookston	MN	USA
+1196	Cherokee	IA	USA
+1197	Clarksville	TN	USA
+1198	Chicken	AK	USA
+1199	Clintonville	WI	USA
+1200	College Station	TX	USA
+1201	Port Angeles	WA	USA
+1202	Clarks Point	AK	USA
+1203	Chehalis	WA	USA
+1204	Charlotte	NC	USA
+1205	Clearwater	FL	USA
+1206	Camarillo	CA	USA
+1207	Champaign/Urbana	IL	USA
+1208	Hancock	MI	USA
+1209	Sparta	WI	USA
+1210	Chariton	IA	USA
+1211	Claremont	NH	USA
+1212	Concordia	KS	USA
+1213	Carlsbad	NM	USA
+1214	Chino	CA	USA
+1215	Chappell	NE	USA
+1216	Chanute	KS	USA
+1217	Moab	UT	USA
+1218	Cody	WY	USA
+1219	Coeur D'Alene	ID	USA
+1220	Merritt Island	FL	USA
+1221	Coleman	TX	USA
+1222	Concord	NH	USA
+1223	Cloquet	MN	USA
+1224	Cotulla	TX	USA
+1225	Columbia	MO	USA
+1226	Whiteville	NC	USA
+1227	Compton	CA	USA
+1228	Casper	WY	USA
+1229	Cahokia/St. Louis	IL	USA
+1230	Isla De Culebra	PR	USA
+1231	Celina	OH	USA
+1232	Chandler	OK	USA
+1233	Chatham	MA	USA
+1234	Circle	AK	USA
+1235	North Myrtle Beach	SC	USA
+1236	Corcoran	CA	USA
+1237	Corpus Christi	TX	USA
+1238	Carlsbad	CA	USA
+1239	Corsicana	TX	USA
+1240	Crossett	AR	USA
+1241	Charleston	WV	USA
+1242	Corinth	MS	USA
+1243	Cambridge	NE	USA
+1244	Columbus	GA	USA
+1245	Creston	IA	USA
+1246	Crossville	TN	USA
+1247	Cut Bank	MT	USA
+1248	Carrollton	GA	USA
+1249	Canton	IL	USA
+1250	Cross City	FL	USA
+1251	Clinton	NC	USA
+1252	Cushing	OK	USA
+1253	Carmi	IL	USA
+1254	Custer	SD	USA
+1255	Covington	KY	USA
+1256	Ash Flat	AR	USA
+1257	Clovis	NM	USA
+1258	Corvallis	OR	USA
+1259	Charlevoix	MI	USA
+1260	Mosinee	WI	USA
+1261	Clinton	IA	USA
+1262	Claxton	GA	USA
+1263	Chitina	AK	USA
+1264	Chase City	VA	USA
+1265	Coldfoot	AK	USA
+1266	Calexico	CA	USA
+1267	Conroe	TX	USA
+1268	Carson City	NV	USA
+1269	Camilla	GA	USA
+1270	Circleville	OH	USA
+1271	Cheyenne	WY	USA
+1272	Clay Center	KS	USA
+1273	Cozad	NE	USA
+1274	Endicott	NY	USA
+1275	Calhoun	GA	USA
+1276	Chisana	AK	USA
+1277	Carrizo Springs	TX	USA
+1278	Bowman	ND	USA
+1279	Garrison	ND	USA
+1280	Faith	SD	USA
+1281	Bottineau	ND	USA
+1282	Luverne	MN	USA
+1283	Angola	NY	USA
+1284	Manitowish Waters	WI	USA
+1285	Canandaiga	NY	USA
+1286	Springfield	MN	USA
+1287	Crosby	ND	USA
+1288	Langdon	ND	USA
+1289	Glen Ullin	ND	USA
+1290	Tioga	ND	USA
+1291	Monroe	GA	USA
+1292	Lancaster	NY	USA
+1293	Harbor Springs	MI	USA
+1294	Lapeer	MI	USA
+1295	Romeo	MI	USA
+1296	Daytona Beach	FL	USA
+1297	Daggett	CA	USA
+1298	Danville	VA	USA
+1299	Rochester	NH	USA
+1300	Dublin	GA	USA
+1301	Dubuque	IA	USA
+1302	Arlington	VA	USA
+1303	Dahl Creek	AK	USA
+1304	Decatur	AL	USA
+1305	Washington	IN	USA
+1306	Dodge City	KS	USA
+1307	Bennington	VT	USA
+1308	Decatur	IL	USA
+1309	Deland	FL	USA
+1310	Deering	AK	USA
+1311	Decorah	IA	USA
+1312	De Queen	AR	USA
+1313	Deer Park	WA	USA
+1314	Defiance	OH	USA
+1315	Dallas-Fort Worth	TX	USA
+1316	Douglas	WY	USA
+1317	Dothan	AL	USA
+1318	Dalhart	TX	USA
+1319	Dickinson	ND	USA
+1320	Dekalb	IL	USA
+1321	Dunkirk	NY	USA
+1322	Dillingham	AK	USA
+1323	Baraboo	WI	USA
+1324	Dillon	MT	USA
+1325	Delano	CA	USA
+1326	The Dalles	OR	USA
+1327	Delaware	OH	USA
+1328	Diomede	AK	USA
+1329	Deming	NM	USA
+1330	Sedalia	MO	USA
+1331	Westminster	MD	USA
+1332	Dalton	GA	USA
+1333	Denison	IA	USA
+1334	Danville	IL	USA
+1335	Chicago/West Chicago	IL	USA
+1336	Kenansville	NC	USA
+1337	Douglas	GA	USA
+1338	De Ridder	LA	USA
+1339	Durango	CO	USA
+1340	Del Rio	TX	USA
+1341	Des Moines	IA	USA
+1342	Dansville	NY	USA
+1343	Delta	UT	USA
+1344	Detroit Lakes	MN	USA
+1345	Denton	TX	USA
+1346	Destin	FL	USA
+1347	Durant	OK	USA
+1348	Duncan	OK	USA
+1349	Douglas Bisbee	AZ	USA
+1350	Du Bois	PA	USA
+1351	Unalaska	AK	USA
+1352	Dumas	TX	USA
+1353	Kongiganak	AK	USA
+1354	Danville	KY	USA
+1355	Devils Lake	ND	USA
+1356	Davenport	IA	USA
+1357	Novato	CA	USA
+1358	Ashland	KY	USA
+1359	Dexter	MO	USA
+1360	Danbury	CT	USA
+1361	Madison	MN	USA
+1362	Summerville	SC	USA
+1363	Doylestown	PA	USA
+1364	Dyersburg	TN	USA
+1365	Monahans	TX	USA
+1366	Eunice	NM	USA
+1367	Hatch	NM	USA
+1368	Lovington	NM	USA
+1369	Tatum	NM	USA
+1370	Andrews	TX	USA
+1371	Graham	TX	USA
+1372	Gruver	TX	USA
+1373	Whiteriver	AZ	USA
+1374	Wickenburg	AZ	USA
+1375	Jal	NM	USA
+1376	Fabens	TX	USA
+1377	Alpine	TX	USA
+1378	Spearman	TX	USA
+1379	Bagdad	AZ	USA
+1380	Vega	TX	USA
+1381	Eloy	AZ	USA
+1382	Gila Bend	AZ	USA
+1383	Belen	NM	USA
+1384	Conchas Dam	NM	USA
+1385	Chinle	AZ	USA
+1386	Glenwood	NM	USA
+1387	Benson	AZ	USA
+1388	Eagle	AK	USA
+1389	Wheatland	WY	USA
+1390	Kearney	NE	USA
+1391	Wenatchee	WA	USA
+1392	Eau Claire	WI	USA
+1393	Webster City	IA	USA
+1394	Elizabeth City	NC	USA
+1395	Newcastle	WY	USA
+1396	Edenton	NC	USA
+1397	Enterprise	AL	USA
+1398	Needles	CA	USA
+1399	Eek	AK	USA
+1400	Keene	NH	USA
+1401	Meeker	CO	USA
+1402	Alabaster	AL	USA
+1403	Belle Fourche	SD	USA
+1404	Newport	VT	USA
+1405	Monroe	WI	USA
+1406	Jefferson	IA	USA
+1407	Eagle	CO	USA
+1408	Emmetsburg	IA	USA
+1409	Wellington	KS	USA
+1410	Eagle River	WI	USA
+1411	Elkhart	KS	USA
+1412	Shelby	NC	USA
+1413	Henderson	KY	USA
+1414	Egegik	AK	USA
+1415	New Madrid	MO	USA
+1416	Elkhart	IN	USA
+1417	Elkins	WV	USA
+1418	Elko	NV	USA
+1419	Monticello	KY	USA
+1420	Elizabethtown	KY	USA
+1421	Bessemer	AL	USA
+1422	Eagle Lake	TX	USA
+1423	El Dorado	AR	USA
+1424	Elim	AK	USA
+1425	Elk City	OK	USA
+1426	Elmira	NY	USA
+1427	Ellensburg	WA	USA
+1428	Ely	MN	USA
+1429	El Paso	TX	USA
+1430	Elfin Cove	AK	USA
+1431	Ely	NV	USA
+1432	Wellsville	NY	USA
+1433	Kemmerer	WY	USA
+1434	Emporia	KS	USA
+1435	El Monte	CA	USA
+1436	Emporia	VA	USA
+1437	Kenai	AK	USA
+1438	Centralia	IL	USA
+1439	Emmonak	AK	USA
+1440	Nenana	AK	USA
+1441	Wendover	UT	USA
+1442	Kenosha	WI	USA
+1443	Keokuk	IA	USA
+1444	Neosho	MO	USA
+1445	Ephrata	WA	USA
+1446	Eastport	ME	USA
+1447	El Dorado	KS	USA
+1448	Monroe	NC	USA
+1449	Erie	PA	USA
+1450	Kerrville	TX	USA
+1451	Newberry	MI	USA
+1452	Escanaba	MI	USA
+1453	Easton	MD	USA
+1454	Estherville	IA	USA
+1455	West Bend	WI	USA
+1456	Tarboro	NC	USA
+1457	Wheaton	MN	USA
+1458	Eastland	TX	USA
+1459	Eufaula	AL	USA
+1460	Eugene	OR	USA
+1461	Caldwell (Boise)	ID	USA
+1462	New Smyrna Beach	FL	USA
+1463	Eveleth	MN	USA
+1464	Maryville	MO	USA
+1465	Evansville	IN	USA
+1466	Evanston	WY	USA
+1467	Middletown	DE	USA
+1468	New Bedford	MA	USA
+1469	Newton	KS	USA
+1470	New Bern	NC	USA
+1471	Newark	NJ	USA
+1472	Newtok	AK	USA
+1473	Excursion Inlet	AK	USA
+1474	Lexington	NC	USA
+1475	Key West	FL	USA
+1476	Kewanee	IL	USA
+1477	Eastman	GA	USA
+1478	Cameron	MO	USA
+1479	Bonham	TX	USA
+1480	Quanah	TX	USA
+1481	Vernon	TX	USA
+1482	Wellington	TX	USA
+1483	Henryetta	OK	USA
+1484	Henderson	TX	USA
+1485	Center	TX	USA
+1486	Cleburne	TX	USA
+1487	Memphis	TX	USA
+1488	Perry	OK	USA
+1489	Minden	LA	USA
+1490	El Reno	OK	USA
+1491	Sulphur	OK	USA
+1492	Kingston	OK	USA
+1493	Healdton	OK	USA
+1494	Cordell	OK	USA
+1495	Wauchula	FL	USA
+1496	Sherman/Denison	TX	USA
+1497	Ennis	TX	USA
+1498	Athens	TX	USA
+1499	Rockwall	TX	USA
+1500	Slaton	TX	USA
+1501	Winnsboro	TX	USA
+1502	Mount Vernon	TX	USA
+1503	Granbury	TX	USA
+1504	Stamford	TX	USA
+1505	Murieta/Temecula	CA	USA
+1506	Atoka	OK	USA
+1507	Okemah	OK	USA
+1508	Stigler	OK	USA
+1509	Morton	TX	USA
+1510	Farmerville	LA	USA
+1511	Jonesboro	LA	USA
+1512	Winnsboro	LA	USA
+1513	Weatherford	OK	USA
+1514	Holdenville	OK	USA
+1515	Fairbanks	AK	USA
+1516	Farmington	MO	USA
+1517	Fitiuta Village	AS	USA
+1518	Fargo	ND	USA
+1519	Fayetteville	NC	USA
+1520	Faribault	MN	USA
+1521	Fort Bridger	WY	USA
+1522	Fairbury	NE	USA
+1523	Forrest City	AR	USA
+1524	Frederick	MD	USA
+1525	Frederick	OK	USA
+1526	Winnsboro	SC	USA
+1527	Findlay	OH	USA
+1528	Freeport	IL	USA
+1529	Fremont	NE	USA
+1530	Kill Devil Hills	NC	USA
+1531	Fairfield	IA	USA
+1532	Fergus Falls	MN	USA
+1533	Frankfort	KY	USA
+1534	Mesa	AZ	USA
+1535	Flemingsburg	KY	USA
+1536	Fort Huachuca-Sierra Vista	AZ	USA
+1537	Clearfield	PA	USA
+1538	Fitchburg	MA	USA
+1539	Franklin	PA	USA
+1540	Franklin	VA	USA
+1541	Frankfort	IN	USA
+1542	Fond Du Lac	WI	USA
+1543	Flagstaff	AZ	USA
+1544	Florence	SC	USA
+1545	Flippin	AR	USA
+1546	Flat	AK	USA
+1547	Fallon	NV	USA
+1548	Odenton	MD	USA
+1549	Farmington	NM	USA
+1550	Fairmont	NE	USA
+1551	Falls City	NE	USA
+1552	Fort Collins/Loveland	CO	USA
+1553	Funter Bay	AK	USA
+1554	Flint	MI	USA
+1555	Flora	IL	USA
+1556	Fort Dodge	IA	USA
+1557	Westhampton Beach	NY	USA
+1558	Fortuna	CA	USA
+1559	Ft. Pierce	FL	USA
+1560	Rutherfordton	NC	USA
+1561	Farmingdale	NY	USA
+1562	French Lick	IN	USA
+1563	Fairmont	MN	USA
+1564	Front Royal	VA	USA
+1565	Sioux Falls	SD	USA
+1566	Fosston	MN	USA
+1567	Fort Scott	KS	USA
+1568	Fort Smith	AR	USA
+1569	Highgate	VT	USA
+1570	Fort Stockton	TX	USA
+1571	Fort Sumner	NM	USA
+1572	Fort Madison	IA	USA
+1573	Fulton	MO	USA
+1574	Fullerton	CA	USA
+1575	Frenchville	ME	USA
+1576	Farmville	VA	USA
+1577	Fairfield	IL	USA
+1578	Sussex	NJ	USA
+1579	Forest City	IA	USA
+1580	Somerville	TN	USA
+1581	Fayetteville	TN	USA
+1582	Fort Yukon	AK	USA
+1583	Fayetteville	AR	USA
+1584	Fitzgerald	GA	USA
+1585	Fostoria	OH	USA
+1586	Fulton	NY	USA
+1587	Gabbs	NV	USA
+1588	Gadsden	AL	USA
+1589	Grafton	ND	USA
+1590	Gage	OK	USA
+1591	Gaithersburg	MD	USA
+1592	Galena	AK	USA
+1593	Gambell	AK	USA
+1594	Gallipolis	OH	USA
+1595	Great Bend	KS	USA
+1596	Galesburg	IL	USA
+1597	Galbraith Lake	AK	USA
+1598	Great Barrington	MA	USA
+1599	Gillette	WY	USA
+1600	Garden City	KS	USA
+1601	Claremore	OK	USA
+1602	Grand Canyon	AZ	USA
+1603	Guthrie Center	IA	USA
+1604	Greeneville	TN	USA
+1605	Gardner	MA	USA
+1606	Glendive	MT	USA
+1607	Gladwin	MI	USA
+1608	Grundy	VA	USA
+1609	Georgetown	DE	USA
+1610	Georgetown	OH	USA
+1611	Glendale	AZ	USA
+1612	Greybull	WY	USA
+1613	Shelbyville	IN	USA
+1614	Grand Forks	ND	USA
+1615	Glens Falls	NY	USA
+1616	Greenfield	IA	USA
+1617	Georgetown	SC	USA
+1618	Grant	NE	USA
+1619	Longview	TX	USA
+1620	Grinnell	IA	USA
+1621	Logansport	IN	USA
+1622	Glasgow	MT	USA
+1623	Centerville	TN	USA
+1624	Glenwood	MN	USA
+1625	Winter Haven	FL	USA
+1626	Grand Junction	CO	USA
+1627	Meadville	PA	USA
+1628	Gulkana	AK	USA
+1629	Sevierville	TN	USA
+1630	Arlington	TX	USA
+1631	Goodland	KS	USA
+1632	Gainesville	TX	USA
+1633	Greenville	MS	USA
+1634	Gaylord	MI	USA
+1635	Galveston	TX	USA
+1636	Glasgow	KY	USA
+1637	Clinton	MO	USA
+1638	Grove	OK	USA
+1639	Granby	CO	USA
+1640	Grenada	MS	USA
+1641	Gooding	ID	USA
+1642	Grants	NM	USA
+1643	Goodnews	AK	USA
+1644	Gainesville	FL	USA
+1645	Guthrie	OK	USA
+1646	Groton	CT	USA
+1647	Mosby	MO	USA
+1648	Grand Prairie	TX	USA
+1649	Gulfport-Biloxi	MS	USA
+1650	Grand Rapids	MN	USA
+1651	Galion	OH	USA
+1652	Green Bay	WI	USA
+1653	Greenwood	SC	USA
+1654	Greenville	IL	USA
+1655	Grand Island	NE	USA
+1656	Gordon	NE	USA
+1657	Rota Island	CQ	USA
+1658	Grand Rapids	MI	USA
+1659	Goshen	IN	USA
+1660	Obyan	CQ	USA
+1661	Greensboro	NC	USA
+1662	Greer	SC	USA
+1663	Gustavus	AK	USA
+1664	Great Falls	MT	USA
+1665	Columbus-Starkville-West Point	MS	USA
+1666	Georgetown	TX	USA
+1667	Gunnison	CO	USA
+1668	Agana	GU	USA
+1669	Gallup	NM	USA
+1670	Guymon	OK	USA
+1671	Gainesville	GA	USA
+1672	Batavia	NY	USA
+1673	Greenville	TX	USA
+1674	Greenwood	MS	USA
+1675	Gwinner	ND	USA
+1676	Goldsboro	NC	USA
+1677	Greeley	CO	USA
+1678	Goodyear	AZ	USA
+1679	Gary	IN	USA
+1680	Evergreen	AL	USA
+1681	Pulaski	TN	USA
+1682	Vinita	OK	USA
+1683	Wilburton	OK	USA
+1684	Bowling Green	MO	USA
+1685	Camdenton	MO	USA
+1686	Hamilton	NY	USA
+1687	Clarksville	AR	USA
+1688	Mexico	MO	USA
+1689	Seminole	OK	USA
+1690	Nowata	OK	USA
+1691	Pryor	OK	USA
+1692	Eldon	MO	USA
+1693	Fredericktown	MO	USA
+1694	Hominy	OK	USA
+1695	Benton	IL	USA
+1696	Pawnee	OK	USA
+1697	Hamilton	AL	USA
+1698	Hannibal	MO	USA
+1699	Half Moon Bay	CA	USA
+1700	Three Rivers	MI	USA
+1701	Hamilton	OH	USA
+1702	Haycock	AK	USA
+1703	Mohall	ND	USA
+1704	Hattiesburg	MS	USA
+1705	Hobart	OK	USA
+1706	Hebbronville	TX	USA
+1707	Heber Springs	AR	USA
+1708	Hutchinson	MN	USA
+1709	Hallock	MN	USA
+1710	Hammond	LA	USA
+1711	Holdredge	NE	USA
+1712	Mokuleia	HI	USA
+1713	Cleveland	TN	USA
+1714	Hayden	CO	USA
+1715	Hondo	TX	USA
+1716	Helena-West Helena	AR	USA
+1717	Manassas	VA	USA
+1718	Hettinger	ND	USA
+1719	Holyoke	CO	USA
+1720	Natchez	MS	USA
+1721	Hartford	CT	USA
+1722	Indianapolis/Greenwood	IN	USA
+1723	Hagerstown	MD	USA
+1724	Canadian	TX	USA
+1725	Huntington	IN	USA
+1726	Hawthorne	CA	USA
+1727	Hugo	OK	USA
+1728	Hanalei	HI	USA
+1729	Hibbing	MN	USA
+1730	Whitefield	NH	USA
+1731	Higginsville	MO	USA
+1732	Lake Havasu City	AZ	USA
+1733	Hillsboro (Portland)	OR	USA
+1734	Hebron	NE	USA
+1735	Hanford	CA	USA
+1736	Blytheville	AR	USA
+1737	Hickory	NC	USA
+1738	Hill City	KS	USA
+1739	Wheeling	WV	USA
+1740	Helena	MT	USA
+1741	Galax	VA	USA
+1742	Hemet	CA	USA
+1743	Bedford	PA	USA
+1744	Huntingburg	IN	USA
+1745	Honolulu	HI	USA
+1746	Hana	HI	USA
+1747	Harlan	IA	USA
+1748	Oxford	NC	USA
+1749	Hobbs	NM	USA
+1750	Hillsboro	OH	USA
+1751	Homerville	GA	USA
+1752	Homer	AK	USA
+1753	Huron	SD	USA
+1754	Hot Springs	AR	USA
+1755	Hooper Bay	AK	USA
+1756	White Plains	NY	USA
+1757	Hampton	IA	USA
+1758	Hugoton	KS	USA
+1759	Hoquiam	WA	USA
+1760	Thomson	GA	USA
+1761	Mesquite	TX	USA
+1762	Hermiston	OR	USA
+1763	Harlingen	TX	USA
+1764	Harrison	AR	USA
+1765	Healy	AK	USA
+1766	Herington	KS	USA
+1767	Hereford	TX	USA
+1768	Bay St Louis	MS	USA
+1769	Harrisburg	IL	USA
+1770	Hatteras	NC	USA
+1771	Hastings	NE	USA
+1772	Huslia	AK	USA
+1773	Hot Springs	VA	USA
+1774	Hot Springs	SD	USA
+1775	Hawthorne	NV	USA
+1776	Houghton Lake	MI	USA
+1777	East Hampton	NY	USA
+1778	Huntington	WV	USA
+1779	Chesapeake	OH	USA
+1780	Terre Haute	IN	USA
+1781	Houlton	ME	USA
+1782	Houma	LA	USA
+1783	Hughes	AK	USA
+1784	Hutchinson	KS	USA
+1785	Hopkinsville	KY	USA
+1786	Hanksville	UT	USA
+1787	New Haven	CT	USA
+1788	Havre	MT	USA
+1789	Hartsville	SC	USA
+1790	Hayward	CA	USA
+1791	Hawk Inlet	AK	USA
+1792	Hollywood	FL	USA
+1793	Harlowton	MT	USA
+1794	Shirley	NY	USA
+1795	Hilton Head Island	SC	USA
+1796	Hartford	WI	USA
+1797	Hyannis	MA	USA
+1798	Hydaburg	AK	USA
+1799	San Marcos	TX	USA
+1800	Hollis	AK	USA
+1801	Hayward	WI	USA
+1802	Hays	KS	USA
+1803	Conway	SC	USA
+1804	Huntingdon	TN	USA
+1805	Hazen	ND	USA
+1806	Hazleton	PA	USA
+1807	New Roads	LA	USA
+1808	Ashtabula	OH	USA
+1809	Sturgis	KY	USA
+1810	Sidney	OH	USA
+1811	Pineville	WV	USA
+1812	Ravenswood	WV	USA
+1813	Winchester	IN	USA
+1814	Washington Court House	OH	USA
+1815	Welch	WV	USA
+1816	Morehead	KY	USA
+1817	Greensburg	IN	USA
+1818	Harlan	KY	USA
+1819	Richmond	KY	USA
+1820	Coshocton	OH	USA
+1821	Paoli	IN	USA
+1822	Jackson	OH	USA
+1823	Stanton	KY	USA
+1824	Waverly	OH	USA
+1825	Mt. Sterling	IL	USA
+1826	Wilmington	OH	USA
+1827	Harrison	OH	USA
+1828	Lebanon	OH	USA
+1829	Batavia	OH	USA
+1830	Urbana	OH	USA
+1831	Osceola	IA	USA
+1832	Peru	IN	USA
+1833	Marysville	OH	USA
+1834	Salem	IN	USA
+1835	New Lexington	OH	USA
+1836	Pontiac	IL	USA
+1837	Hardinsburg	KY	USA
+1838	Kenton	OH	USA
+1839	Chantilly	VA	USA
+1840	Niagara Falls	NY	USA
+1841	Kiana	AK	USA
+1842	Kimball	NE	USA
+1843	Clarinda	IA	USA
+1844	Idaho Falls	ID	USA
+1845	Indiana	PA	USA
+1846	Indianola	MS	USA
+1847	Independence	KS	USA
+1848	Whittier	AK	USA
+1849	Pine Ridge	SD	USA
+1850	Natchitoches	LA	USA
+1851	Iowa Falls	IA	USA
+1852	Bullhead City	AZ	USA
+1853	Igiugig	AK	USA
+1854	Kingman	AZ	USA
+1855	Chicago/Lansing	IL	USA
+1856	Nightmute	AK	USA
+1857	Independence	IA	USA
+1858	Kipnuk	AK	USA
+1859	Washington	GA	USA
+1860	Willimantic	CT	USA
+1861	Jacksonville	IL	USA
+1862	Kankakee	IL	USA
+1863	Ankeny	IA	USA
+1864	Wilmington	DE	USA
+1865	Iliamna	AK	USA
+1866	Wilmington	NC	USA
+1867	Imperial	NE	USA
+1868	Immokalee	FL	USA
+1869	Madison	IN	USA
+1870	Iron Mountain/Kingsford	MI	USA
+1871	Wink	TX	USA
+1872	International Falls	MN	USA
+1873	Winston-Salem	NC	USA
+1874	Winslow	AZ	USA
+1875	Mount Sterling	KY	USA
+1876	Iowa City	IA	USA
+1877	Lincolnton	NC	USA
+1878	Imperial	CA	USA
+1879	Williamsport	PA	USA
+1880	Kirksville	MO	USA
+1881	Sturgis	MI	USA
+1882	Williston	ND	USA
+1883	Kinston	NC	USA
+1884	Islip	NY	USA
+1885	Manistique	MI	USA
+1886	Wisconsin Rapids	WI	USA
+1887	Ithaca	NY	USA
+1888	Hilo	HI	USA
+1889	Burlington	CO	USA
+1890	Ironwood	MI	USA
+1891	Wabash	IN	USA
+1892	Wiscasset	ME	USA
+1893	Wales	AK	USA
+1894	Inyokern	CA	USA
+1895	Wasilla	AK	USA
+1896	Santa Ynez	CA	USA
+1897	Fryeburg	ME	USA
+1898	Jackson	WY	USA
+1899	Jasper	TX	USA
+1900	Jacksboro	TN	USA
+1901	Jonesboro	AR	USA
+1902	Junction	TX	USA
+1903	Jordan	MT	USA
+1904	Jefferson City	MO	USA
+1905	Jerome	ID	USA
+1906	Jesup	GA	USA
+1907	Jasper	AL	USA
+1908	Lahaina	HI	USA
+1909	Jamestown	NY	USA
+1910	Gulf Shores	AL	USA
+1911	Moorhead	MN	USA
+1912	Jackson	KY	USA
+1913	Joplin	MO	USA
+1914	Mora	MN	USA
+1915	Jamestown	ND	USA
+1916	Smithfield	NC	USA
+1917	Chicago/Joliet	IL	USA
+1918	Concord	NC	USA
+1919	Kapolei	HI	USA
+1920	Jacksonville	TX	USA
+1921	Johnstown	PA	USA
+1922	Janesville	WI	USA
+1923	Jeffersonville	IN	USA
+1924	Watonga	OK	USA
+1925	Jackson	MI	USA
+1926	St James	MN	USA
+1927	Sylvania	GA	USA
+1928	Hillsdale	MI	USA
+1929	Leesburg	VA	USA
+1930	York	NE	USA
+1931	Jasper	GA	USA
+1932	Koliganek	AK	USA
+1933	Auburn	NE	USA
+1934	Perryville	MO	USA
+1935	Beardstown	IL	USA
+1936	Piseco	NY	USA
+1937	Osage Beach	MO	USA
+1938	Hazard	KY	USA
+1939	Prestonburg	KY	USA
+1940	Jamestown	KY	USA
+1941	Council	AK	USA
+1942	Salem	MO	USA
+1943	Gardner	KS	USA
+1944	St Clair	MO	USA
+1945	Blair	NE	USA
+1946	Teller	AK	USA
+1947	Tarkio	MO	USA
+1948	Atchison	KS	USA
+1949	Beloit	KS	USA
+1950	Falmouth	KY	USA
+1951	Oswego	KS	USA
+1952	Garnett	KS	USA
+1953	Abilene.	KS	USA
+1954	Paola	KS	USA
+1955	Smith Center	KS	USA
+1956	Sabetha	KS	USA
+1957	Iola	KS	USA
+1958	Macon	MO	USA
+1959	Tuscola	IL	USA
+1960	Kaltag	AK	USA
+1961	Coffman Cove	AK	USA
+1962	Chignik Flats	AK	USA
+1963	English Bay	AK	USA
+1964	Ekwok	AK	USA
+1965	False Pass	AK	USA
+1966	Grayling	AK	USA
+1967	Ivanof Bay	AK	USA
+1968	King City	CA	USA
+1969	Koyuk	AK	USA
+1970	Kitoi Bay	AK	USA
+1971	Kalskag	AK	USA
+1972	Levelock	AK	USA
+1973	Kelso	WA	USA
+1974	Kanab	UT	USA
+1975	New Stuyahok	AK	USA
+1976	Kailua/Kona	HI	USA
+1977	Point Baker	AK	USA
+1978	Pauloff Harbor	AK	USA
+1979	Akutan	AK	USA
+1980	St. Mary's	AK	USA
+1981	Thorne Bay	AK	USA
+1982	Brevig Mission	AK	USA
+1983	King Cove	AK	USA
+1984	Kivalina	AK	USA
+1985	Kwethluk	AK	USA
+1986	Kasaan	AK	USA
+1987	Karluk	AK	USA
+1988	Koyukuk	AK	USA
+1989	Holtville	CA	USA
+1990	Kernville	CA	USA
+1991	Death Valley National Park	CA	USA
+1992	Borrego Springs	CA	USA
+1993	Redlands	CA	USA
+1994	Taft	CA	USA
+1995	Fallbrook	CA	USA
+1996	Wasco	CA	USA
+1997	Hesperia	CA	USA
+1998	Covington	LA	USA
+1999	Big Bear	CA	USA
+2000	Gonzales	LA	USA
+2001	Leesville	LA	USA
+2002	Oakdale	LA	USA
+2003	Galliano	LA	USA
+2004	Oceano	CA	USA
+2005	Rialto	CA	USA
+2006	Agua Dulce	CA	USA
+2007	California City	CA	USA
+2008	Trona	CA	USA
+2009	Sulphur	LA	USA
+2010	Thibodaux	LA	USA
+2011	Lost Hills	CA	USA
+2012	Alamo	NV	USA
+2013	Lamar	CO	USA
+2014	Lafayette	IN	USA
+2015	Lakeland	FL	USA
+2016	Los Alamos	NM	USA
+2017	Lansing	MI	USA
+2018	Laramie	WY	USA
+2019	Lawton	OK	USA
+2020	Lubbock	TX	USA
+2021	Latrobe	PA	USA
+2022	North Platte	NE	USA
+2023	Liberal	KS	USA
+2024	Lebanon	MO	USA
+2025	Lumberton	NC	USA
+2026	Angleton	TX	USA
+2027	Wayne	NE	USA
+2028	Laconia	NH	USA
+2029	Lake City	FL	USA
+2030	Linden	NJ	USA
+2031	Ludington	MI	USA
+2032	Lebanon	NH	USA
+2033	Leesburg	FL	USA
+2034	Lemmon	SD	USA
+2035	Auburn-Lewiston	ME	USA
+2036	Lexington	KY	USA
+2037	Lufkin	TX	USA
+2038	Lafayette	LA	USA
+2039	Long Beach	CA	USA
+2040	Lagrange	GA	USA
+2041	La Grande	OR	USA
+2042	Logan	UT	USA
+2043	Lincoln	CA	USA
+2044	Lancaster	OH	USA
+2045	Lock Haven	PA	USA
+2046	La Junta	CO	USA
+2047	Louisburg	NC	USA
+2048	Limon	CO	USA
+2049	Lihue	HI	USA
+2050	Little Rock	AR	USA
+2051	Litchfield	MN	USA
+2052	Lake Placid	NY	USA
+2053	Lancaster	SC	USA
+2054	Louisa	VA	USA
+2055	Lakeview	OR	USA
+2056	Challis	ID	USA
+2057	Monticello	AR	USA
+2058	Lamar	MO	USA
+2059	Louisville	MS	USA
+2060	Klamath Falls	OR	USA
+2061	Lantana	FL	USA
+2062	Lancaster	TX	USA
+2063	Lander	WY	USA
+2064	Lincoln	NE	USA
+2065	Land O' Lakes	WI	USA
+2066	Willoughby	OH	USA
+2067	Wise	VA	USA
+2068	Lancaster	PA	USA
+2069	Lanai City	HI	USA
+2070	Lovelock	NV	USA
+2071	Chicago/Romeoville	IL	USA
+2072	London	KY	USA
+2073	Lompoc	CA	USA
+2074	Lorain/Elyria	OH	USA
+2075	Pickens	SC	USA
+2076	Larned	KS	USA
+2077	Laredo	TX	USA
+2078	Lincoln	ME	USA
+2079	Le Mars	IA	USA
+2080	Las Cruces	NM	USA
+2081	Lordsburg	NM	USA
+2082	La Crosse	WI	USA
+2083	Lusk	WY	USA
+2084	Los Banos	CA	USA
+2085	Lewisburg	TN	USA
+2086	Laurel	MS	USA
+2087	Kalaupapa	HI	USA
+2088	Livermore	CA	USA
+2089	Livingston	MT	USA
+2090	Las Vegas	NM	USA
+2091	Lewisburg	WV	USA
+2092	Lawrence	KS	USA
+2093	Lamoni	IA	USA
+2094	Wells	NV	USA
+2095	Lawrence	MA	USA
+2096	Lewiston	ID	USA
+2097	Lewistown	MT	USA
+2098	Lawrenceville	IL	USA
+2099	Little Falls	MN	USA
+2100	Lexington	NE	USA
+2101	Lee's Summit	MO	USA
+2102	Leadville	CO	USA
+2103	Mexia	TX	USA
+2104	Lynchburg	VA	USA
+2105	Lyons	KS	USA
+2106	Lawrenceville	GA	USA
+2107	Dickson	TN	USA
+2108	Conway	AR	USA
+2109	Covington	TN	USA
+2110	Caruthersville	MO	USA
+2111	Bolivar	TN	USA
+2112	Piedmont	MO	USA
+2113	Crystal Springs	MS	USA
+2114	Poplarville	MS	USA
+2115	Linden	TN	USA
+2116	Raymond	MS	USA
+2117	Bolivar	MO	USA
+2118	Hope	AR	USA
+2119	Newport	AR	USA
+2120	Greenville	KY	USA
+2121	Russellville	AL	USA
+2122	Newton	MS	USA
+2123	Wiggins	MS	USA
+2124	Mayfield	KY	USA
+2125	Waldron	AR	USA
+2126	Clifton	TN	USA
+2127	Metropolis	IL	USA
+2128	Lake Village	AR	USA
+2129	Gallatin	TN	USA
+2130	Gilbertsville	KY	USA
+2131	Brinkley	AR	USA
+2132	Drew	MS	USA
+2133	Mena	AR	USA
+2134	Aberdeen-Amory	MS	USA
+2135	Holly Springs	MS	USA
+2136	Prentiss	MS	USA
+2137	Houston	MS	USA
+2138	Colstrip	MT	USA
+2139	Houston	MO	USA
+2140	Lexington	TN	USA
+2141	Humboldt	TN	USA
+2142	Lebanon	TN	USA
+2143	Monett	MO	USA
+2144	Richton	MS	USA
+2145	Augusta	AR	USA
+2146	Wynne	AR	USA
+2147	Pocahontas	AR	USA
+2148	New Albany	MS	USA
+2149	Almyra	AR	USA
+2150	Malta	MT	USA
+2151	Picayune	MS	USA
+2152	Nashville	AR	USA
+2153	Malvern	AR	USA
+2154	Rayville	LA	USA
+2155	West Point	MS	USA
+2156	Arkadelphia	AR	USA
+2157	Springfield	TN	USA
+2158	Fayette	AL	USA
+2159	Tunica	MS	USA
+2160	Benton	AR	USA
+2161	Madera	CA	USA
+2162	Marianna	FL	USA
+2163	Malone	NY	USA
+2164	Marion	SC	USA
+2165	Malden	MO	USA
+2166	Mayaguez	PR	USA
+2167	Mobridge	SD	USA
+2168	Manistee	MI	USA
+2169	Madison	MS	USA
+2170	Saginaw	MI	USA
+2171	Murfreesboro	TN	USA
+2172	Moberly	MO	USA
+2173	McComb	MS	USA
+2174	Mackinac Island	MI	USA
+2175	Merced	CA	USA
+2176	McGrath	AK	USA
+2177	McCook	NE	USA
+2178	Mason City	IA	USA
+2179	Monticello	IN	USA
+2180	Williamston	NC	USA
+2181	Mooreland	OK	USA
+2182	Carbondale	IL	USA
+2183	Medfra	AK	USA
+2184	Madison	SD	USA
+2185	Medford	WI	USA
+2186	Maxton	NC	USA
+2187	Meridian	MS	USA
+2188	Meade	KS	USA
+2189	Atwater	CA	USA
+2190	Minden	NV	USA
+2191	Mapleton	IA	USA
+2192	Mansfield	OH	USA
+2193	McAllen	TX	USA
+2194	Marshfield	WI	USA
+2195	Medford	OR	USA
+2196	Melfa	VA	USA
+2197	Michigan City	IN	USA
+2198	Montgomery	NY	USA
+2199	Montgomery	AL	USA
+2200	Moultrie	GA	USA
+2201	Morgantown	WV	USA
+2202	Mitchell	SD	USA
+2203	Manhattan	KS	USA
+2204	Marshall	MO	USA
+2205	Minchumina	AK	USA
+2206	Metter	GA	USA
+2207	Manchester	NH	USA
+2208	Mojave	CA	USA
+2209	Muncie	IN	USA
+2210	Miami	OK	USA
+2211	Shafter	CA	USA
+2212	Millville	NJ	USA
+2213	Marshalltown	IA	USA
+2214	Jackson	MN	USA
+2215	Toms River	NJ	USA
+2216	Miller	SD	USA
+2217	Muskegon	MI	USA
+2218	Marion	VA	USA
+2219	Kaunakakai	HI	USA
+2220	Jackson	TN	USA
+2221	Muskogee	OK	USA
+2222	Mankato	MN	USA
+2223	Marksville	LA	USA
+2224	Marco Island	FL	USA
+2225	Melbourne	FL	USA
+2226	McAlester	OK	USA
+2227	Milford	UT	USA
+2228	Moline	IL	USA
+2229	Milledgeville	GA	USA
+2230	Marshall	AK	USA
+2231	Miles City	MT	USA
+2232	Millinocket	ME	USA
+2233	Monroe	LA	USA
+2234	Manley Hot Springs	AK	USA
+2235	Mammoth Lakes	CA	USA
+2236	Athens	TN	USA
+2237	Meriden	CT	USA
+2238	Marshall	MN	USA
+2239	Morristown	NJ	USA
+2240	McMinnville	OR	USA
+2241	Mountain View	MO	USA
+2242	Manning	SC	USA
+2243	Menominee	MI	USA
+2244	Marion	OH	USA
+2245	Madisonville	TN	USA
+2246	Hamilton	TX	USA
+2247	Washington	MO	USA
+2248	Harrisonville	MO	USA
+2249	Modesto	CA	USA
+2250	Mount Pleasant	MI	USA
+2251	Morristown	TN	USA
+2252	Minot	ND	USA
+2253	Mountain Village	AK	USA
+2254	Morris	MN	USA
+2255	Philadelphia	MS	USA
+2256	Mount Pocono	PA	USA
+2257	McPherson	KS	USA
+2258	Barre-Montpelier	VT	USA
+2259	Mount Pleasant	IA	USA
+2260	Macomb	IL	USA
+2261	Manteo	NC	USA
+2262	McRae	GA	USA
+2263	Smyrna	TN	USA
+2264	Martinsburg	WV	USA
+2265	Columbia-Mt Pleasant	TN	USA
+2266	Marfa	TX	USA
+2267	Beaufort	NC	USA
+2268	Mineral Point	WI	USA
+2269	Morganton	NC	USA
+2270	Monterey	CA	USA
+2271	Mount Pleasant	TX	USA
+2272	Muscle Shoals	AL	USA
+2273	Missoula	MT	USA
+2274	Massena	NY	USA
+2275	Marathon	FL	USA
+2276	Montrose	CO	USA
+2277	Metlakatla	AK	USA
+2278	Mattoon-Charleston	IL	USA
+2279	Montauk	NY	USA
+2280	Martinsville	VA	USA
+2281	Manitowoc	WI	USA
+2282	Kamuela	HI	USA
+2283	Muscatine	IA	USA
+2284	Monroeville	AL	USA
+2285	Montevideo	MN	USA
+2286	Monte Vista	CO	USA
+2287	Morrisville	VT	USA
+2288	Machias	ME	USA
+2289	Mt. Vernon	IL	USA
+2290	Marthas Vineyard	MA	USA
+2291	Marion	IL	USA
+2292	Moses Lake	WA	USA
+2293	Mount Airy	NC	USA
+2294	Mineral Wells	TX	USA
+2295	Windom	MN	USA
+2296	Middletown	OH	USA
+2297	Manila	AR	USA
+2298	Monticello	IA	USA
+2299	May Creek	AK	USA
+2300	McCall	ID	USA
+2301	Myrtle Beach	SC	USA
+2302	Mekoryuk	AK	USA
+2303	Marysville	CA	USA
+2304	Marysville	KS	USA
+2305	Marion	IN	USA
+2306	Lexington	NY	USA
+2307	Cortland	NY	USA
+2308	Madison	CT	USA
+2309	Lincoln Park	NJ	USA
+2310	Collegeville	PA	USA
+2311	Lakewood	NJ	USA
+2312	Bloomsburg	PA	USA
+2313	Lumbrerton	NJ	USA
+2314	Sidney	NY	USA
+2315	Questa	NM	USA
+2316	Westport, NY	NY	USA
+2317	Towanda	PA	USA
+2318	Magdalena	NM	USA
+2319	Honesdale	PA	USA
+2320	Punxsutawney	PA	USA
+2321	Wellsboro	PA	USA
+2322	Readington	NJ	USA
+2323	East Stroudsburg	PA	USA
+2324	Toughkenamon	PA	USA
+2325	Oneonta	NY	USA
+2326	Ambler	PA	USA
+2327	Chambersburg	PA	USA
+2328	Stormville	NY	USA
+2329	Warwick	NY	USA
+2330	Vincentown	NJ	USA
+2331	Shamokin	PA	USA
+2332	Hammonton	NJ	USA
+2333	Wurtsboro	NY	USA
+2334	Robbinsville	NJ	USA
+2335	Ellenville	NY	USA
+2336	Golovin	AK	USA
+2337	West Chester	PA	USA
+2338	Reidsville	NC	USA
+2339	West Jefferson	NC	USA
+2340	Cavalier	ND	USA
+2341	Ellendale	ND	USA
+2342	Harvey	ND	USA
+2343	Kenmare	ND	USA
+2344	Lakota	ND	USA
+2345	La Moure (New Site)	ND	USA
+2346	Linton	ND	USA
+2347	Mott	ND	USA
+2348	Washburn	ND	USA
+2349	Plymouth	NH	USA
+2350	Durhamville	NY	USA
+2351	Norton	KS	USA
+2352	Nulato	AK	USA
+2353	Nevada	MO	USA
+2354	Johnstown	NY	USA
+2355	Beckwourth	CA	USA
+2356	Chester	CA	USA
+2357	Colusa	CA	USA
+2358	Covelo	CA	USA
+2359	Stilwell	OK	USA
+2360	Turlock	CA	USA
+2361	Garberville	CA	USA
+2362	Grass Valley	CA	USA
+2363	Hoopa	CA	USA
+2364	Columbia	CA	USA
+2365	Lee Vining	CA	USA
+2366	Lone Pine	CA	USA
+2367	Oakdale	CA	USA
+2368	Willits	CA	USA
+2369	Healdsburg	CA	USA
+2370	Reedley	CA	USA
+2371	Hollis	OK	USA
+2372	Orland	CA	USA
+2373	Woodland	CA	USA
+2374	Woodlake	CA	USA
+2375	Yerington	NV	USA
+2376	Hooker	OK	USA
+2377	Weed	CA	USA
+2378	Prague	OK	USA
+2379	Little River	CA	USA
+2380	Yuba City	CA	USA
+2381	Medford	OK	USA
+2382	Weaverville	CA	USA
+2383	Bridgeport	CA	USA
+2384	Cedarville	CA	USA
+2385	Cloverdale	CA	USA
+2386	Cameron Park	CA	USA
+2387	Okeene	OK	USA
+2388	Mariposa	CA	USA
+2389	Petaluma	CA	USA
+2390	Jackson	CA	USA
+2391	Tulelake	CA	USA
+2392	Trinity Center	CA	USA
+2393	Rio Vista	CA	USA
+2394	Fall River Mills	CA	USA
+2395	Jacksonville	NC	USA
+2396	Oakland	CA	USA
+2397	Marina	CA	USA
+2398	Okeechobee	FL	USA
+2399	Kobuk	AK	USA
+2400	Ocala	FL	USA
+2401	Nacogdoches	TX	USA
+2402	Oconto	WI	USA
+2403	Washington	NC	USA
+2404	Odessa	TX	USA
+2405	Ord	NE	USA
+2406	Coldwater	MI	USA
+2407	Oakley	KS	USA
+2408	Osceola	WI	USA
+2409	Norfolk	NE	USA
+2410	Ogallala	NE	USA
+2411	Orangeburg	SC	USA
+2412	Ogden	UT	USA
+2413	Kahului	HI	USA
+2414	Ontonagon	MI	USA
+2415	Ogdensburg	NY	USA
+2416	Napoleon	OH	USA
+2417	Norwalk	OH	USA
+2418	Put In Bay	OH	USA
+2419	Norwich	NY	USA
+2420	Oberlin	KS	USA
+2421	Oceanside	CA	USA
+2422	Kokomo	IN	USA
+2423	Okmulgee	OK	USA
+2424	Oshkosh	NE	USA
+2425	Winchester	VA	USA
+2426	Sandersville	GA	USA
+2427	Old Town	ME	USA
+2428	Olean	NY	USA
+2429	Wolf Point	MT	USA
+2430	Olympia	WA	USA
+2431	Nogales	AZ	USA
+2432	Columbus	NE	USA
+2433	Olive Branch	MS	USA
+2434	Olney-Noble	IL	USA
+2435	Oelwein	IA	USA
+2436	Nome	AK	USA
+2437	Orange	VA	USA
+2438	Omak	WA	USA
+2439	Ormond Beach	FL	USA
+2440	Winona	MN	USA
+2441	O Neill	NE	USA
+2442	Socorro	NM	USA
+2443	Ontario	OR	USA
+2444	Newport	OR	USA
+2445	Ontario	CA	USA
+2446	Olney	TX	USA
+2447	Detroit - Grosse Ile	MI	USA
+2448	Oskaloosa	IA	USA
+2449	Toksook Bay	AK	USA
+2450	Opelousas	LA	USA
+2451	Thomaston	GA	USA
+2452	North Kingstown	RI	USA
+2453	Maquoketa	IA	USA
+2454	Boardman	OR	USA
+2455	Orr	MN	USA
+2456	Orange City	IA	USA
+2457	Orange	MA	USA
+2458	Orange	TX	USA
+2459	Worcester	MA	USA
+2460	Port Lions	AK	USA
+2461	Eastsound	WA	USA
+2462	Northway	AK	USA
+2463	Noorvik	AK	USA
+2464	Oscoda	MI	USA
+2465	Oshkosh	WI	USA
+2466	Kosciusko	MS	USA
+2467	Worthington	MN	USA
+2468	North Bend	OR	USA
+2469	Ottumwa	IA	USA
+2470	Kotzebue	AK	USA
+2471	Norman	OK	USA
+2472	Oroville	CA	USA
+2473	North Vernon	IN	USA
+2474	Boscobel	WI	USA
+2475	Owatonna	MN	USA
+2476	Owensboro	KY	USA
+2477	Norwood	MA	USA
+2478	Ottawa	KS	USA
+2479	Norridgewock	ME	USA
+2480	Ottawa	OH	USA
+2481	Ocean City	MD	USA
+2482	Oxford	CT	USA
+2483	Oxford	OH	USA
+2484	Knox	IN	USA
+2485	Oxnard	CA	USA
+2486	Knoxville	IA	USA
+2487	St Marys	PA	USA
+2488	Ozona	TX	USA
+2489	Howell	MI	USA
+2490	Ajo	AZ	USA
+2491	Bisbee	AZ	USA
+2492	Coolidge	AZ	USA
+2493	Globe	AZ	USA
+2494	Holbrook	AZ	USA
+2495	Parker	AZ	USA
+2496	Williams	AZ	USA
+2497	Willcox	AZ	USA
+2498	Mount Pleasant	PA	USA
+2499	Cottonwood	AZ	USA
+2500	Monongahela	PA	USA
+2501	Everett	WA	USA
+2502	Paducah	KY	USA
+2503	Hanapepe	HI	USA
+2504	Payson	AZ	USA
+2505	Palo Alto	CA	USA
+2506	Palmer	AK	USA
+2507	Pine Bluff	AR	USA
+2508	Phillips	WI	USA
+2509	St. George	AK	USA
+2510	Porcupine Creek	AK	USA
+2511	Plant City	FL	USA
+2512	Port Clinton	OH	USA
+2513	Waupaca	WI	USA
+2514	Prairie Du Chien	WI	USA
+2515	Pendleton	OR	USA
+2516	Pella	IA	USA
+2517	Pelican	AK	USA
+2518	Penn Yan	NY	USA
+2519	Pecos City	TX	USA
+2520	Pleasanton	TX	USA
+2521	Panama City	FL	USA
+2522	Page	AZ	USA
+2523	Punta Gorda	FL	USA
+2524	Port Graham	AK	USA
+2525	Paragould	AR	USA
+2526	Greenville	NC	USA
+2527	New Philadelphia	OH	USA
+2528	Newport News	VA	USA
+2529	Phillipsburg	KS	USA
+2530	Andrews	SC	USA
+2531	Pahokee	FL	USA
+2532	Port Huron	MI	USA
+2533	Point Hope	AK	USA
+2534	Philip	SD	USA
+2535	Paris	TN	USA
+2536	Hattiesburg-Laurel	MS	USA
+2537	Pocatello	ID	USA
+2538	Port Isabel	TX	USA
+2539	Pine Mountain	GA	USA
+2540	Pierre	SD	USA
+2541	Point Lay	AK	USA
+2542	Pinckneyville-Duquoin	IL	USA
+2543	Napaskiak	AK	USA
+2544	Parkersburg	WV	USA
+2545	Park Rapids	MN	USA
+2546	Park Falls	WI	USA
+2547	Plattsburgh	NY	USA
+2548	Portland	IN	USA
+2549	Pellston	MI	USA
+2550	Pell City	AL	USA
+2551	Pembina	ND	USA
+2552	Palmdale	CA	USA
+2553	Portsmouth	OH	USA
+2554	Pompano Beach	FL	USA
+2555	Plattsmouth	NE	USA
+2556	Palmer	MA	USA
+2557	Plymouth	NC	USA
+2558	Pinedale	WY	USA
+2559	Ponca City	OK	USA
+2560	Princeton	MN	USA
+2561	Princeton	ME	USA
+2562	Pilot Point	AK	USA
+2563	Pensacola	FL	USA
+2564	La Verne	CA	USA
+2565	Poplar Bluff	MO	USA
+2566	Pocahontas	IA	USA
+2567	Poughkeepsie	NY	USA
+2568	Powell	WY	USA
+2569	Pampa	TX	USA
+2570	Prospect Creek	AK	USA
+2571	Parsons	KS	USA
+2572	Pago Pago	AS	USA
+2573	La Porte	IN	USA
+2574	Pittsfield	IL	USA
+2575	Presque Isle	ME	USA
+2576	Pascagoula	MS	USA
+2577	Pipestone	MN	USA
+2578	Paso Robles	CA	USA
+2579	Prescott	AZ	USA
+2580	Paris	IL	USA
+2581	Greenville	AL	USA
+2582	Perry	IA	USA
+2583	Paris	TX	USA
+2584	Philipsburg	PA	USA
+2585	Pasco	WA	USA
+2586	Ponce	PR	USA
+2587	Pittsfield	MA	USA
+2588	Dublin	VA	USA
+2589	Portsmouth	NH	USA
+2590	Palestine	TX	USA
+2591	Palacios	TX	USA
+2592	Petersburg	VA	USA
+2593	Potsdam	NY	USA
+2594	Port Heiden	AK	USA
+2595	Pontiac	MI	USA
+2596	Patterson	LA	USA
+2597	Pittsburg	KS	USA
+2598	Pratt	KS	USA
+2599	Platinum	AK	USA
+2600	Porterville	CA	USA
+2601	Pueblo	CO	USA
+2602	Price	UT	USA
+2603	Pullman/Moscow,ID	WA	USA
+2604	Platteville	WI	USA
+2605	Provincetown	MA	USA
+2606	Providence	RI	USA
+2607	Placerville	CA	USA
+2608	Portsmouth	VA	USA
+2609	Pauls Valley	OK	USA
+2610	Provo	UT	USA
+2611	Plainview	TX	USA
+2612	Pine River	MN	USA
+2613	Plentywood	MT	USA
+2614	Chicago/Wheeling/Prospect Heights	IL	USA
+2615	Portland	ME	USA
+2616	Bremerton	WA	USA
+2617	Perry	GA	USA
+2618	Pageland	SC	USA
+2619	Plymouth	MA	USA
+2620	Perryton	TX	USA
+2621	Rogers City	MI	USA
+2622	Littlefield	TX	USA
+2623	Tulia	TX	USA
+2624	Espanola	NM	USA
+2625	Reserve	NM	USA
+2626	Boonville	CA	USA
+2627	Brownsville	CA	USA
+2628	Levelland	TX	USA
+2629	Dinsmore	CA	USA
+2630	Brownfield	TX	USA
+2631	Portales	NM	USA
+2632	Springerville	AZ	USA
+2633	Carrizozo	NM	USA
+2634	Floydada	TX	USA
+2635	Springer	NM	USA
+2636	Beaver	OK	USA
+2637	Firebaugh	CA	USA
+2638	Franklin	CA	USA
+2639	Dimmitt	TX	USA
+2640	Santa Rosa	NM	USA
+2641	Georgetown	CA	USA
+2642	Groveland	CA	USA
+2643	Hayfork	CA	USA
+2644	Mendota	CA	USA
+2645	Paradise	CA	USA
+2646	Rio Linda	CA	USA
+2647	Ruth	CA	USA
+2648	San Martin	CA	USA
+2649	Racine	WI	USA
+2650	Rapid City	SD	USA
+2651	Bassett	NE	USA
+2652	Roseburg	OR	USA
+2653	Red Bluff	CA	USA
+2654	Walterboro	SC	USA
+2655	Ruby	AK	USA
+2656	Rochester	IN	USA
+2657	Ladysmith	WI	USA
+2658	Reading	PA	USA
+2659	Red Oak	IA	USA
+2660	Redmond	OR	USA
+2661	Raleigh	NC	USA
+2662	Red Devil	AK	USA
+2663	Red Lodge	MT	USA
+2664	Rockford	IL	USA
+2665	Refugio	TX	USA
+2666	Red Wing	MN	USA
+2667	Rhinelander	WI	USA
+2668	Richmond	IN	USA
+2669	Richfield	UT	USA
+2670	Rifle	CO	USA
+2671	Rancho Murieta	CA	USA
+2672	Riverton	WY	USA
+2673	Rockland	ME	USA
+2674	Rockport	TX	USA
+2675	Poteau	OK	USA
+2676	Rock Springs	WY	USA
+2677	Rockwood	TN	USA
+2678	Richland	WA	USA
+2679	Rome	NY	USA
+2680	Rome	GA	USA
+2681	Rampart	AK	USA
+2682	Marshall	MI	USA
+2683	McMinnville	TN	USA
+2684	New Richmond	WI	USA
+2685	Ramona	CA	USA
+2686	Renton	WA	USA
+2687	Cleveland	MS	USA
+2688	Roanoke	VA	USA
+2689	Rochester	NY	USA
+2690	Rogers	AR	USA
+2691	Rush City	MN	USA
+2692	Roswell	NM	USA
+2693	Roseau	MN	USA
+2694	Belleville	KS	USA
+2695	Rice Lake	WI	USA
+2696	Roundup	MT	USA
+2697	Big Rapids	MI	USA
+2698	Window Rock	AZ	USA
+2699	Merrill	WI	USA
+2700	Warroad	MN	USA
+2701	Russian Mission	AK	USA
+2702	Russell	KS	USA
+2703	Ruston	LA	USA
+2704	Rochester	MN	USA
+2705	Robinson	IL	USA
+2706	Raton	NM	USA
+2707	Russellville	AR	USA
+2708	Rugby	ND	USA
+2709	Salisbury	NC	USA
+2710	Rutland	VT	USA
+2711	Reidsville	GA	USA
+2712	Reedsville	PA	USA
+2713	Rogersville	TN	USA
+2714	Redwood Falls	MN	USA
+2715	Rocky Mount	NC	USA
+2716	Rawlins	WY	USA
+2717	Winamac	IN	USA
+2718	Rexburg	ID	USA
+2719	Watertown	WI	USA
+2720	Marietta	GA	USA
+2721	Rensselaer	IN	USA
+2722	Siren	WI	USA
+2723	Chillicothe	OH	USA
+2724	Roanoke Rapids	NC	USA
+2725	Conrad	MT	USA
+2726	Ashland	OR	USA
+2727	Bandon	OR	USA
+2728	Bend	OR	USA
+2729	Chelan	WA	USA
+2730	Albany	OR	USA
+2731	Sunriver	OR	USA
+2732	Ione	WA	USA
+2733	Fremont	OH	USA
+2734	Watford City	ND	USA
+2735	Dunseith	ND	USA
+2736	Lebanon	OR	USA
+2737	Lopez	WA	USA
+2738	Cooperstown	ND	USA
+2739	Madras	OR	USA
+2740	Plains	MT	USA
+2741	Prineville	OR	USA
+2742	Prosser	WA	USA
+2743	Snohomish	WA	USA
+2744	Siletz Bay (Gleneden Beach)	OR	USA
+2745	Tillamook	OR	USA
+2746	Auburn	WA	USA
+2747	Winthrop	WA	USA
+2748	Libby	MT	USA
+2749	Kenmore	WA	USA
+2750	Stanford	MT	USA
+2751	Homedale	ID	USA
+2752	Nampa	ID	USA
+2753	Orofino	ID	USA
+2754	Lincoln	MT	USA
+2755	Othello	WA	USA
+2756	Chinook	MT	USA
+2757	St Maries	ID	USA
+2758	Kamiah	ID	USA
+2759	Grangeville	ID	USA
+2760	Kellogg	ID	USA
+2761	Culbertson	MT	USA
+2762	Weiser	ID	USA
+2763	Craigmont	ID	USA
+2764	Cle Elum	WA	USA
+2765	Colfax	WA	USA
+2766	Brewster	WA	USA
+2767	Saratoga	WY	USA
+2768	Safford	AZ	USA
+2769	Santa Fe	NM	USA
+2770	Sparta	IL	USA
+2771	Savannah	GA	USA
+2772	Gwinn	MI	USA
+2773	Staples	MN	USA
+2774	Santa Barbara	CA	USA
+2775	San Bernardino	CA	USA
+2776	Sheboygan	WI	USA
+2777	South Bend	IN	USA
+2778	Swainsboro	GA	USA
+2779	San Luis Obispo	CA	USA
+2780	Steamboat Springs	CO	USA
+2781	Blue Earth	MN	USA
+2782	Shelby	MT	USA
+2783	Salisbury	MD	USA
+2784	Scribner	NE	USA
+2785	Deadhorse	AK	USA
+2786	Sylacauga	AL	USA
+2787	Schenectady	NY	USA
+2788	Stockton	CA	USA
+2789	Scammon Bay	AK	USA
+2790	Oneida	TN	USA
+2791	Bison	SD	USA
+2792	Canton	SD	USA
+2793	De Smet	SD	USA
+2794	Eureka	SD	USA
+2795	Flandreau	SD	USA
+2796	Hoven	SD	USA
+2797	McLaughlin	SD	USA
+2798	Murdo	SD	USA
+2799	Parkston	SD	USA
+2800	Presho	SD	USA
+2801	Shenandoah	IA	USA
+2802	Scottsdale	AZ	USA
+2803	Sand Point	AK	USA
+2804	Sidney	MT	USA
+2805	San Diego (El Cajon)	CA	USA
+2806	Sebring	FL	USA
+2807	Selinsgrove	PA	USA
+2808	Selma	AL	USA
+2809	Stephenville	TX	USA
+2810	Seymour	IN	USA
+2811	Sedona	AZ	USA
+2812	Winner	SD	USA
+2813	Sanford	ME	USA
+2814	San Francisco	CA	USA
+2815	Suffolk	VA	USA
+2816	Savanna	IL	USA
+2817	Pawtucket	RI	USA
+2818	Springfield	MO	USA
+2819	Springfield	OH	USA
+2820	St. Augustine	FL	USA
+2821	South St Paul	MN	USA
+2822	Stuttgart	AR	USA
+2823	St George	UT	USA
+2824	Staunton/Harrisonburg	VA	USA
+2825	Shungnak	AK	USA
+2826	Shishmaref	AK	USA
+2827	Sheldon	IA	USA
+2828	Shelton	WA	USA
+2829	Sheridan	WY	USA
+2830	Shageluk	AK	USA
+2831	Sikeston	MO	USA
+2832	Sullivan	IN	USA
+2833	Montague	CA	USA
+2834	St Johns	AZ	USA
+2835	San Angelo	TX	USA
+2836	St James	MI	USA
+2837	Sac City	IA	USA
+2838	Skwentna	AK	USA
+2839	Taos	NM	USA
+2840	Storm Lake	IA	USA
+2841	Salem	OR	USA
+2842	Siloam Springs	AR	USA
+2843	Saranac Lake	NY	USA
+2844	Salina	KS	USA
+2845	Salem	IL	USA
+2846	Sleetmute	AK	USA
+2847	Sulphur Springs	TX	USA
+2848	Somerset	KY	USA
+2849	Salmon	ID	USA
+2850	Santa Monica	CA	USA
+2851	Somerville	NJ	USA
+2852	Sumter	SC	USA
+2853	Santa Maria	CA	USA
+2854	Santa Ana	CA	USA
+2855	Savannah	TN	USA
+2856	Snyder	TX	USA
+2857	Shawnee	OK	USA
+2858	St. Paul	AK	USA
+2859	Salinas	CA	USA
+2860	Sidney	NE	USA
+2861	Pinehurst/Southern Pines	NC	USA
+2862	Seldovia	AK	USA
+2863	Show Low	AZ	USA
+2864	Spartanburg	SC	USA
+2865	Scappoose	OR	USA
+2866	Spearfish	SD	USA
+2867	Springhill	LA	USA
+2868	Springfield	IL	USA
+2869	Spencer	IA	USA
+2870	Sterling Rockfalls	IL	USA
+2871	San Carlos	CA	USA
+2872	Sparta	TN	USA
+2873	Searcy	AR	USA
+2874	Sarasota	FL	USA
+2875	Ruidoso	NM	USA
+2876	Stony River	AK	USA
+2877	Shell Lake	WI	USA
+2878	St Cloud	MN	USA
+2879	Stevens Point	WI	USA
+2880	Starkville	MS	USA
+2881	St Joseph	MO	USA
+2882	Sterling	CO	USA
+2883	Santa Rosa	CA	USA
+2884	Stuart	FL	USA
+2885	Stroud	OK	USA
+2886	Sturgeon Bay	WI	USA
+2887	Hailey	ID	USA
+2888	Southport	NC	USA
+2889	Superior	WI	USA
+2890	Sioux City	IA	USA
+2891	Savoonga	AK	USA
+2892	Silver City	NM	USA
+2893	Susanville	CA	USA
+2894	Statesville	NC	USA
+2895	Stevens Village	AK	USA
+2896	Seward	AK	USA
+2897	Newburgh	NY	USA
+2898	Stillwater	OK	USA
+2899	Seward	NE	USA
+2900	Sweetwater	TX	USA
+2901	Summersville	WV	USA
+2902	Sheldon Point	AK	USA
+2903	Soldotna	AK	USA
+2904	St Francis	KS	USA
+2905	Shelbyville	TN	USA
+2906	Syracuse	NY	USA
+2907	Sylvester	GA	USA
+2908	Santa Paula	CA	USA
+2909	Sandpoint	ID	USA
+2910	Selmer	TN	USA
+2911	Anahauac	TX	USA
+2912	Tuba City	AZ	USA
+2913	Tomahawk	WI	USA
+2914	Falfurrias	TX	USA
+2915	Lampasas	TX	USA
+2916	Cameron	TX	USA
+2917	Tylertown	MS	USA
+2918	La Porte	TX	USA
+2919	Big Spring	TX	USA
+2920	Robstown	TX	USA
+2921	Crockett	TX	USA
+2922	Garland	TX	USA
+2923	Aspermont	TX	USA
+2924	Weslaco	TX	USA
+2925	Sinton	TX	USA
+2926	Cuero	TX	USA
+2927	Hearne	TX	USA
+2928	Taylor	TX	USA
+2929	Liberty	TX	USA
+2930	Kingsville	TX	USA
+2931	Fredericksburg	TX	USA
+2932	Castroville	TX	USA
+2933	Winnie/Stowell	TX	USA
+2934	Port Lavaca	TX	USA
+2935	Trinidad	CO	USA
+2936	Tanana	AK	USA
+2937	Taunton	MA	USA
+2938	Taylorville	IL	USA
+2939	Fort Leonard Wood	MO	USA
+2940	Statesboro	GA	USA
+2941	Tucumcari	NM	USA
+2942	Tuscaloosa	AL	USA
+2943	Truth Or Consequences	NM	USA
+2944	Takotna	AK	USA
+2945	Tracy	CA	USA
+2946	Roxboro	NC	USA
+2947	Toledo	WA	USA
+2948	Teterboro	NJ	USA
+2949	Tell City	IN	USA
+2950	Mason	MI	USA
+2951	Telluride	CO	USA
+2952	Trenton	TN	USA
+2953	Tangier	VA	USA
+2954	Tullahoma	TN	USA
+2955	Thompson Falls	MT	USA
+2956	Thermopolis	WY	USA
+2957	York	PA	USA
+2958	Tacoma	WA	USA
+2959	Talkeetna	AK	USA
+2960	Tenakee Springs	AK	USA
+2961	McKinney	TX	USA
+2962	Kennett	MO	USA
+2963	Tallahassee	FL	USA
+2964	Tulare	CA	USA
+2965	Tuluksak	AK	USA
+2966	Tifton	GA	USA
+2967	Peipeinimaru	CQ	USA
+2968	Twentynine Palms	CA	USA
+2969	Newton	IA	USA
+2970	Torrance	CA	USA
+2971	Dodge Center	MN	USA
+2972	Toccoa	GA	USA
+2973	Togiak	AK	USA
+2974	Troy	AL	USA
+2975	Torrington	WY	USA
+2976	Tonopah	NV	USA
+2977	Temple	TX	USA
+2978	Port Alsworth	AK	USA
+2979	Tekamah	NE	USA
+2980	Tahlequah	OK	USA
+2981	Scott City	KS	USA
+2982	Bristol	TN	USA
+2983	Truckee	CA	USA
+2984	Terrell	TX	USA
+2985	Trenton	MO	USA
+2986	Carrollton	OH	USA
+2987	Tehachapi	CA	USA
+2988	Shomu-Shon	CQ	USA
+2989	Sanford	NC	USA
+2990	Monroe	MI	USA
+2991	Trenton	NJ	USA
+2992	Tupelo	MS	USA
+2993	Cabool	MO	USA
+2994	Traverse City	MI	USA
+2995	Thief River Falls	MN	USA
+2996	Thomasville	GA	USA
+2997	Centerville	IA	USA
+2998	South Lake Tahoe	CA	USA
+2999	Tallulah	LA	USA
+3000	Tooele	UT	USA
+3001	Twin Falls	ID	USA
+3002	Two Harbors	MN	USA
+3003	Texarkana	AR	USA
+3004	Taylor	AZ	USA
+3005	Tyler	TX	USA
+3006	Belle Plaine	IA	USA
+3007	Tompkinsville	KY	USA
+3008	Blackfoot	ID	USA
+3009	Buhl	ID	USA
+3010	Philipsburg	MT	USA
+3011	Preston	ID	USA
+3012	Nephi	UT	USA
+3013	Dubois	WY	USA
+3014	Temple Bar	AZ	USA
+3015	Green River	UT	USA
+3016	Aberdeen	ID	USA
+3017	Monticello	UT	USA
+3018	Beaver	UT	USA
+3019	Panguitch	UT	USA
+3020	Driggs	ID	USA
+3021	Cowley/Lovell/Byron	WY	USA
+3022	Duchesne	UT	USA
+3023	Cascade	ID	USA
+3024	Mountain Home	ID	USA
+3025	Spanish Fork	UT	USA
+3026	Council	ID	USA
+3027	Halls Crossing	UT	USA
+3028	Aurora	OR	USA
+3029	Cumberland	WI	USA
+3030	Columbus	MS	USA
+3031	Cuba	MO	USA
+3032	Utica	NY	USA
+3033	New Castle	PA	USA
+3034	Union City	TN	USA
+3035	Darlington	SC	USA
+3036	Waukesha	WI	USA
+3037	Chicago/Waukegan	IL	USA
+3038	Quincy	IL	USA
+3039	Utica	MI	USA
+3040	North Wilkesboro	NC	USA
+3041	Ukiah	CA	USA
+3042	Burlington	KS	USA
+3043	Quakertown	PA	USA
+3044	New Ulm	MN	USA
+3045	Ulysses	KS	USA
+3046	Athens/Albany	OH	USA
+3047	Unalakleet	AK	USA
+3048	West Plains	MO	USA
+3049	Juneau	WI	USA
+3050	State College	PA	USA
+3051	Sewanee	TN	USA
+3052	Oxford	MS	USA
+3053	Hawi	HI	USA
+3054	Wauseon	OH	USA
+3055	Huntsville	TX	USA
+3056	Willow	AK	USA
+3057	Newport	RI	USA
+3058	Sullivan	MO	USA
+3059	Uvalde	TX	USA
+3060	New Castle	IN	USA
+3061	London	OH	USA
+3062	Rock Hill	SC	USA
+3063	Chevak	AK	USA
+3064	Mount Holly	NJ	USA
+3065	Bentonville	AR	USA
+3066	Vacaville	CA	USA
+3067	Victoria	TX	USA
+3068	Victorville	CA	USA
+3069	Vidalia	GA	USA
+3070	Valdez	AK	USA
+3071	Venetie	AK	USA
+3072	Vernal	UT	USA
+3073	Boonville	MO	USA
+3074	Versailles	OH	USA
+3075	Van Horn	TX	USA
+3076	Rolla/Vichy	MO	USA
+3077	Neillsville	WI	USA
+3078	Abingdon	VA	USA
+3079	Vandalia	IL	USA
+3080	Valdosta	GA	USA
+3081	Vermillion	SD	USA
+3082	Venice	FL	USA
+3083	Van Wert	OH	USA
+3084	Van Nuys	CA	USA
+3085	Cartersville	GA	USA
+3086	Valparaiso	FL	USA
+3087	Valparaiso	IN	USA
+3088	Isla De Vieques	PR	USA
+3089	Vero Beach	FL	USA
+3090	Springfield	VT	USA
+3091	Newark	OH	USA
+3092	Vinton	IA	USA
+3093	Valentine	NE	USA
+3094	Albemarle	NC	USA
+3095	Vancouver	WA	USA
+3096	Ortonville	MN	USA
+3097	Peru/Lasalle	IL	USA
+3098	Ocean Shores	WA	USA
+3099	Gettysburg	PA	USA
+3100	Menomonie	WI	USA
+3101	Buckhannon	WV	USA
+3102	Stevensville	MD	USA
+3103	Kenbridge	VA	USA
+3104	Mt Olive	NC	USA
+3105	Crisfield	MD	USA
+3106	Asheboro	NC	USA
+3107	Luray	VA	USA
+3108	Warrenton	VA	USA
+3109	South Boston	VA	USA
+3110	Ocracoke	NC	USA
+3111	Quinton	VA	USA
+3112	West Point	VA	USA
+3113	Petersburg	WV	USA
+3114	Camas/Washougal	WA	USA
+3115	Electric City	WA	USA
+3116	Langley	WA	USA
+3117	Odessa	WA	USA
+3118	Waynesburg	PA	USA
+3119	Stebbins	AK	USA
+3120	Beaver	AK	USA
+3121	Wilkes-Barre	PA	USA
+3122	Chandalar Lake	AK	USA
+3123	Enid	OK	USA
+3124	Winder	GA	USA
+3125	Lancaster	CA	USA
+3126	Winfield/Arkansas City	KS	USA
+3127	Selawik	AK	USA
+3128	Willows	CA	USA
+3129	Winnemucca	NV	USA
+3130	White Mountain	AK	USA
+3131	Napakiak	AK	USA
+3132	Worland	WY	USA
+3133	Wiseman	AK	USA
+3134	South Naknek	AK	USA
+3135	Westerly	RI	USA
+3136	Noatak	AK	USA
+3137	Watsonville	CA	USA
+3138	Waterville	ME	USA
+3139	Wildwood	NJ	USA
+3140	Woodward	OK	USA
+3141	West Yellowstone	MT	USA
+3142	Everglades	FL	USA
+3143	Arcadia	FL	USA
+3144	Lake Wales	FL	USA
+3145	Belle Glade	FL	USA
+3146	Labelle	FL	USA
+3147	Umatilla	FL	USA
+3148	Sebastian	FL	USA
+3149	Dunellon	FL	USA
+3150	Inverness	FL	USA
+3151	Bunnell	FL	USA
+3152	Homestead	FL	USA
+3153	Valkaria	FL	USA
+3154	Williston	FL	USA
+3155	Humacao	PR	USA
+3156	Cruz Bay	VI	USA
+3157	Fayetteville/Springdale/Rogers	AR	USA
+3158	Longville	MN	USA
+3159	Springfield	SD	USA
+3160	Tea	SD	USA
+3161	Cheboygan	MI	USA
+3162	Mandan	ND	USA
+3163	Fort Yates	ND	USA
+3164	West Branch	MI	USA
+3165	Park River	ND	USA
+3166	New Hudson	MI	USA
+3167	Wautoma	WI	USA
+3168	Viroqua	WI	USA
+3169	Crandon	WI	USA
+3170	Elbow Lake	MN	USA
+3171	Drummond Island	MI	USA
+3172	Tracy	MN	USA
+3173	Ionia	MI	USA
+3174	Parshall	ND	USA
+3175	Sandusky	MI	USA
+3176	Atlanta	MI	USA
+3177	Yakima	WA	USA
+3178	Yankton	SD	USA
+3179	Youngstown	OH	USA
+3180	Yuma	AZ	USA
+3181	Ofu Village	AS	USA
+3182	Kasigluk	AK	USA
+3183	Akiachak	AK	USA
+3184	Ophir	AK	USA
+3185	Goose Bay	AK	USA
+3186	Lake Louise	AK	USA
+3187	Nelson Lagoon	AK	USA
+3188	Clear A.F.B.	AK	USA
+3189	Birch Creek	AK	USA
+3190	Cibecue	AZ	USA
+3191	Elkin	NC	USA
+3192	Pottsville	PA	USA
+3193	Zephyrhills	FL	USA
+3194	Zuni	NM	USA
+3195	Zanesville	OH	USA
