@@ -10,7 +10,7 @@ CREATE TABLE ciudad (
 
 -- Almacena los aeropuertos, su IATA, sus coordenadas, y su ciudad de ubicacion
 CREATE TABLE aeropuerto (
-  iata     VARCHAR(3) PRIMARY KEY,
+  iata     VARCHAR(4) PRIMARY KEY, -- Hay aereopuertos con iata de 4 letras
   oaci     VARCHAR(4) UNIQUE,
   nombre   VARCHAR(40),
   longitud FLOAT,
@@ -42,7 +42,7 @@ CREATE TABLE avion (
 
 -- Almacena las aerolíneas con su nombre y su IATA correspondiente
 CREATE TABLE aerolinea (
-  iata      VARCHAR(4) PRIMARY KEY,
+  iata      VARCHAR(7) PRIMARY KEY, -- Para permitir los iata con ()
   nombre    VARCHAR(100),
   fundacion DATE,
   sede      INTEGER REFERENCES ciudad (id) ON DELETE SET NULL
@@ -55,9 +55,9 @@ CREATE TABLE vuelo (
   numero_vuelo            INTEGER,
   fecha                   DATE,
   avion                   INTEGER REFERENCES avion (id) ON DELETE SET NULL, -- Avion que realiza el vuelo
-  aerolinea               VARCHAR(2) REFERENCES aerolinea (iata) ON DELETE SET NULL,
-  destino                 VARCHAR(3) REFERENCES aeropuerto (iata) ON DELETE SET NULL,
-  origen                  VARCHAR(3) REFERENCES aeropuerto (iata) ON DELETE SET NULL,
+  aerolinea               VARCHAR(7) REFERENCES aerolinea (iata) ON DELETE SET NULL,
+  destino                 VARCHAR(4) REFERENCES aeropuerto (iata) ON DELETE SET NULL,
+  origen                  VARCHAR(4) REFERENCES aeropuerto (iata) ON DELETE SET NULL,
   hora_salida_programada  INTEGER,
   hora_salida_real        INTEGER,
   hora_despegue           INTEGER,
@@ -88,7 +88,7 @@ CREATE TABLE vuelos_retrasados (
 CREATE TABLE escalas_emergencias (
   vuelo                INTEGER REFERENCES vuelo (id) ON DELETE CASCADE,
   avion                INTEGER REFERENCES avion (id) ON DELETE SET NULL,
-  aeropuerto_escala    VARCHAR(3) REFERENCES aeropuerto (iata) ON DELETE SET NULL,
+  aeropuerto_escala    VARCHAR(4) REFERENCES aeropuerto (iata) ON DELETE SET NULL,
   hora_despegue        INTEGER,
   hora_aterrizaje      INTEGER,
   distancia_adiccional FLOAT,
