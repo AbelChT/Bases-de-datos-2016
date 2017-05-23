@@ -1,0 +1,6 @@
+SELECT MAX(vel) v, tipo_motor FROM (
+	SELECT velocity(v.hora_despegue, v.hora_aterrizaje, v.distancia) vel, v.tipo_motor
+	FROM vuelo v
+	INNER JOIN avion a ON a.id = v.avion
+	INNER JOIN modelo_avion m ON m.id = a.modelo
+) GROUP BY tipo_motor ORDER BY v DESC
