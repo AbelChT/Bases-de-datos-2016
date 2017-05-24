@@ -34,9 +34,9 @@ CREATE TABLE modelo_de_avion (
 --(Se permiten aviones sin modelo)
 CREATE TABLE avion (
   id                INTEGER PRIMARY KEY,
-  numero_de_cola    VARCHAR(5) NOT NULL,
+  numero_de_cola    VARCHAR(7) NOT NULL,
   modelo            INTEGER REFERENCES modelo_de_avion (id) ON DELETE SET NULL,
-  fecha_de_registro DATE,
+  fecha_de_registro INTEGER,-- DATE,
   UNIQUE (numero_de_cola, fecha_de_registro)
 );
 

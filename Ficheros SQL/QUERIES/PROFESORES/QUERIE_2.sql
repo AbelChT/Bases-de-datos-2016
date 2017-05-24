@@ -8,7 +8,7 @@ FROM VUELO
 );
 
 CREATE VIEW fecha_inscripcion_aeropuerto AS
-SELECT avg(CURRENT_DATE - fecha_de_registro) AS media_edad,aereopuerto_aviones.aeropuerto
+SELECT avg( EXTRACT(YEAR FROM sysdate) - fecha_de_registro) AS media_edad,aereopuerto_aviones.aeropuerto
 FROM aereopuerto_aviones
 INNER JOIN avion ON aereopuerto_aviones.avion = avion.id AND avion.FECHA_DE_REGISTRO IS NOT NULL
 GROUP BY aereopuerto_aviones.aeropuerto;

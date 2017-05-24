@@ -1,0 +1,187 @@
+1	2	2	1	1
+2	3	4	1	1
+3	11AC	AERONCA	Fixed Wing Single-Engine	Reciprocating
+4	ATR-72-212	AEROSPATIALE/ALENIA	Fixed Wing Multi-Engine	Turbo-Prop
+5	AS 355F1	AEROSPATIALE	Rotorcraft	Turbo-Shaft
+6	ATR 72-212	AEROSPATIALE	Fixed Wing Multi-Engine	Turbo-Prop
+7	A109E	AGUSTA SPA	Rotorcraft	Turbo-Shaft
+8	A318-111	AIRBUS	Fixed Wing Multi-Engine	Turbo-Fan
+9	A319-111	AIRBUS	Fixed Wing Multi-Engine	Turbo-Fan
+10	A319-112	AIRBUS	Fixed Wing Multi-Engine	Turbo-Fan
+11	A319-114	AIRBUS	Fixed Wing Multi-Engine	Turbo-Fan
+12	A319-131	AIRBUS	Fixed Wing Multi-Engine	Turbo-Jet
+13	A319-132	AIRBUS	Fixed Wing Multi-Engine	Turbo-Fan
+14	A320-211	AIRBUS	Fixed Wing Multi-Engine	Turbo-Fan
+15	A320-212	AIRBUS	Fixed Wing Multi-Engine	Turbo-Fan
+16	A320-214	AIRBUS	Fixed Wing Multi-Engine	Turbo-Fan
+17	A320-232	AIRBUS	Fixed Wing Multi-Engine	Turbo-Fan
+18	A321-211	AIRBUS	Fixed Wing Multi-Engine	Turbo-Jet
+19	A330-223	AIRBUS	Fixed Wing Multi-Engine	Turbo-Fan
+20	A330-323	AIRBUS	Fixed Wing Multi-Engine	Turbo-Fan
+21	A319-111	AIRBUS INDUSTRIE	Fixed Wing Multi-Engine	Turbo-Jet
+22	A319-112	AIRBUS INDUSTRIE	Fixed Wing Multi-Engine	Turbo-Jet
+23	A319-114	AIRBUS INDUSTRIE	Fixed Wing Multi-Engine	Turbo-Fan
+24	A319-131	AIRBUS INDUSTRIE	Fixed Wing Multi-Engine	Turbo-Jet
+25	A319-132	AIRBUS INDUSTRIE	Fixed Wing Multi-Engine	Turbo-Jet
+26	A320-211	AIRBUS INDUSTRIE	Fixed Wing Multi-Engine	Turbo-Jet
+27	A320-212	AIRBUS INDUSTRIE	Fixed Wing Multi-Engine	Turbo-Fan
+28	A320-214	AIRBUS INDUSTRIE	Fixed Wing Multi-Engine	Turbo-Fan
+29	A320-231	AIRBUS INDUSTRIE	Fixed Wing Multi-Engine	Turbo-Jet
+30	A320-232	AIRBUS INDUSTRIE	Fixed Wing Multi-Engine	Turbo-Jet
+31	A321-211	AIRBUS INDUSTRIE	Fixed Wing Multi-Engine	Turbo-Jet
+32	A330-323	AIRBUS INDUSTRIE	Fixed Wing Multi-Engine	Turbo-Jet
+33	A-1B	AVIAT AIRCRAFT INC	Fixed Wing Single-Engine	Reciprocating
+34	FALCON-XP	BAUMAN RANDY	Fixed Wing Single-Engine	Reciprocating
+35	60	BEECH	Fixed Wing Multi-Engine	Reciprocating
+36	65-A90	BEECH	Fixed Wing Multi-Engine	Turbo-Prop
+37	C90	BEECH	Fixed Wing Multi-Engine	Turbo-Prop
+38	E-90	BEECH	Fixed Wing Multi-Engine	Turbo-Prop
+39	206B	BELL	Rotorcraft	Turbo-Shaft
+40	717-200	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+41	737-230	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+42	737-236	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+43	737-282C	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+44	737-282	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+45	737-2P6	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+46	737-2X6C	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+47	737-2Y5	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+48	737-301	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+49	737-317	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+50	737-322	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+51	737-33A	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+52	737-3A4	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+53	737-3B7	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+54	737-3G7	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+55	737-3H4	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+56	737-3K2	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+57	737-3L9	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+58	737-3Q8	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+59	737-3S3	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+60	737-3T5	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+61	737-3TO	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+62	737-3Y0	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+63	737-401	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+64	737-490	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+65	737-4B7	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+66	737-4Q8	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+67	737-4S3	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+68	737-522	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+69	737-524	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+70	737-5H4	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+71	737-705	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+72	737-724	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+73	737-73A	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+74	737-76N	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+75	737-76Q	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+76	737-790	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+77	737-7AD	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+78	737-7BD	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+79	737-7H4	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+80	737-7Q8	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+81	737-824	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+82	737-832	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+83	737-890	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+84	737-8FH	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+85	737-924ER	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+86	737-924	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+87	737-990	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+88	747-2B5F	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+89	747-422	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+90	747-451	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+91	757-212	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+92	757-222	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+93	757-223	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+94	757-224	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+95	757-225	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+96	757-231	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+97	757-232	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+98	757-23N	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+99	757-251	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+100	757-26D	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+101	757-2B7	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+102	757-2G7	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+103	757-2Q8	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+104	757-2S7	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+105	757-324	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+106	757-33N	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+107	757-351	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+108	767-201	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+109	767-223	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+110	767-224	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+111	767-2B7	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+112	767-322	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+113	767-323	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+114	767-324	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+115	767-332	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+116	767-33A	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+117	767-3CB	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+118	767-3G5	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+119	767-3P6	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+120	767-424ER	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+121	767-432ER	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+122	777-222	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+123	777-224	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+124	777-232	BOEING	Fixed Wing Multi-Engine	Turbo-Jet
+125	777-232LR	BOEING	Fixed Wing Multi-Engine	Turbo-Fan
+126	DHC-8-102	BOEING OF CANADA LTD	Fixed Wing Multi-Engine	Turbo-Prop
+127	CL-600-2B19	BOMBARDIER INC	Fixed Wing Multi-Engine	Turbo-Fan
+128	CL-600-2C10	BOMBARDIER INC	Fixed Wing Multi-Engine	Turbo-Fan
+129	CL600-2D24	BOMBARDIER INC	Fixed Wing Multi-Engine	Turbo-Fan
+130	CL-600-2B19	CANADAIR	Fixed Wing Multi-Engine	Turbo-Jet
+131	150	CESSNA	Fixed Wing Single-Engine	Reciprocating
+132	172E	CESSNA	Fixed Wing Single-Engine	Reciprocating
+133	172M	CESSNA	Fixed Wing Single-Engine	4 Cycle
+134	182A	CESSNA	Fixed Wing Single-Engine	Reciprocating
+135	182P	CESSNA	Fixed Wing Single-Engine	Reciprocating
+136	210-5(205)	CESSNA	Fixed Wing Single-Engine	Reciprocating
+137	421C	CESSNA	Fixed Wing Multi-Engine	Reciprocating
+138	550	CESSNA	Fixed Wing Multi-Engine	Turbo-Fan
+139	T210N	CESSNA	Fixed Wing Single-Engine	Reciprocating
+140	T337G	CESSNA	Fixed Wing Multi-Engine	Reciprocating
+141	EXEC 162F	COBB INTL/DBA ROTORWAY INTL IN	Rotorcraft	4 Cycle
+142	DHC-8-202	DEHAVILLAND	Fixed Wing Multi-Engine	Turbo-Prop
+143	OTTER DHC-3	DEHAVILLAND	Fixed Wing Single-Engine	Reciprocating
+144	DA 20-A1	DIAMOND AIRCRAFT IND INC	Fixed Wing Single-Engine	4 Cycle
+145	DC-7BF	DOUGLAS	Fixed Wing Multi-Engine	Reciprocating
+146	DC-9-31	DOUGLAS	Fixed Wing Multi-Engine	Turbo-Jet
+147	DC-9-32	DOUGLAS	Fixed Wing Multi-Engine	Turbo-Jet
+148	DC-9-41	DOUGLAS	Fixed Wing Multi-Engine	Turbo-Jet
+149	EMB-120ER	EMBRAER	Fixed Wing Multi-Engine	Turbo-Prop
+150	EMB-120	EMBRAER	Fixed Wing Multi-Engine	Turbo-Prop
+151	EMB-135ER	EMBRAER	Fixed Wing Multi-Engine	Turbo-Jet
+152	EMB-135KL	EMBRAER	Fixed Wing Multi-Engine	Turbo-Jet
+153	EMB-135LR	EMBRAER	Fixed Wing Multi-Engine	Turbo-Fan
+154	EMB-145EP	EMBRAER	Fixed Wing Multi-Engine	Turbo-Jet
+155	EMB-145	EMBRAER	Fixed Wing Multi-Engine	Turbo-Jet
+156	EMB-145LR	EMBRAER	Fixed Wing Multi-Engine	Turbo-Fan
+157	EMB-145XR	EMBRAER	Fixed Wing Multi-Engine	Turbo-Fan
+158	ERJ 190-100 IGW	EMBRAER	Fixed Wing Multi-Engine	Turbo-Fan
+159	FALCON-XP	FREDERICK CHRIS K	Fixed Wing Single-Engine	Reciprocating
+160	VANS AIRCRAFT RV6	FRIEDEMANN JON	Fixed Wing Single-Engine	Reciprocating
+161	G-IV	GULFSTREAM AEROSPACE	Fixed Wing Multi-Engine	Turbo-Fan
+162	HST-550	HELIO	Fixed Wing Single-Engine	Turbo-Prop
+163	FALCON XP	LEBLANC GLENN T	Fixed Wing Single-Engine	Reciprocating
+164	KITFOX IV	MARZ BARRY	Fixed Wing Single-Engine	Reciprocating
+165	M-5-235C	MAULE	Fixed Wing Single-Engine	Reciprocating
+166	MD 83	MCDONNELL DOUGLAS AIRCRAFT CO	Fixed Wing Multi-Engine	Turbo-Jet
+167	MD-88	MCDONNELL DOUGLAS AIRCRAFT CO	Fixed Wing Multi-Engine	Turbo-Fan
+168	MD-88	MCDONNELL DOUGLAS CORPORATION	Fixed Wing Multi-Engine	Turbo-Jet
+169	DC-9-31	MCDONNELL DOUGLAS	Fixed Wing Multi-Engine	Turbo-Jet
+170	DC-9-32	MCDONNELL DOUGLAS	Fixed Wing Multi-Engine	Turbo-Jet
+171	DC-9-41	MCDONNELL DOUGLAS	Fixed Wing Multi-Engine	Turbo-Jet
+172	DC-9-51	MCDONNELL DOUGLAS	Fixed Wing Multi-Engine	Turbo-Jet
+173	DC-9-82(MD-82)	MCDONNELL DOUGLAS	Fixed Wing Multi-Engine	Turbo-Fan
+174	DC-9-83(MD-83)	MCDONNELL DOUGLAS	Fixed Wing Multi-Engine	Turbo-Fan
+175	MD-90-30	MCDONNELL DOUGLAS	Fixed Wing Multi-Engine	Turbo-Jet
+176	F85P-1	MORSE GEORGE JR	Fixed Wing Single-Engine	Reciprocating
+177	FALCON XP	PAIR MIKE E	Fixed Wing Single-Engine	Reciprocating
+178	PA-28-180	PIPER	Fixed Wing Single-Engine	Reciprocating
+179	PA-31-350	PIPER	Fixed Wing Multi-Engine	Reciprocating
+180	PA-32R-300	PIPER	Fixed Wing Single-Engine	Reciprocating
+181	PA-32RT-300	PIPER	Fixed Wing Single-Engine	Reciprocating
+182	S-50A	RAVEN	Balloon	None
+183	S55A	RAVEN	Balloon	None
+184	SAAB 340B	SAAB-SCANIA	Fixed Wing Multi-Engine	Turbo-Prop
+185	S-76A	SIKORSKY	Rotorcraft	Turbo-Shaft
+186	FALCON XP	STINNETT RON	Fixed Wing Single-Engine	Reciprocating
+187	FALCON-XP	WOBIG WAYNE R	Fixed Wing Single-Engine	Reciprocating
