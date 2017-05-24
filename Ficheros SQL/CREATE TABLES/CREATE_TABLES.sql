@@ -78,9 +78,9 @@ CREATE TABLE vuelos_cancelados (--- Revisar
 -- Relaciona cada vuelo con su el tipo/s de retraso que ha sufrido (causas)
 CREATE TABLE vuelos_retrasados (
   vuelo INTEGER REFERENCES vuelo (id) ON DELETE CASCADE,
-  causa VARCHAR(20),
   --	tipos: por la compa�ia, por el temporal, por problemas con la seguridad,
   --	por problemas de seguridad del gobierno, por retraso en la llegada del avi�n
+  causa VARCHAR(20),
   PRIMARY KEY (vuelo, causa)
 );
 
@@ -94,14 +94,3 @@ CREATE TABLE escalas_emergencias (
   distancia_adiccional FLOAT,
   PRIMARY KEY (vuelo, hora_despegue)
 );
-
-
-
-
-
-
-
-
-
-
-
