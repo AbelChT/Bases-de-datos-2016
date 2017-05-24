@@ -34,9 +34,9 @@ CREATE TABLE modelo_de_avion (
 --(Se permiten aviones sin modelo)
 CREATE TABLE avion (
   id                INTEGER PRIMARY KEY,
-  numero_de_cola    VARCHAR(5) NOT NULL,
+  numero_de_cola    VARCHAR(7) NOT NULL,
   modelo            INTEGER REFERENCES modelo_de_avion (id) ON DELETE SET NULL,
-  fecha_de_registro DATE,
+  fecha_de_registro INTEGER,-- DATE,
   UNIQUE (numero_de_cola, fecha_de_registro)
 );
 
@@ -78,9 +78,9 @@ CREATE TABLE vuelos_cancelados (--- Revisar
 -- Relaciona cada vuelo con su el tipo/s de retraso que ha sufrido (causas)
 CREATE TABLE vuelos_retrasados (
   vuelo INTEGER REFERENCES vuelo (id) ON DELETE CASCADE,
-  causa VARCHAR(20),
   --	tipos: por la compa�ia, por el temporal, por problemas con la seguridad,
   --	por problemas de seguridad del gobierno, por retraso en la llegada del avi�n
+  causa VARCHAR(20),
   PRIMARY KEY (vuelo, causa)
 );
 
@@ -94,14 +94,3 @@ CREATE TABLE escalas_emergencias (
   distancia_adiccional FLOAT,
   PRIMARY KEY (vuelo, hora_despegue)
 );
-
-
-
-
-
-
-
-
-
-
-
