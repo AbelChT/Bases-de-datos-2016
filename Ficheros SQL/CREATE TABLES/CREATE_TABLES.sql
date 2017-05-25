@@ -65,7 +65,7 @@ CREATE TABLE vuelo (
   hora_llegada_programada INTEGER,
   hora_llegada_real       INTEGER,
   distancia               FLOAT, -- Total incluyendo distancia producida por escalas
-  UNIQUE (numero_vuelo, fecha, aerolinea)
+  UNIQUE (numero_vuelo, fecha, aerolinea,hora_salida_programada)
 );
 
 -- Relaciona cada vuelo con su(s) codigo(s) de cancelacion
