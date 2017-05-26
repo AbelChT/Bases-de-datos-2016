@@ -1,0 +1,102 @@
+
+View created.
+
+Elapsed: 00:00:00.05
+
+View created.
+
+Elapsed: 00:00:00.04
+
+View created.
+
+Elapsed: 00:00:00.06
+
+NOMBRE
+--------------------------------------------------
+FABRICANTE
+--------------------------------------------------------------------------------
+ DISTANCIA
+----------
+CL-600-2B19
+BOMBARDIER INC
+   1937514
+
+
+Elapsed: 00:00:01.55
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=CHOOSE
+   1    0   NESTED LOOPS
+   2    1     MERGE JOIN
+   3    2       VIEW
+   4    3         SORT (AGGREGATE)
+   5    4           VIEW OF 'DISTANCIA_MODELO'
+   6    5             FILTER
+   7    6               SORT (GROUP BY)
+   8    7                 NESTED LOOPS
+   9    8                   VIEW OF 'DISTANCIA_AVION_SUM'
+  10    9                     SORT (GROUP BY)
+  11   10                       VIEW OF 'DISTANCIA_AVION'
+  12   11                         UNION-ALL
+  13   12                           SORT (GROUP BY)
+  14   13                             TABLE ACCESS (FULL) OF 'VUELO'
+  15   12                           SORT (GROUP BY)
+  16   15                             TABLE ACCESS (FULL) OF 'ESCALAS_
+          EMERGENCIAS'
+
+  17    8                   TABLE ACCESS (BY INDEX ROWID) OF 'AVION'
+  18   17                     INDEX (UNIQUE SCAN) OF 'SYS_C001567424'
+          (UNIQUE)
+
+  19    2       FILTER
+  20   19         VIEW OF 'DISTANCIA_MODELO'
+  21   20           FILTER
+  22   21             SORT (GROUP BY)
+  23   22               NESTED LOOPS
+  24   23                 VIEW OF 'DISTANCIA_AVION_SUM'
+  25   24                   SORT (GROUP BY)
+  26   25                     VIEW OF 'DISTANCIA_AVION'
+  27   26                       UNION-ALL
+  28   27                         SORT (GROUP BY)
+  29   28                           TABLE ACCESS (FULL) OF 'VUELO'
+  30   27                         SORT (GROUP BY)
+  31   30                           TABLE ACCESS (FULL) OF 'ESCALAS_EM
+          ERGENCIAS'
+
+  32   23                 TABLE ACCESS (BY INDEX ROWID) OF 'AVION'
+  33   32                   INDEX (UNIQUE SCAN) OF 'SYS_C001567424' (U
+          NIQUE)
+
+  34    1     TABLE ACCESS (BY INDEX ROWID) OF 'MODELO_DE_AVION'
+  35   34       INDEX (UNIQUE SCAN) OF 'SYS_C001554640' (UNIQUE)
+
+
+
+
+Statistics
+----------------------------------------------------------
+         42  recursive calls
+          0  db block gets
+      17410  consistent gets
+          0  physical reads
+          0  redo size
+        662  bytes sent via SQL*Net to client
+        655  bytes received via SQL*Net from client
+          2  SQL*Net roundtrips to/from client
+          8  sorts (memory)
+          0  sorts (disk)
+          1  rows processed
+
+
+View dropped.
+
+Elapsed: 00:00:00.05
+
+View dropped.
+
+Elapsed: 00:00:00.04
+
+View dropped.
+
+Elapsed: 00:00:00.03

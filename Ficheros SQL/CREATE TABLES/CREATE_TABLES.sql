@@ -81,6 +81,7 @@ CREATE TABLE vuelos_retrasados (
   --	tipos: por la compa�ia, por el temporal, por problemas con la seguridad,
   --	por problemas de seguridad del gobierno, por retraso en la llegada del avi�n
   causa VARCHAR(20),
+  tiempo INTEGER,
   PRIMARY KEY (vuelo, causa)
 );
 

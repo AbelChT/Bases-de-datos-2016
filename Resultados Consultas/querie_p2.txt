@@ -1,0 +1,3 @@
+NOMBRE         FABRICANTE       DISTANCIA
+-------------  --------------   -----------------------
+CL-600-2B19    BOMBARDIER INC   1937514

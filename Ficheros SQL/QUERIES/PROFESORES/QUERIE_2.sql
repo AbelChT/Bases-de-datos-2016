@@ -1,26 +1,22 @@
--- Aviones que operan en cada aeropuerto
-CREATE VIEW aereopuerto_aviones AS
-(SELECT avion,origen AS aeropuerto
-FROM VUELO)
-UNION -- Evita datos repetidos
-(SELECT avion,destino AS aeropuerto
-FROM VUELO
-);
+CREATE OR REPLACE VIEW m_edad_aviones_por_aeropuerto AS
+SELECT  EXTRACT(YEAR FROM sysdate) -  avg(fecha_de_registro) AS media_edad, aeropuerto
+FROM (
+      (
+        SELECT avion,origen AS aeropuerto
+        FROM VUELO
+      )
+        UNION -- Evita datos repetidos
+      (
+        SELECT avion,destino AS aeropuerto
+         FROM VUELO
+      )
+  )
+INNER JOIN avion ON avion = avion.id AND avion.FECHA_DE_REGISTRO IS NOT NULL
+GROUP BY aeropuerto;
 
-CREATE VIEW fecha_inscripcion_aeropuerto AS
-SELECT avg( EXTRACT(YEAR FROM sysdate) - fecha_de_registro) AS media_edad,aereopuerto_aviones.aeropuerto
-FROM aereopuerto_aviones
-INNER JOIN avion ON aereopuerto_aviones.avion = avion.id AND avion.FECHA_DE_REGISTRO IS NOT NULL
-GROUP BY aereopuerto_aviones.aeropuerto;
+SELECT aeropuerto.NOMBRE,m_edad_aviones_por_aeropuerto.media_edad
+FROM m_edad_aviones_por_aeropuerto
+INNER JOIN AEROPUERTO ON m_edad_aviones_por_aeropuerto.aeropuerto=aeropuerto.IATA
+INNER JOIN (SELECT max(media_edad) AS maxima_edad FROM m_edad_aviones_por_aeropuerto) ON maxima_edad=m_edad_aviones_por_aeropuerto.media_edad;
 
-CREATE VIEW mayor_edad AS
-SELECT max(media_edad) AS maxima_edad
-FROM fecha_inscripcion_aeropuerto;
-
-SELECT aeropuerto
-FROM fecha_inscripcion_aeropuerto
-INNER JOIN AEROPUERTO ON fecha_inscripcion_aeropuerto.aeropuerto=aeropuerto.IATA
-WHERE fecha_inscripcion_aeropuerto.media_edad IN (SELECT *
-FROM mayor_edad);
-
-
+DROP VIEW m_edad_aviones_por_aeropuerto;

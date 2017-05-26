@@ -1,0 +1,67 @@
+
+View created.
+
+Elapsed: 00:00:00.06
+
+NOMBRE                                   MEDIA_EDAD
+---------------------------------------- ----------
+Henry E. Rohlsen                               28.5
+
+Elapsed: 00:00:05.56
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=CHOOSE
+   1    0   NESTED LOOPS
+   2    1     MERGE JOIN
+   3    2       VIEW
+   4    3         SORT (AGGREGATE)
+   5    4           VIEW OF 'M_EDAD_AVIONES_POR_AEROPUERTO'
+   6    5             SORT (GROUP BY)
+   7    6               NESTED LOOPS
+   8    7                 VIEW
+   9    8                   SORT (UNIQUE)
+  10    9                     UNION-ALL
+  11   10                       TABLE ACCESS (FULL) OF 'VUELO'
+  12   10                       TABLE ACCESS (FULL) OF 'VUELO'
+  13    7                 TABLE ACCESS (BY INDEX ROWID) OF 'AVION'
+  14   13                   INDEX (UNIQUE SCAN) OF 'SYS_C001567424' (U
+          NIQUE)
+
+  15    2       FILTER
+  16   15         VIEW OF 'M_EDAD_AVIONES_POR_AEROPUERTO'
+  17   16           SORT (GROUP BY)
+  18   17             NESTED LOOPS
+  19   18               VIEW
+  20   19                 SORT (UNIQUE)
+  21   20                   UNION-ALL
+  22   21                     TABLE ACCESS (FULL) OF 'VUELO'
+  23   21                     TABLE ACCESS (FULL) OF 'VUELO'
+  24   18               TABLE ACCESS (BY INDEX ROWID) OF 'AVION'
+  25   24                 INDEX (UNIQUE SCAN) OF 'SYS_C001567424' (UNI
+          QUE)
+
+  26    1     TABLE ACCESS (BY INDEX ROWID) OF 'AEROPUERTO'
+  27   26       INDEX (UNIQUE SCAN) OF 'SYS_C001560717' (UNIQUE)
+
+
+
+
+Statistics
+----------------------------------------------------------
+         14  recursive calls
+         20  db block gets
+     129111  consistent gets
+        398  physical reads
+          0  redo size
+        581  bytes sent via SQL*Net to client
+        655  bytes received via SQL*Net from client
+          2  SQL*Net roundtrips to/from client
+          2  sorts (memory)
+          2  sorts (disk)
+          1  rows processed
+
+
+View dropped.
+
+Elapsed: 00:00:00.03
