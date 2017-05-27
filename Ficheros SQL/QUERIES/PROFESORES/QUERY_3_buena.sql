@@ -1,4 +1,9 @@
+-- Tercera consulta obligatoria: Por cada compañía aérea, lista aquellas otras compañías que cubren al menos el
+-- 30% de sus trayectos (aunque no coincidan en fechas y horarios), ordenándolo de
+-- mayor a menor porcentaje de cobertura
+
 -- Contemplamos como un trayecto ir de A a B y otro diferente ir de B a A
+
 CREATE VIEW vuelos_aerolinea AS
 	SELECT DISTINCT aerolinea, destino, origen 
 	FROM vuelo;
