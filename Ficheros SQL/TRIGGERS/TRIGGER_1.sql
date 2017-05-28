@@ -36,7 +36,7 @@ CREATE OR REPLACE PROCEDURE removeState(state IN VARCHAR(50)) AS
 /
 
 CREATE TRIGGER vuelosEstadoIns
-AFTER INSERT ON vuelos_retrasados
+AFTER INSERT ON escalas_emergencias
 	FOR EACH ROW
 	DECLARE
 		iataOrig VARCHAR(4);
@@ -49,7 +49,7 @@ AFTER INSERT ON vuelos_retrasados
 /
 
 CREATE TRIGGER vuelosEstadoDel
-AFTER DELETE ON vuelos_retrasados
+AFTER DELETE ON escalas_emergencias
 	FOR EACH ROW
 	DECLARE
 		iataOrig VARCHAR(4);
@@ -63,7 +63,7 @@ AFTER DELETE ON vuelos_retrasados
 
 
 CREATE TRIGGER vuelosEstadoUpt
-AFTER UPDATE ON vuelos_retrasados
+AFTER UPDATE ON escalas_emergencias
 	FOR EACH ROW
 	DECLARE
 		iataOrigOld VARCHAR(4);
@@ -87,14 +87,20 @@ AFTER UPDATE ON vuelos_retrasados
 CREATE TRIGGER vuelosEstadoIATA
 	AFTER UPDATE ON vuelo
 	FOR EACH ROW
+	DECLARE
+			amount INTEGER;
 	BEGIN
-		IF :NEW.ORIGEN != :OLD.ORIGEN THEN
-			removeState(getState(:OLD.ORIGEN));
-			addState(getState(:NEW.ORIGEN));
-		END IF;
+		SELECT COUNT(*) INTO amount FROM escalas_emergencias e WHERE e.vuelo = :NEW.id;
 
-		IF :NEW.DESTINO != :OLD.DESTINO THEN
-			removeState(getState(:OLD.DESTINO));
-			addState(getState(:NEW.DESTINO));
+		IF amount > 0 THEN
+			IF :NEW.ORIGEN != :OLD.ORIGEN THEN
+				removeState(getState(:OLD.ORIGEN));
+				addState(getState(:NEW.ORIGEN));
+			END IF;
+
+			IF :NEW.DESTINO != :OLD.DESTINO THEN
+				removeState(getState(:OLD.DESTINO));
+				addState(getState(:NEW.DESTINO));
+			END IF;
 		END IF;
 	END;
