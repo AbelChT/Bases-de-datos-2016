@@ -1,0 +1,23 @@
+Elapsed: 00:00:00.65
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=CHOOSE
+   1    0   TABLE ACCESS (FULL) OF 'VUELOS_ESTADO'
+
+
+
+
+Statistics
+----------------------------------------------------------
+          0  recursive calls
+          0  db block gets
+          5  consistent gets
+          0  physical reads
+          0  redo size
+       1973  bytes sent via SQL*Net to client
+        850  bytes received via SQL*Net from client
+          3  SQL*Net roundtrips to/from client
+          0  sorts (memory)
+          0  sorts (disk)
+         30  rows processed
