@@ -1,40 +1,35 @@
-
--- Sumas parciales distancia recorrida en emergencia y en vuelo normal
-
--- Distancia recorrida por cada avion
-
 -- Consulta personal nº2
--- Descripción: Modelo de avión que más distancia ha recorrido
+-- Descripción: Devuelve el modelo de avión que más distancia ha recorrido así como esta distancia
 
-CREATE OR REPLACE VIEW DISTANCIA_MODELO AS
-SELECT
+CREATE OR REPLACE VIEW distancia_modelo AS
+SELECT -- distancia recorrida por cada modelo de avión
    modelo,
-   sum(distancia) AS distancia
+   SUM(distancia) AS distancia
 FROM ( -- Sumas parciales distancia recorrida en emergencia y en vuelo normal
         (SELECT
              AVION,
-             sum(DISTANCIA) AS DISTANCIA
-           FROM VUELO
-           GROUP BY AVION
+             SUM(distancia) AS distancia
+           FROM vuelo
+           GROUP BY avion
          )
           UNION ALL
           (SELECT
-             AVION,
-             sum(DISTANCIA_ADICCIONAL) AS DISTANCIA
-           FROM ESCALAS_EMERGENCIAS
-           GROUP BY AVION)
+             avion,
+             SUM(distancia_adiccional) AS distancia
+           FROM escalas_emergencias
+           GROUP BY avion)
     )
-INNER JOIN AVION ON avion = AVION.ID
+INNER JOIN avion ON avion = avion.id
 GROUP BY modelo
 HAVING modelo IS NOT NULL;
 
 SELECT
-  MODELO_DE_AVION.NOMBRE,
-  MODELO_DE_AVION.FABRICANTE,
+  modelo_de_avion.nombre,
+  modelo_de_avion.fabricante,
   distancia
-FROM DISTANCIA_MODELO
-INNER JOIN (SELECT max(distancia) AS maxima_distancia
-            FROM DISTANCIA_MODELO) ON DISTANCIA_MODELO.distancia = maxima_distancia
-INNER JOIN MODELO_DE_AVION ON modelo = id;
+FROM distancia_modelo
+INNER JOIN (SELECT MAX(distancia) AS maxima_distancia -- se obtiene la mayor deistancia recorrida por un modelo
+            FROM distancia_modelo) ON distancia_modelo.distancia = maxima_distancia -- se obtiene el modelo asociado
+INNER JOIN modelo_de_avion ON modelo = id;-- se obtiene el nombre y fabricante del modelo
 
-DROP VIEW DISTANCIA_MODELO;
+DROP VIEW distancia_modelo;
