@@ -1,16 +1,3 @@
-CREATE OR REPLACE FUNCTION isValidTime(time IN INTEGER)
-  RETURN BOOLEAN
-  IS
-    hour INTEGER;
-    minute INTEGER;
-  BEGIN
-    hour := time / 100;
-    minute := MOD(time, 100);
-
-    RETURN (hour >= 0 AND hour < 24 AND minute >= 0 AND minute < 60);
-  END;
-/
-
 -- Guarda información de las ciudades
 CREATE TABLE ciudad (
   id     INTEGER PRIMARY KEY,
