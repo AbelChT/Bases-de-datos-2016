@@ -1,9 +1,21 @@
+CREATE OR REPLACE FUNCTION isValidTime(time IN INTEGER)
+  RETURN BOOLEAN
+  IS
+    hour INTEGER;
+    minute INTEGER;
+  BEGIN
+    hour := time / 100;
+    minute := MOD(time, 100);
+
+    RETURN (hour >= 0 AND hour < 24 AND minute >= 0 AND minute < 60);
+  END;
+/
+
 -- Guarda información de las ciudades
 CREATE TABLE ciudad (
   id     INTEGER PRIMARY KEY,
   nombre VARCHAR(50) NOT NULL,
-  estado VARCHAR(50) NOT NULL,
-  pais   VARCHAR(50) NOT NULL,
+  estado VARCHAR(50) NOT NULL,  pais   VARCHAR(50) NOT NULL,
   UNIQUE (nombre, estado, pais)
 );
 
@@ -56,16 +68,16 @@ CREATE TABLE vuelo (
   aerolinea               VARCHAR(7) REFERENCES aerolinea (iata) ON DELETE SET NULL,
   destino                 VARCHAR(4) REFERENCES aeropuerto (iata) ON DELETE SET NULL,
   origen                  VARCHAR(4) REFERENCES aeropuerto (iata) ON DELETE SET NULL,
-  hora_salida_programada  INTEGER CHECK (hora_salida_programada>=0 AND hora_salida_programada <= 2359),-- formato hhmm
-  hora_salida_real        INTEGER CHECK (hora_salida_real>=0 AND hora_salida_real <= 2359),-- formato hhmm
-  hora_despegue           INTEGER CHECK (hora_despegue>=0 AND hora_despegue<= 2359),-- formato hhmm
-  hora_aterrizaje         INTEGER CHECK (hora_aterrizaje>=0 AND hora_aterrizaje <= 2359),-- formato hhmm
-  hora_llegada_programada INTEGER CHECK (hora_llegada_programada>=0 AND hora_llegada_programada <= 2359),-- formato hhmm
-  hora_llegada_real       INTEGER CHECK (hora_llegada_real>=0 AND hora_llegada_real <= 2359),-- formato hhmm
+  hora_salida_programada  INTEGER CHECK ((hora_salida_programada / 100) >= 0 AND (hora_salida_programada / 100) < 24 AND MOD(hora_salida_programada, 100) >= 0 AND MOD(hora_salida_programada, 100) < 60),-- formato hhmm
+  hora_salida_real        INTEGER CHECK ((hora_salida_real / 100) >= 0 AND (hora_salida_real / 100) < 24 AND MOD(hora_salida_real, 100) >= 0 AND MOD(hora_salida_real, 100) < 60),-- formato hhmm
+  hora_despegue           INTEGER CHECK ((hora_despegue / 100) >= 0 AND (hora_despegue / 100) < 24 AND MOD(hora_despegue, 100) >= 0 AND MOD(hora_despegue, 100) < 60),-- formato hhmm
+  hora_aterrizaje         INTEGER CHECK ((hora_aterrizaje / 100) >= 0 AND (hora_aterrizaje / 100) < 24 AND MOD(hora_aterrizaje, 100) >= 0 AND MOD(hora_aterrizaje, 100) < 60),-- formato hhmm
+  hora_llegada_programada INTEGER CHECK ((hora_llegada_programada / 100) >= 0 AND (hora_llegada_programada / 100) < 24 AND MOD(hora_llegada_programada, 100) >= 0 AND MOD(hora_llegada_programada, 100) < 60),-- formato hhmm
+  hora_llegada_real       INTEGER CHECK ((hora_llegada_real / 100) >= 0 AND (hora_llegada_real / 100) < 24 AND MOD(hora_llegada_real, 100) >= 0 AND MOD(hora_llegada_real, 100) < 60),-- formato hhmm
   distancia               FLOAT, -- Distancia en el caso de que se produzca el vuelo sin incidentes
                                  -- si se producen escalas por emergencia no aparece reflejada aqui
                                  -- la distancia añadida por esta
-  UNIQUE (numero_vuelo, fecha, aerolinea,hora_salida_programada)
+ UNIQUE (numero_vuelo, fecha, aerolinea,hora_salida_programada)
 );
 
 -- Relaciona cada vuelo cancelado con su(s) causa(s)
@@ -79,7 +91,7 @@ CREATE TABLE vuelos_cancelados (
 CREATE TABLE vuelos_retrasados (
   vuelo INTEGER REFERENCES vuelo (id) ON DELETE CASCADE,
   causa VARCHAR(3) CHECK(causa IN ('CAR','LAT','NAS','SEC','WEA')), -- causa del retraso
-  tiempo INTEGER(4), -- tiempo añadido por el retraso
+  tiempo INTEGER, -- tiempo añadido por el retraso
   PRIMARY KEY (vuelo, causa)
 );
 
@@ -88,8 +100,8 @@ CREATE TABLE escalas_emergencias (
   vuelo                INTEGER REFERENCES vuelo (id) ON DELETE CASCADE,
   avion                INTEGER REFERENCES avion (id) ON DELETE SET NULL,
   aeropuerto_escala    VARCHAR(4) REFERENCES aeropuerto (iata) ON DELETE SET NULL,
-  hora_despegue        INTEGER CHECK (hora_despegue>=0 AND hora_despegue <= 2359),-- formato hhmm
-  hora_aterrizaje      INTEGER CHECK (hora_aterrizaje>=0 AND hora_aterrizaje <= 2359),-- formato hhmm
+  hora_despegue        INTEGER CHECK ((hora_despegue / 100) >= 0 AND (hora_despegue / 100) < 24 AND MOD(hora_despegue, 100) >= 0 AND MOD(hora_despegue, 100) < 60),-- formato hhmm
+  hora_aterrizaje      INTEGER CHECK ((hora_aterrizaje / 100) >= 0 AND (hora_aterrizaje / 100) < 24 AND MOD(hora_aterrizaje, 100) >= 0 AND MOD(hora_aterrizaje, 100) < 60),-- formato hhmm
   distancia_adiccional FLOAT,
   PRIMARY KEY (vuelo, hora_despegue)
 );
