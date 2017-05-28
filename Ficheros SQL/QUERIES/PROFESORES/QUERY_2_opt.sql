@@ -8,19 +8,16 @@
 
 SELECT
   aeropuerto.NOMBRE, EXTRACT(YEAR FROM sysdate) -  media_creacion
-FROM (SELECT -- Se obtiene la media de edad de los aviones que operan en cada aeropuerto
+FROM (SELECT -- Se obtiene la media de registro de los aviones que operan en cada aeropuerto
         avg(fecha_de_registro) AS media_creacion, aeropuerto
-      FROM aviones_aereopuerto
+      FROM aviones_aeropuerto
       INNER JOIN avion ON avion = avion.id AND avion.FECHA_DE_REGISTRO IS NOT NULL
       GROUP BY aeropuerto
       )
 INNER JOIN AEROPUERTO ON aeropuerto = aeropuerto.IATA -- Se obtiene el nombre del aeropuerto
-INNER JOIN (SELECT min(media_creacion) AS maxima_edad
-              FROM(
-                  SELECT -- Se obtiene la media de edad de los aviones que operan en cada aeropuerto
-                  avg(fecha_de_registro) AS media_creacion,aeropuerto
-                  FROM aviones_aereopuerto
+INNER JOIN (      SELECT -- Se obtiene la media registro de los aviones que operan en cada aeropuerto
+                  min(avg(fecha_de_registro)) AS maxima_edad
+                  FROM aviones_aeropuerto
                   INNER JOIN avion ON avion = avion.id AND avion.FECHA_DE_REGISTRO IS NOT NULL
                   GROUP BY aeropuerto
-                )
     ) ON maxima_edad = media_creacion;

@@ -9,7 +9,7 @@ CREATE TABLE ciudad (
 
 -- Guarda información de los aeropuertos
 CREATE TABLE aeropuerto (
-  iata     VARCHAR(4) PRIMARY KEY, -- Hay aereopuertos con iata de 4 letras
+  iata     VARCHAR(4) PRIMARY KEY, -- Hay aeropuertos con iata de 4 letras
   oaci     VARCHAR(4) UNIQUE,
   nombre   VARCHAR(45),
   longitud FLOAT,

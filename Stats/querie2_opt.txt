@@ -1,7 +1,3 @@
-NOMBRE                                   EXTRACT(YEARFROMSYSDATE)-MEDIA_CREACION
----------------------------------------- ---------------------------------------
-Henry E. Rohlsen                                                            28.5
-
 Elapsed: 00:00:01.12
 
 Execution Plan
@@ -11,23 +7,20 @@ Execution Plan
    2    1     MERGE JOIN
    3    2       VIEW
    4    3         SORT (AGGREGATE)
-   5    4           VIEW
-   6    5             SORT (GROUP BY)
-   7    6               NESTED LOOPS
-   8    7                 TABLE ACCESS (FULL) OF 'AVION'
-   9    7                 INDEX (RANGE SCAN) OF 'SYS_C001569087' (UNIQ
-          UE)
+   5    4           SORT (GROUP BY)
+   6    5             NESTED LOOPS
+   7    6               TABLE ACCESS (FULL) OF 'AVION'
+   8    6               INDEX (RANGE SCAN) OF 'SYS_C001569520' (UNIQUE)
 
-  10    2       FILTER
-  11   10         VIEW
-  12   11           SORT (GROUP BY)
-  13   12             NESTED LOOPS
-  14   13               TABLE ACCESS (FULL) OF 'AVION'
-  15   13               INDEX (RANGE SCAN) OF 'SYS_C001569087' (UNIQUE
-          )
+   9    2       FILTER
+  10    9         VIEW
+  11   10           SORT (GROUP BY)
+  12   11             NESTED LOOPS
+  13   12               TABLE ACCESS (FULL) OF 'AVION'
+  14   12               INDEX (RANGE SCAN) OF 'SYS_C001569520' (UNIQUE)
 
-  16    1     TABLE ACCESS (BY INDEX ROWID) OF 'AEROPUERTO'
-  17   16       INDEX (UNIQUE SCAN) OF 'SYS_C001560717' (UNIQUE)
+  15    1     TABLE ACCESS (BY INDEX ROWID) OF 'AEROPUERTO'
+  16   15       INDEX (UNIQUE SCAN) OF 'SYS_C001560717' (UNIQUE)
 
 
 

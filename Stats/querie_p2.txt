@@ -1,12 +1,3 @@
-
-View created.
-
-Elapsed: 00:00:00.05
-
-View created.
-
-Elapsed: 00:00:00.04
-
 View created.
 
 Elapsed: 00:00:00.06
@@ -22,7 +13,7 @@ BOMBARDIER INC
    1937514
 
 
-Elapsed: 00:00:01.55
+Elapsed: 00:00:01.60
 
 Execution Plan
 ----------------------------------------------------------
@@ -35,67 +26,55 @@ Execution Plan
    6    5             FILTER
    7    6               SORT (GROUP BY)
    8    7                 NESTED LOOPS
-   9    8                   VIEW OF 'DISTANCIA_AVION_SUM'
-  10    9                     SORT (GROUP BY)
-  11   10                       VIEW OF 'DISTANCIA_AVION'
-  12   11                         UNION-ALL
-  13   12                           SORT (GROUP BY)
-  14   13                             TABLE ACCESS (FULL) OF 'VUELO'
-  15   12                           SORT (GROUP BY)
-  16   15                             TABLE ACCESS (FULL) OF 'ESCALAS_
-          EMERGENCIAS'
+   9    8                   VIEW
+  10    9                     UNION-ALL
+  11   10                       SORT (GROUP BY)
+  12   11                         TABLE ACCESS (FULL) OF 'VUELO'
+  13   10                       SORT (GROUP BY)
+  14   13                         TABLE ACCESS (FULL) OF 'ESCALAS_EMER
+          GENCIAS'
 
-  17    8                   TABLE ACCESS (BY INDEX ROWID) OF 'AVION'
-  18   17                     INDEX (UNIQUE SCAN) OF 'SYS_C001567424'
+  15    8                   TABLE ACCESS (BY INDEX ROWID) OF 'AVION'
+  16   15                     INDEX (UNIQUE SCAN) OF 'SYS_C001567424'
           (UNIQUE)
 
-  19    2       FILTER
-  20   19         VIEW OF 'DISTANCIA_MODELO'
-  21   20           FILTER
-  22   21             SORT (GROUP BY)
-  23   22               NESTED LOOPS
-  24   23                 VIEW OF 'DISTANCIA_AVION_SUM'
-  25   24                   SORT (GROUP BY)
-  26   25                     VIEW OF 'DISTANCIA_AVION'
-  27   26                       UNION-ALL
-  28   27                         SORT (GROUP BY)
-  29   28                           TABLE ACCESS (FULL) OF 'VUELO'
-  30   27                         SORT (GROUP BY)
-  31   30                           TABLE ACCESS (FULL) OF 'ESCALAS_EM
-          ERGENCIAS'
+  17    2       FILTER
+  18   17         VIEW OF 'DISTANCIA_MODELO'
+  19   18           FILTER
+  20   19             SORT (GROUP BY)
+  21   20               NESTED LOOPS
+  22   21                 VIEW
+  23   22                   UNION-ALL
+  24   23                     SORT (GROUP BY)
+  25   24                       TABLE ACCESS (FULL) OF 'VUELO'
+  26   23                     SORT (GROUP BY)
+  27   26                       TABLE ACCESS (FULL) OF 'ESCALAS_EMERGE
+          NCIAS'
 
-  32   23                 TABLE ACCESS (BY INDEX ROWID) OF 'AVION'
-  33   32                   INDEX (UNIQUE SCAN) OF 'SYS_C001567424' (U
+  28   21                 TABLE ACCESS (BY INDEX ROWID) OF 'AVION'
+  29   28                   INDEX (UNIQUE SCAN) OF 'SYS_C001567424' (U
           NIQUE)
 
-  34    1     TABLE ACCESS (BY INDEX ROWID) OF 'MODELO_DE_AVION'
-  35   34       INDEX (UNIQUE SCAN) OF 'SYS_C001554640' (UNIQUE)
+  30    1     TABLE ACCESS (BY INDEX ROWID) OF 'MODELO_DE_AVION'
+  31   30       INDEX (UNIQUE SCAN) OF 'SYS_C001554640' (UNIQUE)
 
 
 
 
 Statistics
 ----------------------------------------------------------
-         42  recursive calls
+         14  recursive calls
           0  db block gets
-      17410  consistent gets
+      17902  consistent gets
           0  physical reads
           0  redo size
         662  bytes sent via SQL*Net to client
         655  bytes received via SQL*Net from client
           2  SQL*Net roundtrips to/from client
-          8  sorts (memory)
+          6  sorts (memory)
           0  sorts (disk)
           1  rows processed
 
-
-View dropped.
-
-Elapsed: 00:00:00.05
-
-View dropped.
-
-Elapsed: 00:00:00.04
 
 View dropped.
 

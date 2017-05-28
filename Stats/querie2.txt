@@ -1,13 +1,4 @@
-
-View created.
-
-Elapsed: 00:00:00.06
-
-NOMBRE                                   MEDIA_EDAD
----------------------------------------- ----------
-Henry E. Rohlsen                               28.5
-
-Elapsed: 00:00:05.56
+Elapsed: 00:00:05.53
 
 Execution Plan
 ----------------------------------------------------------
@@ -16,42 +7,39 @@ Execution Plan
    2    1     MERGE JOIN
    3    2       VIEW
    4    3         SORT (AGGREGATE)
-   5    4           VIEW OF 'M_EDAD_AVIONES_POR_AEROPUERTO'
-   6    5             SORT (GROUP BY)
-   7    6               NESTED LOOPS
-   8    7                 VIEW
-   9    8                   SORT (UNIQUE)
-  10    9                     UNION-ALL
-  11   10                       TABLE ACCESS (FULL) OF 'VUELO'
-  12   10                       TABLE ACCESS (FULL) OF 'VUELO'
-  13    7                 TABLE ACCESS (BY INDEX ROWID) OF 'AVION'
-  14   13                   INDEX (UNIQUE SCAN) OF 'SYS_C001567424' (U
-          NIQUE)
+   5    4           SORT (GROUP BY)
+   6    5             NESTED LOOPS
+   7    6               VIEW
+   8    7                 SORT (UNIQUE)
+   9    8                   UNION-ALL
+  10    9                     TABLE ACCESS (FULL) OF 'VUELO'
+  11    9                     TABLE ACCESS (FULL) OF 'VUELO'
+  12    6               TABLE ACCESS (BY INDEX ROWID) OF 'AVION'
+  13   12                 INDEX (UNIQUE SCAN) OF 'SYS_C001567424' (UNIQUE)
 
-  15    2       FILTER
-  16   15         VIEW OF 'M_EDAD_AVIONES_POR_AEROPUERTO'
-  17   16           SORT (GROUP BY)
-  18   17             NESTED LOOPS
-  19   18               VIEW
-  20   19                 SORT (UNIQUE)
-  21   20                   UNION-ALL
-  22   21                     TABLE ACCESS (FULL) OF 'VUELO'
-  23   21                     TABLE ACCESS (FULL) OF 'VUELO'
-  24   18               TABLE ACCESS (BY INDEX ROWID) OF 'AVION'
-  25   24                 INDEX (UNIQUE SCAN) OF 'SYS_C001567424' (UNI
-          QUE)
+  14    2       FILTER
+  15   14         VIEW
+  16   15           SORT (GROUP BY)
+  17   16             NESTED LOOPS
+  18   17               VIEW
+  19   18                 SORT (UNIQUE)
+  20   19                   UNION-ALL
+  21   20                     TABLE ACCESS (FULL) OF 'VUELO'
+  22   20                     TABLE ACCESS (FULL) OF 'VUELO'
+  23   17               TABLE ACCESS (BY INDEX ROWID) OF 'AVION'
+  24   23                 INDEX (UNIQUE SCAN) OF 'SYS_C001567424' (UNIQUE)
 
-  26    1     TABLE ACCESS (BY INDEX ROWID) OF 'AEROPUERTO'
-  27   26       INDEX (UNIQUE SCAN) OF 'SYS_C001560717' (UNIQUE)
+  25    1     TABLE ACCESS (BY INDEX ROWID) OF 'AEROPUERTO'
+  26   25       INDEX (UNIQUE SCAN) OF 'SYS_C001560717' (UNIQUE)
 
 
 
 
 Statistics
 ----------------------------------------------------------
-         14  recursive calls
+          0  recursive calls
          20  db block gets
-     129111  consistent gets
+     129107  consistent gets
         398  physical reads
           0  redo size
         581  bytes sent via SQL*Net to client
@@ -60,8 +48,3 @@ Statistics
           2  sorts (memory)
           2  sorts (disk)
           1  rows processed
-
-
-View dropped.
-
-Elapsed: 00:00:00.03
