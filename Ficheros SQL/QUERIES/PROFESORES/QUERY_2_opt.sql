@@ -7,17 +7,17 @@
 -- aquellos que solamente hayan hecho escala por emergencia en ese aeropuerto
 
 SELECT
-  aeropuerto.NOMBRE, EXTRACT(YEAR FROM sysdate) -  media_creacion
+  aeropuerto.nombre, EXTRACT(YEAR FROM sysdate) -  media_creacion
 FROM (SELECT -- Se obtiene la media de registro de los aviones que operan en cada aeropuerto
-        avg(fecha_de_registro) AS media_creacion, aeropuerto
+        AVG(fecha_de_registro) AS media_creacion, aeropuerto
       FROM aviones_aeropuerto
-      INNER JOIN avion ON avion = avion.id AND avion.FECHA_DE_REGISTRO IS NOT NULL
+      INNER JOIN avion ON avion = avion.id AND avion.fecha_de_registro IS NOT NULL
       GROUP BY aeropuerto
       )
-INNER JOIN AEROPUERTO ON aeropuerto = aeropuerto.IATA -- Se obtiene el nombre del aeropuerto
+INNER JOIN AEROPUERTO ON aeropuerto = aeropuerto.iata -- Se obtiene el nombre del aeropuerto
 INNER JOIN (      SELECT -- Se obtiene la media registro de los aviones que operan en cada aeropuerto
-                  min(avg(fecha_de_registro)) AS maxima_edad
+                  MIN(AVG(fecha_de_registro)) AS maxima_edad
                   FROM aviones_aeropuerto
-                  INNER JOIN avion ON avion = avion.id AND avion.FECHA_DE_REGISTRO IS NOT NULL
+                  INNER JOIN avion ON avion = avion.id AND avion.fecha_de_registro IS NOT NULL
                   GROUP BY aeropuerto
     ) ON maxima_edad = media_creacion;
