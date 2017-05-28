@@ -7,6 +7,10 @@ CREATE TABLE aviones_aeropuerto (
   avion      INTEGER REFERENCES AVION (ID) ON DELETE CASCADE, -- Se almacenará el avion que opera
   aeropuerto VARCHAR(4) REFERENCES AEROPUERTO (IATA) ON DELETE CASCADE, -- Se almacenará el aeropuerto en el que se opera
   cuenta     INTEGER, -- Esta cuenta vale para controlar cuando eliminar la entrada
+  -- Si llega a 0 se eliminar. Esto es obligatorio ya que aunque existe un algoritmo
+  -- que permitiría no tener este campo, este necesita realizar una consulta
+  -- sobre la tabla que se está modificando, lo que al menos en la versión de
+  -- oracle sobre la que trabajamos porduce un error de tablas mutantes
   PRIMARY KEY (avion, aeropuerto)
 );
 
