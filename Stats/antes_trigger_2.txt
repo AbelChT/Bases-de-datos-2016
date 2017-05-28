@@ -1,0 +1,86 @@
+--Insert
+
+1 row created.
+
+Elapsed: 00:00:00.68
+
+Execution Plan
+----------------------------------------------------------
+   0      INSERT STATEMENT Optimizer=CHOOSE
+
+
+
+
+Statistics
+----------------------------------------------------------
+          0  recursive calls
+         19  db block gets
+          1  consistent gets
+          0  physical reads
+       1384  redo size
+       1212  bytes sent via SQL*Net to client
+       1152  bytes received via SQL*Net from client
+          3  SQL*Net roundtrips to/from client
+          1  sorts (memory)
+          0  sorts (disk)
+          1  rows processed
+
+--Update
+
+1 row updated.
+
+Elapsed: 00:00:00.70
+
+Execution Plan
+----------------------------------------------------------
+   0      UPDATE STATEMENT Optimizer=CHOOSE
+   1    0   UPDATE OF 'VUELO'
+   2    1     INDEX (UNIQUE SCAN) OF 'SYS_C001567984' (UNIQUE)
+
+
+
+
+Statistics
+----------------------------------------------------------
+          0  recursive calls
+          9  db block gets
+          2  consistent gets
+          1  physical reads
+        684  redo size
+       1212  bytes sent via SQL*Net to client
+        873  bytes received via SQL*Net from client
+          3  SQL*Net roundtrips to/from client
+          1  sorts (memory)
+          0  sorts (disk)
+          1  rows processed
+
+--Delete
+
+
+1 row deleted.
+
+Elapsed: 00:00:00.69
+
+Execution Plan
+----------------------------------------------------------
+   0      DELETE STATEMENT Optimizer=CHOOSE
+   1    0   DELETE OF 'VUELO'
+   2    1     TABLE ACCESS (BY INDEX ROWID) OF 'VUELO'
+   3    2       INDEX (UNIQUE SCAN) OF 'SYS_C001567984' (UNIQUE)
+
+
+
+
+Statistics
+----------------------------------------------------------
+          0  recursive calls
+         15  db block gets
+          3  consistent gets
+          1  physical reads
+       1332  redo size
+       1212  bytes sent via SQL*Net to client
+        869  bytes received via SQL*Net from client
+          3  SQL*Net roundtrips to/from client
+          1  sorts (memory)
+          0  sorts (disk)
+          1  rows processed
