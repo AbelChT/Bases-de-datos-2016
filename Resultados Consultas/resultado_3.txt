@@ -1,0 +1,54 @@
+AEROLINEA_1                                                                     
+-----------
+AEROLINEA_2                                                                     
+-----------
+   PORCENT                                                                      
+----------
+  
+Frontier Airlines Inc.                                                          
+United Air Lines Inc.                                                           
+80.2631579    
+                                                                  
+AEROLINEA_1                                                                     
+-----------
+AEROLINEA_2                                                                     
+-----------
+   PORCENT                                                                      
+----------
+                                                                    
+Frontier Airlines Inc.                                                          
+Southwest Airlines Co.                                                          
+63.1578947                                                                      
+
+AEROLINEA_1                                                                     
+-----------
+AEROLINEA_2                                                                     
+-----------
+   PORCENT                                                                      
+----------
+                                                                                                                                           
+AirTran Airways Corporation                                                     
+Delta Air Lines Inc.                                                            
+40.6926407
+
+AEROLINEA_1                                                                     
+-----------
+AEROLINEA_2                                                                     
+-----------
+   PORCENT                                                                      
+----------                                                                        
+                                                                                
+Continental Air Lines Inc.                                                      
+Expressjet Airlines Inc.
+39.8058252      
+                                               
+AEROLINEA_1                                                                     
+-----------
+AEROLINEA_2                                                                     
+-----------
+   PORCENT                                                                      
+----------                   
+                                                                                
+US Airways Inc. (Merged with America West 9/05. Reporting for both starting 10/07.)                                                                             
+Southwest Airlines Co.                                                          
+31.8681319                                                                      
