@@ -20,10 +20,10 @@ CREATE TABLE aeropuerto (
 -- Guarda información sobre los diferentes modelos de avión
 CREATE TABLE modelo_de_avion (
   id         INTEGER PRIMARY KEY,
-  nombre     VARCHAR(20)  NOT NULL,
-  fabricante VARCHAR(30) NOT NULL,
-  tipo_motor VARCHAR(15),
-  tipo_avion VARCHAR(25),
+  nombre     VARCHAR(50)  NOT NULL,
+  fabricante VARCHAR(1000) NOT NULL,
+  tipo_motor VARCHAR(50),
+  tipo_avion VARCHAR(50),
   UNIQUE (nombre, fabricante)
 );
 
@@ -71,7 +71,7 @@ CREATE TABLE vuelo (
 -- Relaciona cada vuelo cancelado con su(s) causa(s)
 CREATE TABLE vuelos_cancelados (
   vuelo  INTEGER REFERENCES vuelo (id) ON DELETE CASCADE,
-  causa VARCHAR(8) CHECK(causa IN ('Carrier','Weather','NAS','Security')), -- Causa de la cancelación
+  causa VARCHAR(10) CHECK(causa IN ('Carrier','Weather','NAS','Security')), -- Causa de la cancelación
   PRIMARY KEY (vuelo, causa)
 );
 
@@ -79,7 +79,7 @@ CREATE TABLE vuelos_cancelados (
 CREATE TABLE vuelos_retrasados (
   vuelo INTEGER REFERENCES vuelo (id) ON DELETE CASCADE,
   causa VARCHAR(3) CHECK(causa IN ('CAR','LAT','NAS','SEC','WEA')), -- causa del retraso
-  tiempo INTEGER, -- tiempo añadido por el retraso
+  tiempo INTEGER(4), -- tiempo añadido por el retraso
   PRIMARY KEY (vuelo, causa)
 );
 
