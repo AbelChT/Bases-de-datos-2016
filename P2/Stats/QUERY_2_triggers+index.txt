@@ -1,0 +1,27 @@
+Elapsed: 00:00:00.65
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=CHOOSE
+   1    0   SORT (ORDER BY)
+   2    1     NESTED LOOPS
+   3    2       TABLE ACCESS (FULL) OF 'PELICULAS_DIRECTOR_NUM'
+   4    2       TABLE ACCESS (BY INDEX ROWID) OF 'PERSONA'
+   5    4         INDEX (UNIQUE SCAN) OF 'SYS_C001550780' (UNIQUE)
+
+
+
+
+Statistics
+----------------------------------------------------------
+          0  recursive calls
+          0  db block gets
+        204  consistent gets
+          0  physical reads
+          0  redo size
+       8977  bytes sent via SQL*Net to client
+       1825  bytes received via SQL*Net from client
+          8  SQL*Net roundtrips to/from client
+          1  sorts (memory)
+          0  sorts (disk)
+         95  rows processed

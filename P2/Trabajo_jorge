@@ -1,0 +1,31 @@
+Horas y reparto de trabajo Jorge
+===============================
+
+PARTE 1
+=======
+Día			Horas Invertidas		Tarea
+===			================		=====
+28/03		0,5						Organización del proyecto
+29/03		2						Desarrollo E/R, primera versión
+24/04		2						Creación del modelo relacional y formalización de este
+24/04		0,25				Creación de las tablas en SQL
+1/05		2						Desarrollo memoria
+
+PARTE 2
+=======
+Día			Horas Invertidas		Tarea
+===			================		=====
+19/04		2						Desarrollo consultas nº3 profesores y personal
+29/04		2						Versión segunda de las consultas
+30/04		1						Coreccion consulta personal nº3
+1/05		1						Desarrollo versión final consultas
+
+PARTE 3
+=======
+Día			Horas Invertidas		Tarea
+===			================		=====
+30/04		1						Desarrollo trigger para consulta personal nº3 (solo inserciones)
+1/05		2						Correcciones a la primera versión trigger (eliminar PRAGMA AUTONOMOUS_TRANSACTION)
+1/05		2						Desarrollo trigger para deletes y updates
+2/05		1						Obtención stats y análisis traza de las consultas pre-trigger
+3/05		4						Desarrollo memoria y comparación de las consultas post-trigger

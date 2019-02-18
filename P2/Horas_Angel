@@ -1,0 +1,31 @@
+Horas y reparto de trabajo Ángel
+===============================
+
+
+PARTE 1
+=======
+Día                     Horas Invertidas                Tarea
+===                     ================                =====
+29/03                   0,25                            Análisis del problema
+29/03                   1,75                            Desarrollo E/R
+
+PARTE 2
+=======
+Día                     Horas Invertidas                Tarea
+===                     ================                =====
+24/04                   1,25                            Desarrollo consulta nº2 profesores (álgebra relacional)
+24/04                   0,5                             Desarrollo consulta nº2 profesores (SQL)
+25/04                   1                               Desarrollo consulta nº2 personal (álgebra relacional)
+25/04                   0,5                             Desarrollo consulta nº2 personal (SQL)
+29/04                   1                               Intento fallido de poblar la base de datos desde Hendrix -> Servidor propio -> Oracle
+
+--/--                   2                               Desarrollo memoria y la presentación
+
+PARTE 3
+=======
+Día                     Horas Invertidas                Tarea
+===                     ================                =====
+26/04                   1                               Desarrollo trigger e índice que actua sobre la consulta nº2 (TRIGGER_2.sql)
+02/05                   0,75                            Obtención y análisis de los datos estadísticos sobre las consultas nº2 y la utilización 
+                                                        del trigger e índice sobre estas (TRIGGER_2.sql)
+--/--                   1,5                             Desarrollo memoria y la presentación
