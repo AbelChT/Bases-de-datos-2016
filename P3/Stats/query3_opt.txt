@@ -1,0 +1,46 @@
+
+-- Estadisticas obtenidas trás ejecutar la consulta tres con la partición vertical (tabla viaje)
+
+Elapsed: 00:00:00.81
+
+Execution Plan
+----------------------------------------------------------                      
+   0      SELECT STATEMENT Optimizer=CHOOSE                                     
+   1    0   SORT (ORDER BY)                                                     
+   2    1     NESTED LOOPS                                                      
+   3    2       NESTED LOOPS                                                    
+   4    3         MERGE JOIN                                                    
+   5    4           VIEW                                                        
+   6    5             SORT (GROUP BY)                                           
+   7    6               TABLE ACCESS (FULL) OF 'VIAJE'                          
+   8    4           FILTER                                                      
+   9    8             SORT (JOIN)                                               
+  10    9               VIEW                                                    
+  11   10                 SORT (GROUP BY)                                       
+  12   11                   MERGE JOIN                                          
+  13   12                     SORT (JOIN)                                       
+  14   13                       TABLE ACCESS (FULL) OF 'VIAJE'                  
+  15   12                     FILTER                                            
+  16   15                       SORT (JOIN)                                     
+  17   16                         TABLE ACCESS (FULL) OF 'VIAJE'                
+  18    3         TABLE ACCESS (BY INDEX ROWID) OF 'AEROLINEA'                  
+  19   18           INDEX (UNIQUE SCAN) OF 'SYS_C001567524' (UNIQUE)            
+  20    2       TABLE ACCESS (BY INDEX ROWID) OF 'AEROLINEA'                    
+  21   20         INDEX (UNIQUE SCAN) OF 'SYS_C001567524' (UNIQUE)              
+
+
+
+
+Statistics
+----------------------------------------------------------                      
+          0  recursive calls                                                    
+          0  db block gets                                                      
+         90  consistent gets                                                    
+          0  physical reads                                                     
+          0  redo size                                                          
+       1271  bytes sent via SQL*Net to client                                   
+        655  bytes received via SQL*Net from client                             
+          2  SQL*Net roundtrips to/from client                                  
+          6  sorts (memory)                                                     
+          0  sorts (disk)                                                       
+          5  rows processed                                                     

@@ -1,0 +1,50 @@
+Elapsed: 00:00:05.53
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=CHOOSE
+   1    0   NESTED LOOPS
+   2    1     MERGE JOIN
+   3    2       VIEW
+   4    3         SORT (AGGREGATE)
+   5    4           SORT (GROUP BY)
+   6    5             NESTED LOOPS
+   7    6               VIEW
+   8    7                 SORT (UNIQUE)
+   9    8                   UNION-ALL
+  10    9                     TABLE ACCESS (FULL) OF 'VUELO'
+  11    9                     TABLE ACCESS (FULL) OF 'VUELO'
+  12    6               TABLE ACCESS (BY INDEX ROWID) OF 'AVION'
+  13   12                 INDEX (UNIQUE SCAN) OF 'SYS_C001567424' (UNIQUE)
+
+  14    2       FILTER
+  15   14         VIEW
+  16   15           SORT (GROUP BY)
+  17   16             NESTED LOOPS
+  18   17               VIEW
+  19   18                 SORT (UNIQUE)
+  20   19                   UNION-ALL
+  21   20                     TABLE ACCESS (FULL) OF 'VUELO'
+  22   20                     TABLE ACCESS (FULL) OF 'VUELO'
+  23   17               TABLE ACCESS (BY INDEX ROWID) OF 'AVION'
+  24   23                 INDEX (UNIQUE SCAN) OF 'SYS_C001567424' (UNIQUE)
+
+  25    1     TABLE ACCESS (BY INDEX ROWID) OF 'AEROPUERTO'
+  26   25       INDEX (UNIQUE SCAN) OF 'SYS_C001560717' (UNIQUE)
+
+
+
+
+Statistics
+----------------------------------------------------------
+          0  recursive calls
+         20  db block gets
+     129107  consistent gets
+        398  physical reads
+          0  redo size
+        581  bytes sent via SQL*Net to client
+        655  bytes received via SQL*Net from client
+          2  SQL*Net roundtrips to/from client
+          2  sorts (memory)
+          2  sorts (disk)
+          1  rows processed

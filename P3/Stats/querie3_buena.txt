@@ -1,0 +1,100 @@
+View created.
+
+Elapsed: 00:00:00.05
+
+NOMBRE
+--------------------------------------------------------------------------------
+NOMBRE
+--------------------------------------------------------------------------------
+   PORCENT
+----------
+Frontier Airlines Inc.
+United Air Lines Inc.
+80.2631579
+
+Frontier Airlines Inc.
+Southwest Airlines Co.
+63.1578947
+
+NOMBRE
+--------------------------------------------------------------------------------
+NOMBRE
+--------------------------------------------------------------------------------
+   PORCENT
+----------
+
+AirTran Airways Corporation
+Delta Air Lines Inc.
+40.6926407
+
+Continental Air Lines Inc.
+Expressjet Airlines Inc.
+
+NOMBRE
+--------------------------------------------------------------------------------
+NOMBRE
+--------------------------------------------------------------------------------
+   PORCENT
+----------
+39.8058252
+
+US Airways Inc. (Merged with America West 9/05. Reporting for both starting 10/0
+7.)
+Southwest Airlines Co.
+31.8681319
+
+
+Elapsed: 00:00:01.82
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=CHOOSE
+   1    0   SORT (ORDER BY)
+   2    1     NESTED LOOPS
+   3    2       NESTED LOOPS
+   4    3         MERGE JOIN
+   5    4           VIEW
+   6    5             SORT (GROUP BY)
+   7    6               VIEW OF 'VUELOS_AEROLINEA'
+   8    7                 SORT (UNIQUE)
+   9    8                   TABLE ACCESS (FULL) OF 'VUELO'
+  10    4           FILTER
+  11   10             SORT (JOIN)
+  12   11               VIEW
+  13   12                 SORT (GROUP BY)
+  14   13                   MERGE JOIN
+  15   14                     SORT (JOIN)
+  16   15                       VIEW OF 'VUELOS_AEROLINEA'
+  17   16                         SORT (UNIQUE)
+  18   17                           TABLE ACCESS (FULL) OF 'VUELO'
+  19   14                     FILTER
+  20   19                       SORT (JOIN)
+  21   20                         VIEW OF 'VUELOS_AEROLINEA'
+  22   21                           SORT (UNIQUE)
+  23   22                             TABLE ACCESS (FULL) OF 'VUELO'
+  24    3         TABLE ACCESS (BY INDEX ROWID) OF 'AEROLINEA'
+  25   24           INDEX (UNIQUE SCAN) OF 'SYS_C001560720' (UNIQUE)
+  26    2       TABLE ACCESS (BY INDEX ROWID) OF 'AEROLINEA'
+  27   26         INDEX (UNIQUE SCAN) OF 'SYS_C001560720' (UNIQUE)
+
+
+
+
+Statistics
+----------------------------------------------------------
+         21  recursive calls
+          0  db block gets
+       1353  consistent gets
+          0  physical reads
+          0  redo size
+       1261  bytes sent via SQL*Net to client
+        655  bytes received via SQL*Net from client
+          2  SQL*Net roundtrips to/from client
+          9  sorts (memory)
+          0  sorts (disk)
+          5  rows processed
+
+
+View dropped.
+
+Elapsed: 00:00:00.06

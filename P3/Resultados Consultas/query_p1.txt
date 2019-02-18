@@ -1,0 +1,8 @@
+         V TIPO_MOTOR
+---------- --------------------------------------------------
+      15.6 Turbo-Fan
+14.5333333 Turbo-Jet
+4.82222222 Reciprocating
+2.05833333 Turbo-Prop
+.976851852 Turbo-Shaft
+.815942029 4 Cycle

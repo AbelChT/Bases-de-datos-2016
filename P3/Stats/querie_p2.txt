@@ -1,0 +1,81 @@
+View created.
+
+Elapsed: 00:00:00.06
+
+NOMBRE
+--------------------------------------------------
+FABRICANTE
+--------------------------------------------------------------------------------
+ DISTANCIA
+----------
+CL-600-2B19
+BOMBARDIER INC
+   1937514
+
+
+Elapsed: 00:00:01.60
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=CHOOSE
+   1    0   NESTED LOOPS
+   2    1     MERGE JOIN
+   3    2       VIEW
+   4    3         SORT (AGGREGATE)
+   5    4           VIEW OF 'DISTANCIA_MODELO'
+   6    5             FILTER
+   7    6               SORT (GROUP BY)
+   8    7                 NESTED LOOPS
+   9    8                   VIEW
+  10    9                     UNION-ALL
+  11   10                       SORT (GROUP BY)
+  12   11                         TABLE ACCESS (FULL) OF 'VUELO'
+  13   10                       SORT (GROUP BY)
+  14   13                         TABLE ACCESS (FULL) OF 'ESCALAS_EMER
+          GENCIAS'
+
+  15    8                   TABLE ACCESS (BY INDEX ROWID) OF 'AVION'
+  16   15                     INDEX (UNIQUE SCAN) OF 'SYS_C001567424'
+          (UNIQUE)
+
+  17    2       FILTER
+  18   17         VIEW OF 'DISTANCIA_MODELO'
+  19   18           FILTER
+  20   19             SORT (GROUP BY)
+  21   20               NESTED LOOPS
+  22   21                 VIEW
+  23   22                   UNION-ALL
+  24   23                     SORT (GROUP BY)
+  25   24                       TABLE ACCESS (FULL) OF 'VUELO'
+  26   23                     SORT (GROUP BY)
+  27   26                       TABLE ACCESS (FULL) OF 'ESCALAS_EMERGE
+          NCIAS'
+
+  28   21                 TABLE ACCESS (BY INDEX ROWID) OF 'AVION'
+  29   28                   INDEX (UNIQUE SCAN) OF 'SYS_C001567424' (U
+          NIQUE)
+
+  30    1     TABLE ACCESS (BY INDEX ROWID) OF 'MODELO_DE_AVION'
+  31   30       INDEX (UNIQUE SCAN) OF 'SYS_C001554640' (UNIQUE)
+
+
+
+
+Statistics
+----------------------------------------------------------
+         14  recursive calls
+          0  db block gets
+      17902  consistent gets
+          0  physical reads
+          0  redo size
+        662  bytes sent via SQL*Net to client
+        655  bytes received via SQL*Net from client
+          2  SQL*Net roundtrips to/from client
+          6  sorts (memory)
+          0  sorts (disk)
+          1  rows processed
+
+
+View dropped.
+
+Elapsed: 00:00:00.03
