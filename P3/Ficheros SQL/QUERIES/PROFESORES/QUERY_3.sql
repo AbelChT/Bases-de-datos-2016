@@ -8,7 +8,7 @@ CREATE VIEW vuelos_aerolinea AS
 	SELECT DISTINCT aerolinea, destino, origen 
 	FROM vuelo;
 
-SELECT A.NOMBRE AS aerolinea_1, B.NOMBRE  AS aerolinea_2, ((coincidencias/numero_vuelos)*100) AS porcent
+SELECT A.NOMBRE AS aerolinea_1 , B.NOMBRE AS aerolinea_2, ((coincidencias/numero_vuelos)*100) AS porcent
 FROM( SELECT a.aerolinea AS aerolinea_ppal, b.aerolinea  AS aerolinea_sec, COUNT(*) as coincidencias
 	    FROM vuelos_aerolinea a
 	    INNER JOIN vuelos_aerolinea b ON a.destino=b.destino AND a.origen=b.origen AND a.aerolinea!=b.aerolinea

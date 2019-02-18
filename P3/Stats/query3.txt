@@ -1,64 +1,100 @@
--- Estadísticas de la tercera consulta obligatoria sin el uso de triggers
+View created.
 
--- Creación de las vistas
+Elapsed: 00:00:00.05
 
-Elapsed: 00:00:00.29
+NOMBRE
+--------------------------------------------------------------------------------
+NOMBRE
+--------------------------------------------------------------------------------
+   PORCENT
+----------
+Frontier Airlines Inc.
+United Air Lines Inc.
+80.2631579
 
--- Ejecución select para obtener el resultado
+Frontier Airlines Inc.
+Southwest Airlines Co.
+63.1578947
 
-AEROLIN AEROLIN    PORCENT                                                      
-------- ------- ----------                                                      
-F9      UA      80.2631579                                                      
-F9      WN      63.1578947                                                      
-FL      DL      40.6926407                                                      
-CO      XE      39.8058252                                                      
-US      WN      31.8681319                                                      
+NOMBRE
+--------------------------------------------------------------------------------
+NOMBRE
+--------------------------------------------------------------------------------
+   PORCENT
+----------
 
-Elapsed: 00:00:01.85
+AirTran Airways Corporation
+Delta Air Lines Inc.
+40.6926407
+
+Continental Air Lines Inc.
+Expressjet Airlines Inc.
+
+NOMBRE
+--------------------------------------------------------------------------------
+NOMBRE
+--------------------------------------------------------------------------------
+   PORCENT
+----------
+39.8058252
+
+US Airways Inc. (Merged with America West 9/05. Reporting for both starting 10/0
+7.)
+Southwest Airlines Co.
+31.8681319
+
+
+Elapsed: 00:00:01.82
 
 Execution Plan
-----------------------------------------------------------                      
-   0      SELECT STATEMENT Optimizer=CHOOSE                                     
-   1    0   VIEW OF 'PORCENTAJES'                                               
-   2    1     SORT (ORDER BY)                                                   
-   3    2       MERGE JOIN                                                      
-   4    3         VIEW OF 'NUM_VUELOS_AEROL'                                    
-   5    4           SORT (GROUP BY)                                             
-   6    5             VIEW OF 'VUELOS_AEROLINEA'                                
-   7    6               SORT (UNIQUE)                                           
-   8    7                 TABLE ACCESS (FULL) OF 'VUELO'                        
-   9    3         FILTER                                                        
-  10    9           SORT (JOIN)                                                 
-  11   10             VIEW OF 'NUM_COINC_AEROL'                                 
-  12   11               SORT (GROUP BY)                                         
-  13   12                 MERGE JOIN                                            
-  14   13                   SORT (JOIN)                                         
-  15   14                     VIEW OF 'VUELOS_AEROLINEA'                        
-  16   15                       SORT (UNIQUE)                                   
-  17   16                         TABLE ACCESS (FULL) OF 'VUELO'                
-  18   13                   FILTER                                              
-  19   18                     SORT (JOIN)                                       
-  20   19                       VIEW OF 'VUELOS_AEROLINEA'                      
-  21   20                         SORT (UNIQUE)                                 
-  22   21                           TABLE ACCESS (FULL) OF 'VUELO'              
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=CHOOSE
+   1    0   SORT (ORDER BY)
+   2    1     NESTED LOOPS
+   3    2       NESTED LOOPS
+   4    3         MERGE JOIN
+   5    4           VIEW
+   6    5             SORT (GROUP BY)
+   7    6               VIEW OF 'VUELOS_AEROLINEA'
+   8    7                 SORT (UNIQUE)
+   9    8                   TABLE ACCESS (FULL) OF 'VUELO'
+  10    4           FILTER
+  11   10             SORT (JOIN)
+  12   11               VIEW
+  13   12                 SORT (GROUP BY)
+  14   13                   MERGE JOIN
+  15   14                     SORT (JOIN)
+  16   15                       VIEW OF 'VUELOS_AEROLINEA'
+  17   16                         SORT (UNIQUE)
+  18   17                           TABLE ACCESS (FULL) OF 'VUELO'
+  19   14                     FILTER
+  20   19                       SORT (JOIN)
+  21   20                         VIEW OF 'VUELOS_AEROLINEA'
+  22   21                           SORT (UNIQUE)
+  23   22                             TABLE ACCESS (FULL) OF 'VUELO'
+  24    3         TABLE ACCESS (BY INDEX ROWID) OF 'AEROLINEA'
+  25   24           INDEX (UNIQUE SCAN) OF 'SYS_C001560720' (UNIQUE)
+  26    2       TABLE ACCESS (BY INDEX ROWID) OF 'AEROLINEA'
+  27   26         INDEX (UNIQUE SCAN) OF 'SYS_C001560720' (UNIQUE)
 
 
 
 
 Statistics
-----------------------------------------------------------                      
-         56  recursive calls                                                    
-          0  db block gets                                                      
-       1333  consistent gets                                                    
-          0  physical reads                                                     
-          0  redo size                                                          
-       1027  bytes sent via SQL*Net to client                                   
-        655  bytes received via SQL*Net from client                             
-          2  SQL*Net roundtrips to/from client                                  
-          9  sorts (memory)                                                     
-          0  sorts (disk)                                                       
+----------------------------------------------------------
+         21  recursive calls
+          0  db block gets
+       1353  consistent gets
+          0  physical reads
+          0  redo size
+       1261  bytes sent via SQL*Net to client
+        655  bytes received via SQL*Net from client
+          2  SQL*Net roundtrips to/from client
+          9  sorts (memory)
+          0  sorts (disk)
           5  rows processed
 
--- Tiempo total
 
-Total elapsed time: 00:00:02.14                                       
+View dropped.
+
+Elapsed: 00:00:00.06

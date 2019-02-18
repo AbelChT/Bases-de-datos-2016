@@ -5,36 +5,32 @@ CREATE TABLE equipo (
     ciudad VARCHAR(50),
     fundacion INTEGER
 );
-
 CREATE TABLE otros_nombres (
     equipo VARCHAR(100) REFERENCES equipo(nombre_oficial),
     nombre VARCHAR(100),
     PRIMARY KEY (equipo,nombre)
 );
-
 CREATE TABLE estadio (
     nombre VARCHAR(50) PRIMARY KEY,
     capacidad INTEGER,
-    inauguracion DATE
+    inauguracion INTEGER
 );
-
 CREATE TABLE temporada (
     id INT PRIMARY KEY,
-    anyo VARCHAR(9),
-    division VARCHAR(20),
+    anyo VARCHAR(9) NOT NULL,
+    division VARCHAR(20) NOT NULL,
     finalizada INT,
     denominacion VARCHAR(30)
 );
-
 CREATE TABLE partido (
     idTemp INTEGER REFERENCES temporada(id),
     equipo_local VARCHAR(100) REFERENCES equipo(nombre_oficial),
     equipo_visitante VARCHAR(100) REFERENCES equipo(nombre_oficial),
     jornada INTEGER,
-    goles_local INTEGER,
-    goles_visitante INTEGER
+    goles_local INTEGER NOT NULL,
+    goles_visitante INTEGER NOT NULL,
+    PRIMARY KEY(idTemp, jornada,equipo_local,equipo_visitante)
 );
-
 CREATE TABLE residir (
 	equipo VARCHAR(100),
 	estadio VARCHAR(50),
@@ -50,3 +46,7 @@ CREATE TABLE jugar (
 	temporada INTEGER REFERENCES temporada(id),
 	PRIMARY KEY(equipo, temporada)
 );
+
+-- Diseño físico
+CREATE INDEX div_index ON temporada(division);
+CREATE INDEX jorn_index ON partido(jornada);
