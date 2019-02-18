@@ -1,0 +1,31 @@
+Elapsed: 00:00:00.74
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=CHOOSE
+   1    0   NESTED LOOPS
+   2    1     NESTED LOOPS
+   3    2       VIEW OF 'MAX_EMP_TEMP_OPTIM'
+   4    3         SORT (GROUP BY)
+   5    4           TABLE ACCESS (FULL) OF 'EMPATES'
+   6    2       TABLE ACCESS (BY INDEX ROWID) OF 'EMPATES'
+   7    6         INDEX (RANGE SCAN) OF 'SYS_C001535918' (UNIQUE)
+   8    1     TABLE ACCESS (BY INDEX ROWID) OF 'TEMPORADA'
+   9    8       INDEX (UNIQUE SCAN) OF 'SYS_C001535905' (UNIQUE)
+
+
+
+
+Statistics
+----------------------------------------------------------
+         14  recursive calls
+          0  db block gets
+        459  consistent gets
+          0  physical reads
+          0  redo size
+      14486  bytes sent via SQL*Net to client
+       2605  bytes received via SQL*Net from client
+         12  SQL*Net roundtrips to/from client
+          1  sorts (memory)
+          0  sorts (disk)
+        156  rows processed

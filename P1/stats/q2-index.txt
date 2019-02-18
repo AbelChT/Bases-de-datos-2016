@@ -1,0 +1,42 @@
+Elapsed: 00:00:01.22
+
+Execution Plan
+----------------------------------------------------------
+   0      SELECT STATEMENT Optimizer=CHOOSE
+   1    0   NESTED LOOPS
+   2    1     VIEW OF 'MAS_DE_3_GOLES_TEMPORADA'
+   3    2       FILTER
+   4    3         SORT (GROUP BY)
+   5    4           VIEW OF 'EQUIPOS_GOLES_PARTIDO'
+   6    5             UNION-ALL
+   7    6               FILTER
+   8    7                 TABLE ACCESS (FULL) OF 'PARTIDO'
+   9    7                 TABLE ACCESS (BY INDEX ROWID) OF 'TEMPORADA'
+  10    9                   INDEX (UNIQUE SCAN) OF 'SYS_C001535905' (U
+          NIQUE)
+
+  11    6               FILTER
+  12   11                 TABLE ACCESS (FULL) OF 'PARTIDO'
+  13   11                 TABLE ACCESS (BY INDEX ROWID) OF 'TEMPORADA'
+  14   13                   INDEX (UNIQUE SCAN) OF 'SYS_C001535905' (U
+          NIQUE)
+
+  15    1     TABLE ACCESS (BY INDEX ROWID) OF 'TEMPORADA'
+  16   15       INDEX (UNIQUE SCAN) OF 'SYS_C001535905' (UNIQUE)
+
+
+
+
+Statistics
+----------------------------------------------------------
+         28  recursive calls
+          0  db block gets
+        892  consistent gets
+          0  physical reads
+          0  redo size
+        875  bytes sent via SQL*Net to client
+        655  bytes received via SQL*Net from client
+          2  SQL*Net roundtrips to/from client
+          1  sorts (memory)
+          0  sorts (disk)
+          4  rows processed

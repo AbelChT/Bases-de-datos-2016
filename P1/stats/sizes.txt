@@ -1,0 +1,82 @@
+TOTAL: 947482 bytes = 925.28 KB
+EMPATES: 24234 bytes
+
+CREATE VIEW sizeEmpates AS
+SELECT
+  vsize(TEMPORADA) AS sTemp,
+  vsize(EQUIPO) AS sEquipo,
+  vsize(NUM) AS sNum
+FROM EMPATES;
+
+SELECT (SUM(sTemp) + SUM(sEquipo) + SUM(sNum)) FROM sizeEmpates;
+
+EQUIPO: 1272 bytes
+
+CREATE VIEW sizeEquipo AS
+SELECT
+  vsize(NOMBRE_OFICIAL) AS sNom,
+  vsize(FUNDACION) AS sFund
+FROM EQUIPO;
+
+SELECT (SUM(sNom) + SUM(sFund)) FROM sizeEquipo;
+
+ESTADIO: 1783 bytes
+
+CREATE VIEW sizeEstadio AS
+SELECT
+  vsize(NOMBRE) AS sNom,
+  vsize(CAPACIDAD) AS sCap,
+  vsize(INAUGURACION) AS sIn
+FROM ESTADIO;
+
+SELECT (SUM(sNom) + SUM(sCap) + SUM(sIn)) FROM sizeEstadio;
+
+MEDIA_GOLES: 28479 bytes
+
+CREATE VIEW sizeMedia AS
+SELECT
+  vsize(EQUIPO) AS sNom,
+  vsize(TEMPORADA) AS sTemp,
+  vsize(goles) AS sGoles,
+  vsize(NUMERO_PARTIDOS_JUGADOS) AS sPart
+FROM MEDIA_GOLES;
+
+SELECT (SUM(sNom) + SUM(sTemp) + SUM(sGoles) + SUM(sPart)) FROM sizeMedia;
+
+PARTIDO: 887962 bytes
+
+CREATE VIEW sizePartido AS
+SELECT
+  vsize(IDTEMP) AS sId,
+  vsize(EQUIPO_LOCAL) AS sEquipo,
+  vsize(EQUIPO_VISITANTE) AS sEquipo2,
+  vsize(JORNADA) AS sJorn,
+  vsize(GOLES_LOCAL) AS sGol,
+  vsize(GOLES_VISITANTE) AS sGol2
+FROM PARTIDO;
+
+SELECT (SUM(sId) + SUM(sEquipo) + SUM(sEquipo2) + SUM(sJorn) + SUM(sGol) + SUM(sGol2)) FROM sizePartido;
+
+RESIDIR: 2181 bytes
+
+CREATE VIEW sizeResidir AS
+SELECT
+  vsize(equipo) AS sEquipo,
+  vsize(estadio) AS sEstadio,
+  vsize(inicio) AS sInicio,
+  vsize(fin) AS sFin
+FROM RESIDIR;
+
+SELECT (SUM(sEquipo) + SUM(sEstadio) + SUM(sInicio) + SUM(sFin)) FROM sizeResidir;
+
+TEMPORADA: 1571
+
+CREATE VIEW sizeTemporada AS
+SELECT
+  vsize(id) AS sId,
+  vsize(ANYO) AS sAnyo,
+  vsize(DIVISION) AS sDivision,
+  vsize(FINALIZADA) AS sFinalizada,
+FROM TEMPORADA;
+
+SELECT (SUM(sId) + SUM(sAnyo) + SUM(sDivision) + SUM(sFinalizada)) FROM sizeTemporada;
